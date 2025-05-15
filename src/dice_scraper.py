@@ -40,6 +40,10 @@ def get_driver():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
+
+    # 💥 Force Selenium to use Chrome 136 from the testing bucket
+    chrome_options.binary_location = "/opt/chrome/chrome"
+
     driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
     service = Service(driver_path)
     driver = webdriver.Chrome(service=service, options=chrome_options)
