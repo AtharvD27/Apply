@@ -23,35 +23,25 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install latest Chrome and matching Chromedriver
+    - name: Install Chrome v135 and matching Chromedriver
       run: |
         set -e
         sudo apt-get update
-        sudo apt-get install -y wget unzip curl gnupg lsb-release
     
-        # Add Chrome repo
-        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-linux.gpg
-        echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+        # Install Chrome 135 manually
+        wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_135.0.7049.114-1_amd64.deb
+        sudo dpkg -i google-chrome-stable_135.0.7049.114-1_amd64.deb || sudo apt-get -f install -y
     
-        # Get major version
-        CHROME_MAJOR_VERSION=$(google-chrome --version | grep -oP 'Google Chrome \K\d+')
-        echo "Detected Chrome major version: $CHROME_MAJOR_VERSION"
-    
-        # Get latest chromedriver for this major version
-        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_VERSION")
-        echo "Resolved Chromedriver version: $DRIVER_VERSION"
-    
-        # Install Chromedriver
-        wget -q "https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip"
-        unzip -o chromedriver_linux64.zip
+        # Install Chromedriver 135
+        wget https://chromedriver.storage.googleapis.com/135.0.7049.114/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
         sudo chmod +x /usr/local/bin/chromedriver
     
-        # Final checks
+        # Verify versions
         google-chrome --version
         chromedriver --version
+
 
     - name: Run main.py to scrape and filter
       env:
