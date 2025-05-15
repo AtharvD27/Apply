@@ -4,6 +4,7 @@ import logging
 import yaml
 from dotenv import load_dotenv
 from pathlib import Path
+import tempfile
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

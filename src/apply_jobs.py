@@ -4,6 +4,7 @@ import yaml
 import logging
 from datetime import datetime
 import pandas as pd
+import tempfile
 from selenium import webdriver
 from pathlib import Path
 from selenium.webdriver.common.by import By
