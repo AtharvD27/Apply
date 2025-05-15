@@ -1,0 +1,60 @@
+name: Scrape & Filter Dice Jobs
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # 7 AM EST
+    - cron: '0 16 * * *'  # 12 PM EST
+    - cron: '0 21 * * *'  # 5 PM EST
+  workflow_dispatch:
+
+jobs:
+  scrape_and_filter:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Chrome & Chromedriver
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget unzip xvfb libxi6 libgconf-2-4 libappindicator1 libindicator7
+        wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get -f install -y
+        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+' | head -1)
+        CHROMEDRIVER_VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION})
+        wget -q "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/local/bin/
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run main pipeline
+      env:
+        SCRAPER_EMAIL: ${{ secrets.SCRAPER_EMAIL }}
+        SCRAPER_PASSWORD: ${{ secrets.SCRAPER_PASSWORD }}
+        BASE_URL: ${{ secrets.BASE_URL }}
+      run: python main.py
+
+    - name: Commit and push updated job files
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add output/jobs.csv output/final_ml_jobs.csv
+
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "🔄 Auto-update jobs.csv and final_ml_jobs.csv"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}

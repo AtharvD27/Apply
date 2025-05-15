@@ -19,7 +19,7 @@ def load_config(path="config.yaml"):
         return yaml.safe_load(f)
 
 config = load_config("config/scraper_config.yaml")
-BASE_URL = config["base_url"]
+BASE_URL = os.getenv("BASE_URL") or config["base_url"]
 
 # ====== Logging ======
 log_dir = Path(config.get("log_dir", "output/logs"))
@@ -40,7 +40,7 @@ def get_driver():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
-    driver_path = os.path.join(os.getcwd(), "chromedriver.exe")
+    driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
     service = Service(driver_path)
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.implicitly_wait(3)
@@ -156,8 +156,8 @@ def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
 def main():
     DELAY_WAIT = config["delay"]
     CSV_FILE = config["main_csv_file"]
-    EMAIL = config["email"]
-    PASSWORD = config["password"]
+    EMAIL = os.getenv("SCRAPER_EMAIL") or config["email"]
+    PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
     MAX_PAGES = config.get("max_pages", 20)
     QUERY_FILE = config["query_file"]
 
@@ -197,7 +197,7 @@ def main():
         f.write(f"New unique jobs added: {unique_added}\n")
         f.write(f"Total jobs saved: {len(df_combined)}\n")
 
-    logger.info(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
+    logger.info(f"[✅] Scraping complete. Total new jobs saved: {len(df_new)}")
     print(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
     driver.quit()
 

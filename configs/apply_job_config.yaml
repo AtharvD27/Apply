@@ -1,7 +1,7 @@
-email: "atharvdabhade27@gmail.com"
-password: "Atharv@12"
 delay: 5
 main_csv_file: output/final_ml_jobs.csv
 log_dir: output/logs
 driver_path: ./chromedriver.exe
-
+email: ${APPLY_EMAIL}
+password: ${APPLY_PASSWORD}
+driver_path: /usr/local/bin/chromedriver

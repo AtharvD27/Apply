@@ -1,0 +1,6 @@
+pandas
+pyyaml
+selenium
+python-dotenv
+requests
+beautifulsoup4
