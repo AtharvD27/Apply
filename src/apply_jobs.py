@@ -37,14 +37,19 @@ logger = logging.getLogger()
 
 load_dotenv()
 
+import tempfile
+
 def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
 
-    # 💥 Force Selenium to use Chrome 136 from the testing bucket
+    # ✅ Use Chrome 136 explicitly
     chrome_options.binary_location = "/opt/chrome/chrome"
+
+    # ✅ Set a unique temp user-data-dir to avoid session conflicts
+    chrome_options.add_argument(f"--user-data-dir={tempfile.mkdtemp()}")
 
     driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
     service = Service(driver_path)
