@@ -25,7 +25,7 @@ jobs:
 
     - name: Install latest Chrome and matching Chromedriver
       run: |
-        set -e  # exit immediately on error
+        set -e
         sudo apt-get update
         sudo apt-get install -y wget unzip curl gnupg lsb-release
     
@@ -35,13 +35,13 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
     
-        # Get installed Chrome version
-        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-        echo "Detected Chrome version: $CHROME_VERSION"
+        # Get major version
+        CHROME_MAJOR_VERSION=$(google-chrome --version | grep -oP 'Google Chrome \K\d+')
+        echo "Detected Chrome major version: $CHROME_MAJOR_VERSION"
     
-        # Get corresponding Chromedriver version
-        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
-        echo "Downloading Chromedriver version: $DRIVER_VERSION"
+        # Get latest chromedriver for this major version
+        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_MAJOR_VERSION")
+        echo "Resolved Chromedriver version: $DRIVER_VERSION"
     
         # Install Chromedriver
         wget -q "https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip"
@@ -49,11 +49,9 @@ jobs:
         sudo mv chromedriver /usr/local/bin/
         sudo chmod +x /usr/local/bin/chromedriver
     
-        # Final version check
-        which chromedriver || echo "Chromedriver not found"
-        chromedriver --version || echo "Failed to verify chromedriver"
-        google-chrome --version || echo "Failed to verify Chrome"
-
+        # Final checks
+        google-chrome --version
+        chromedriver --version
 
     - name: Run main.py to scrape and filter
       env:
