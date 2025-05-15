@@ -37,6 +37,6 @@ def filter_relevant_jobs(config):
     print(f"[FILTERED] Merged & saved new {len(df_filtered)} relevant jobs to existing {output_csv}")
 
 if __name__ == "__main__":
-    config = load_config("configs/scraper_config.yaml")
+    config = load_config("config/scraper_config.yaml")
     run_dice_scraper()
     filter_relevant_jobs(config)

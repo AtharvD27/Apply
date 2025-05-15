@@ -13,7 +13,7 @@ from selenium.webdriver.chrome.service import Service
 from dotenv import load_dotenv
 
 # ====== CONFIG ======
-def load_config(path="configs/apply_job_config.yaml"):
+def load_config(path="config/apply_job_config.yaml"):
     with open(path, "r") as f:
         return yaml.safe_load(f)
 
