@@ -34,6 +34,9 @@ jobs:
         unzip -q chrome-linux64.zip
         sudo mv chrome-linux64 /opt/chrome
         sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
+
+        # Replace system's default google-chrome
+        sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
     
         # Download and install Chromedriver 136.0.7103.94
         wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
