@@ -52,7 +52,7 @@ jobs:
         SCRAPER_EMAIL: ${{ secrets.SCRAPER_EMAIL }}
         SCRAPER_PASSWORD: ${{ secrets.SCRAPER_PASSWORD }}
         BASE_URL: ${{ secrets.BASE_URL }}
-      run: python main.py
+      run: python src/main.py
 
     - name: Commit and push updated job files
       run: |
