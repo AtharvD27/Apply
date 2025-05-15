@@ -23,29 +23,30 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Google Chrome v124 and matching Chromedriver
+    - name: Install latest Chrome and matching Chromedriver
       run: |
         sudo apt-get update
-
-        # Add Google Chrome repository
+        sudo apt-get install -y wget unzip curl gnupg lsb-release
+    
+        # Add Google Chrome repo and key
         wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-linux.gpg
         echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-
         sudo apt-get update
-
-        # Install Chrome version 124 specifically
-        sudo apt-get install -y google-chrome-stable=124.0.6367.91-1 || sudo apt-mark hold google-chrome-stable
-
-        # Install Chromedriver manually
-        wget -q https://chromedriver.storage.googleapis.com/124.0.6367.91/chromedriver_linux64.zip
+        sudo apt-get install -y google-chrome-stable
+    
+        # Get Chrome version and matching Chromedriver version
+        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+    
+        # Download and install Chromedriver
+        wget -q "https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip"
         unzip chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
         sudo chmod +x /usr/local/bin/chromedriver
-
-        # Verify versions
+    
+        # Confirm installed versions
         google-chrome --version
         chromedriver --version
-
 
     - name: Run main.py to scrape and filter
       env:
