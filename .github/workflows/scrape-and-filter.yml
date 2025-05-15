@@ -23,24 +23,28 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Chrome v135 and matching Chromedriver
+    - name: Install Chrome 136 and matching Chromedriver from Testing Bucket
       run: |
         set -e
         sudo apt-get update
+        sudo apt-get install -y wget unzip curl
     
-        # Install Chrome 135 manually
-        wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_135.0.7049.114-1_amd64.deb
-        sudo dpkg -i google-chrome-stable_135.0.7049.114-1_amd64.deb || sudo apt-get -f install -y
+        # Download and install Chrome 136.0.7103.94
+        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
+        unzip -q chrome-linux64.zip
+        sudo mv chrome-linux64 /opt/chrome
+        sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
     
-        # Install Chromedriver 135
-        wget https://chromedriver.storage.googleapis.com/135.0.7049.114/chromedriver_linux64.zip
-        unzip chromedriver_linux64.zip
-        sudo mv chromedriver /usr/local/bin/
+        # Download and install Chromedriver 136.0.7103.94
+        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+        unzip -q chromedriver-linux64.zip
+        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
         sudo chmod +x /usr/local/bin/chromedriver
     
-        # Verify versions
-        google-chrome --version
+        # Confirm versions
+        google-chrome --version || echo "Chrome not linked"
         chromedriver --version
+
 
 
     - name: Run main.py to scrape and filter
