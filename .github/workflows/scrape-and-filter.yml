@@ -23,25 +23,28 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Chrome v124 & Chromedriver
-      run: |
-        # Remove any existing version of Chrome
-        sudo apt-get purge -y google-chrome-stable || true
-    
-        # Download and install Chrome v124
-        wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.91-1_amd64.deb -O chrome.deb
-        sudo dpkg -i chrome.deb || sudo apt-get -f install -y
-    
-        # Download and install Chromedriver v124
-        wget -q https://chromedriver.storage.googleapis.com/124.0.6367.91/chromedriver_linux64.zip
-        unzip chromedriver_linux64.zip
-        sudo mv chromedriver /usr/local/bin/
-        sudo chmod +x /usr/local/bin/chromedriver
-    
-        # Confirm installation
-        google-chrome --version
-        chromedriver --version
-
+   - name: Install Google Chrome v124 and matching Chromedriver
+    run: |
+      sudo apt-get update
+  
+      # Add Google Chrome repository
+      wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-linux.gpg
+      echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+  
+      sudo apt-get update
+  
+      # Install Chrome version 124 specifically
+      sudo apt-get install -y google-chrome-stable=124.0.6367.91-1 || sudo apt-mark hold google-chrome-stable
+  
+      # Install Chromedriver manually
+      wget -q https://chromedriver.storage.googleapis.com/124.0.6367.91/chromedriver_linux64.zip
+      unzip chromedriver_linux64.zip
+      sudo mv chromedriver /usr/local/bin/
+      sudo chmod +x /usr/local/bin/chromedriver
+  
+      # Verify versions
+      google-chrome --version
+      chromedriver --version
 
     - name: Install Python dependencies
       run: |
