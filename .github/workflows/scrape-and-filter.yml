@@ -25,12 +25,23 @@ jobs:
 
     - name: Install Chrome v124 & Chromedriver
       run: |
+        # Remove any existing version of Chrome
         sudo apt-get purge -y google-chrome-stable || true
-        wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.91-1_amd64.deb
-        sudo dpkg -i google-chrome-stable_124.0.6367.91-1_amd64.deb || sudo apt-get -f install -y
+    
+        # Download and install Chrome v124
+        wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.91-1_amd64.deb -O chrome.deb
+        sudo dpkg -i chrome.deb || sudo apt-get -f install -y
+    
+        # Download and install Chromedriver v124
         wget -q https://chromedriver.storage.googleapis.com/124.0.6367.91/chromedriver_linux64.zip
         unzip chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+    
+        # Confirm installation
+        google-chrome --version
+        chromedriver --version
+
 
     - name: Install Python dependencies
       run: |
