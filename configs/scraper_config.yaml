@@ -1,0 +1,11 @@
+email: "atharvda27@gmail.com"
+password: "Atharv27"
+delay: 5
+main_csv_file: output/jobs.csv
+out_csv_file: output/jobs.csv
+filtered_csv_file: output/final_ml_jobs.csv
+query_file: queries.txt
+max_pages: 20
+log_dir: output/logs
+base_url: "https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q={query}&page={page}"
+
