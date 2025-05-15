@@ -71,3 +71,4 @@ jobs:
         else
           git commit -m "🔄 Auto-update jobs.csv and final_ml_jobs.csv"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+        fi
