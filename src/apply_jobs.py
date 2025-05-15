@@ -42,18 +42,26 @@ import tempfile
 
 def get_driver():
     chrome_options = Options()
+
+    # ✅ Use headless mode safely
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
 
-    # ✅ Use Chrome 136 explicitly
+    # ✅ Tell Chrome where to find its binary
     chrome_options.binary_location = "/opt/chrome/chrome"
 
-    # ✅ Set a unique temp user-data-dir to avoid session conflicts
-    chrome_options.add_argument(f"--user-data-dir={tempfile.mkdtemp()}")
+    # ✅ Force a unique user data dir
+    user_data_dir = tempfile.mkdtemp()
+    chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
 
+    # ✅ Setup chromedriver path
     driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
     service = Service(driver_path)
+
+    # ✅ Launch driver
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.implicitly_wait(3)
     return driver
