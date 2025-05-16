@@ -68,21 +68,28 @@ def get_driver():
 
     return driver
 
-def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
+def login_to_dice(driver):
     logger.info("Logging into Dice...")
-    print("Logging into Dice...")
     driver.get("https://www.dice.com/dashboard/login")
-    WebDriverWait(driver, DELAY_WAIT).until(
-        EC.presence_of_element_located((By.NAME, "email"))
-    ).send_keys(EMAIL)
+
+    wait = WebDriverWait(driver, 15)
+
+    # Wait for email field
+    email_input = wait.until(EC.presence_of_element_located((By.NAME, "email")))
+    email_input.send_keys(EMAIL)
+
+    # Click "Next" or submit email
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-    WebDriverWait(driver, DELAY_WAIT).until(
-        EC.presence_of_element_located((By.NAME, "password"))
-    ).send_keys(PASSWORD)
+    # Wait for password field
+    password_input = wait.until(EC.presence_of_element_located((By.NAME, "password")))
+    password_input.send_keys(PASSWORD)
+
+    # Submit login
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-    WebDriverWait(driver, DELAY_WAIT).until(EC.url_contains("dashboard"))
+    # Wait until dashboard loads (URL or some element to confirm login)
+    wait.until(EC.url_contains("dashboard"))
     logger.info("Login successful.")
     print("Login successful.")
 
