@@ -1,0 +1,14 @@
+2025-05-16 07:52:03,464 - INFO - Logging into Dice...
+2025-05-16 07:52:06,569 - INFO - Login successful.
+2025-05-16 07:52:06,572 - INFO - Query: MLML | Page: 1
+2025-05-16 07:52:13,760 - WARNING - Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=MLML&page=1
+
+2025-05-16 07:52:13,760 - INFO - Total pages scanned for query 'MLML': 0
+2025-05-16 07:52:13,760 - INFO - Total new jobs found for query 'MLML': 0
+2025-05-16 07:52:13,760 - INFO - Query: data scientist | Page: 1
+2025-05-16 07:52:15,894 - INFO - Total pages scanned for query 'data scientist': 1
+2025-05-16 07:52:15,894 - INFO - Total new jobs found for query 'data scientist': 0
+2025-05-16 07:52:15,894 - INFO - Query: machine learning | Page: 1
+2025-05-16 07:52:17,904 - INFO - Total pages scanned for query 'machine learning': 1
+2025-05-16 07:52:17,904 - INFO - Total new jobs found for query 'machine learning': 0
+2025-05-16 07:52:17,909 - INFO - [✅] Scraping complete. Total new jobs saved: 0
