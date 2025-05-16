@@ -1,0 +1,484 @@
+2025-05-16 10:13:42,310 - INFO - Logging into Dice...
+2025-05-16 10:13:45,509 - INFO - Login successful.
+2025-05-16 10:13:45,519 - INFO - Query: AI Trainer | Page: 1
+2025-05-16 10:13:48,303 - INFO - Query: AI Trainer | Page: 2
+2025-05-16 10:13:50,972 - INFO - Query: AI Trainer | Page: 3
+2025-05-16 10:13:53,569 - INFO - Query: AI Trainer | Page: 4
+2025-05-16 10:13:56,273 - INFO - Query: AI Trainer | Page: 5
+2025-05-16 10:13:59,017 - INFO - Query: AI Trainer | Page: 6
+2025-05-16 10:14:06,053 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Trainer&page=6
+2025-05-16 10:14:06,053 - INFO - Total pages scanned for query 'AI Trainer': 5
+2025-05-16 10:14:06,053 - INFO - Total new jobs found for query 'AI Trainer': 0
+2025-05-16 10:14:06,053 - INFO - Query: Generative AI Engineer | Page: 1
+2025-05-16 10:14:07,536 - INFO - Query: Generative AI Engineer | Page: 2
+2025-05-16 10:14:14,503 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Generative+AI+Engineer&page=2
+2025-05-16 10:14:14,504 - INFO - Total pages scanned for query 'Generative AI Engineer': 1
+2025-05-16 10:14:14,504 - INFO - Total new jobs found for query 'Generative AI Engineer': 0
+2025-05-16 10:14:14,504 - INFO - Query: AI/ML DevOps Engineer | Page: 1
+2025-05-16 10:14:16,511 - INFO - Query: AI/ML DevOps Engineer | Page: 2
+2025-05-16 10:14:18,502 - INFO - Query: AI/ML DevOps Engineer | Page: 3
+2025-05-16 10:14:20,714 - INFO - Query: AI/ML DevOps Engineer | Page: 4
+2025-05-16 10:14:22,825 - INFO - Query: AI/ML DevOps Engineer | Page: 5
+2025-05-16 10:14:24,912 - INFO - Query: AI/ML DevOps Engineer | Page: 6
+2025-05-16 10:14:26,980 - INFO - Query: AI/ML DevOps Engineer | Page: 7
+2025-05-16 10:14:28,977 - INFO - Query: AI/ML DevOps Engineer | Page: 8
+2025-05-16 10:14:30,729 - INFO - [+] FOUND — Senior Cloud Network Security SME
+2025-05-16 10:14:30,817 - INFO - [+] FOUND — Automation Engineer
+2025-05-16 10:14:30,906 - INFO - [+] FOUND — Server Infrastructure Manager
+2025-05-16 10:14:34,034 - INFO - [+] FOUND — eCommerce Solutions Architect
+2025-05-16 10:14:34,125 - INFO - [+] FOUND — Cloud Engineer
+2025-05-16 10:14:34,218 - INFO - [+] FOUND — Mainframe Developer
+2025-05-16 10:14:34,308 - INFO - [+] FOUND — Mainframe IMS DB Developer
+2025-05-16 10:14:34,510 - INFO - [+] FOUND — Python developer
+2025-05-16 10:14:34,538 - INFO - Query: AI/ML DevOps Engineer | Page: 9
+2025-05-16 10:14:36,165 - INFO - [+] FOUND — Lead java developer | 17Years Exp | Need
+2025-05-16 10:14:36,256 - INFO - [+] FOUND — Test Lead / Architect Azure DevOps (ADO) || Grapevine, TX Hybrid
+2025-05-16 10:14:39,368 - INFO - [+] FOUND — CCAI Dialogflow Developer
+2025-05-16 10:14:39,459 - INFO - [+] FOUND — Diversity Lead Java Consultant - Looking for locals to (NYC and NJ) - and USC
+2025-05-16 10:14:39,549 - INFO - [+] FOUND — IT Manager
+2025-05-16 10:14:39,641 - INFO - [+] FOUND — Network Automation Engineer
+2025-05-16 10:14:42,781 - INFO - [+] FOUND — Lead Palantir Foundry - Remote
+2025-05-16 10:14:42,870 - INFO - [+] FOUND — Lead .Net Fullstack Developer || Phoenix, AZ
+2025-05-16 10:14:46,002 - INFO - [+] FOUND — Technical Project Manager 3GPP Data Mediation/5G (Telecom)
+2025-05-16 10:14:46,090 - INFO - [+] FOUND — Lead Python developer - Onsite 5 days a week in NYC NY - locals only
+2025-05-16 10:14:46,178 - INFO - [+] FOUND — Senior Data Engineer (Microsoft Fabric)
+2025-05-16 10:14:46,267 - INFO - [+] FOUND — Network Automation Engineer - Remote / Telecommute
+2025-05-16 10:14:46,384 - INFO - [+] FOUND — Network Automation Engineer
+2025-05-16 10:14:49,517 - INFO - [+] FOUND — Amazon Connect Architect
+2025-05-16 10:14:52,655 - INFO - [+] FOUND — Google CCAIP Architect
+2025-05-16 10:14:52,743 - INFO - [+] FOUND — IBM MQ/ WebSphere Developer
+2025-05-16 10:14:52,743 - INFO - Query: AI/ML DevOps Engineer | Page: 10
+2025-05-16 10:14:54,749 - INFO - [+] FOUND — Software Engineer IV
+2025-05-16 10:14:54,841 - INFO - [+] FOUND — Data Engineer (EHR- HL7- FHIR)- Fully Remote- Contract 2 Perm - ONLY Citizen or Perm Residence in Seattle, WA
+2025-05-16 10:14:57,996 - INFO - [+] FOUND — Martech Architect
+2025-05-16 10:14:58,113 - INFO - [+] FOUND — Data Analyst
+2025-05-16 10:14:58,204 - INFO - [+] FOUND — Data Quality Leader
+2025-05-16 10:14:58,321 - INFO - [+] FOUND — Azure Devops Engineer
+2025-05-16 10:14:58,415 - INFO - [+] FOUND — Research Scientist II
+2025-05-16 10:14:58,532 - INFO - [+] FOUND — IT Business Analyst Healthcare Domain
+2025-05-16 10:14:58,622 - INFO - [+] FOUND — Data Engineer - Power BI
+2025-05-16 10:14:58,711 - INFO - [+] FOUND — Lab Engineer III
+2025-05-16 10:14:58,799 - INFO - [+] FOUND — CTH***DevOps Engineer***Only W2 Candidates***Local to TX
+2025-05-16 10:14:58,851 - INFO - Query: AI/ML DevOps Engineer | Page: 11
+2025-05-16 10:15:00,694 - INFO - [+] FOUND — DevOps Engineer T3
+2025-05-16 10:15:00,789 - INFO - [+] FOUND — SAP SignavioConsultant
+2025-05-16 10:15:00,877 - INFO - [+] FOUND — Senior GIS Consultant
+2025-05-16 10:15:00,966 - INFO - [+] FOUND — SAP Signavio - Pomona, CA
+2025-05-16 10:15:01,054 - INFO - [+] FOUND — SAP Signavio
+2025-05-16 10:15:04,197 - INFO - [+] FOUND — Sr. Manager, Security Operations Center (SOC) ::: Hybrid (Sacramento, Ca)
+2025-05-16 10:15:04,286 - INFO - [+] FOUND — Angular Developer
+2025-05-16 10:15:04,381 - INFO - [+] FOUND — Recruiter 2
+2025-05-16 10:15:04,469 - INFO - [+] FOUND — ServiceNow Architect
+2025-05-16 10:15:04,559 - INFO - [+] FOUND — Salesforce Data Cloud Architect
+2025-05-16 10:15:04,647 - INFO - [+] FOUND — Kinaxis Implementation Lead - Supply Chain Planning
+2025-05-16 10:15:04,735 - INFO - [+] FOUND — Azure Data Engineer
+2025-05-16 10:15:04,826 - INFO - [+] FOUND — SAP Order-to-Cash (OTC), Vistex Transformation Lead, Culver City, California
+2025-05-16 10:15:04,913 - INFO - [+] FOUND — Contact Center AWS Architect - Remote / Telecommute
+2025-05-16 10:15:05,004 - INFO - [+] FOUND — Software Developer - Hybrid in Maryland
+2025-05-16 10:15:05,093 - INFO - [+] FOUND — W2 - IT ARCHITECT (API development, Python, Node, ReactJS, Cloud, Healthcare, Data design) - Remote
+2025-05-16 10:15:05,210 - INFO - [+] FOUND — Java Tech Lead
+2025-05-16 10:15:05,210 - INFO - Query: AI/ML DevOps Engineer | Page: 12
+2025-05-16 10:15:06,794 - INFO - [+] FOUND — Enterprise Architect Ecommerce (POS, Xstore)
+2025-05-16 10:15:09,941 - INFO - [+] FOUND — Java Full Stack Technical Architect
+2025-05-16 10:15:10,032 - INFO - [+] FOUND — Sr. HR Generalist
+2025-05-16 10:15:10,124 - INFO - [+] FOUND — Principal Data Engineer (Pharmaceutical Domain)
+2025-05-16 10:15:10,240 - INFO - [+] FOUND — Advance Data Engineer - W2 Only
+2025-05-16 10:15:13,373 - INFO - [+] FOUND — Data Engineer ( Google Cloud Platform & Terraform )
+2025-05-16 10:15:13,464 - INFO - [+] FOUND — Lead System Analyst
+2025-05-16 10:15:13,552 - INFO - [+] FOUND — Business Analyst
+2025-05-16 10:15:13,639 - INFO - [+] FOUND — Technical Architect Cloud (Google Cloud Platform)
+2025-05-16 10:15:16,746 - INFO - [+] FOUND — MLOps/LLMOps Engineer
+2025-05-16 10:15:16,861 - INFO - [+] FOUND — Technical Lead
+2025-05-16 10:15:16,949 - INFO - [+] FOUND — Technical Architect Cloud (Google Cloud Platform)
+2025-05-16 10:15:17,036 - INFO - [+] FOUND — Cloud Infrastructure Architect OR Technical Architect Cloud (Google Cloud Platform)
+2025-05-16 10:15:17,132 - INFO - [+] FOUND — MLOps / LLMOps Engineer - Remote (should be able to work on PST time zones)
+2025-05-16 10:15:20,232 - INFO - [+] FOUND — MLOps/LLMOps Engineer
+2025-05-16 10:15:20,323 - INFO - [+] FOUND — .NET and Power Platform Developer
+2025-05-16 10:15:20,411 - INFO - [+] FOUND — Java Full Stack Developer
+2025-05-16 10:15:20,411 - INFO - Query: AI/ML DevOps Engineer | Page: 13
+2025-05-16 10:15:21,872 - INFO - [+] FOUND — Data Solutions Architect
+2025-05-16 10:15:22,341 - INFO - [+] FOUND — Lead Data Engineer
+2025-05-16 10:15:22,433 - INFO - [+] FOUND — Lead Data Engineer
+2025-05-16 10:15:25,538 - INFO - [+] FOUND — Technical Lead (Azure Data Factory)
+2025-05-16 10:15:25,627 - INFO - [+] FOUND — Senior Full Stack Web Application Developer
+2025-05-16 10:15:25,718 - INFO - [+] FOUND — IT Sourcer
+2025-05-16 10:15:25,805 - INFO - [+] FOUND — CMBD Architect - ServiceNow Architect
+2025-05-16 10:15:25,919 - INFO - [+] FOUND — Google Cloud Platform Developer - W2 Only
+2025-05-16 10:15:29,052 - INFO - [+] FOUND — Lead Solution Architect D365 F&SCM | Only W2
+2025-05-16 10:15:29,141 - INFO - [+] FOUND — Full Stack Developer
+2025-05-16 10:15:29,236 - INFO - [+] FOUND — Site Reliability Engineer
+2025-05-16 10:15:29,334 - INFO - [+] FOUND — Sr. IAM Engineer
+2025-05-16 10:15:29,424 - INFO - [+] FOUND — Technical Architect (Java/Python/C#) - Auburn, CA (Hybrid)
+2025-05-16 10:15:29,515 - INFO - [+] FOUND — AWS Engineer - Python
+2025-05-16 10:15:29,606 - INFO - [+] FOUND — Java web back-end developer
+2025-05-16 10:15:29,696 - INFO - [+] FOUND — Lead .NET FullStack Developer [Angular] - Local candidate preferred
+2025-05-16 10:15:29,696 - INFO - Query: AI/ML DevOps Engineer | Page: 14
+2025-05-16 10:15:36,983 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI/ML+DevOps+Engineer&page=14
+2025-05-16 10:15:36,983 - INFO - Total pages scanned for query 'AI/ML DevOps Engineer': 13
+2025-05-16 10:15:36,984 - INFO - Total new jobs found for query 'AI/ML DevOps Engineer': 85
+2025-05-16 10:15:36,984 - INFO - Query: AI Business Analyst | Page: 1
+2025-05-16 10:15:38,966 - INFO - Query: AI Business Analyst | Page: 2
+2025-05-16 10:15:40,933 - INFO - Query: AI Business Analyst | Page: 3
+2025-05-16 10:15:43,023 - INFO - Query: AI Business Analyst | Page: 4
+2025-05-16 10:15:45,122 - INFO - Query: AI Business Analyst | Page: 5
+2025-05-16 10:15:47,018 - INFO - Query: AI Business Analyst | Page: 6
+2025-05-16 10:15:53,931 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Business+Analyst&page=6
+2025-05-16 10:15:53,931 - INFO - Total pages scanned for query 'AI Business Analyst': 5
+2025-05-16 10:15:53,931 - INFO - Total new jobs found for query 'AI Business Analyst': 0
+2025-05-16 10:15:53,931 - INFO - Query: ML | Page: 1
+2025-05-16 10:15:55,879 - INFO - Query: ML | Page: 2
+2025-05-16 10:15:57,885 - INFO - Query: ML | Page: 3
+2025-05-16 10:16:00,091 - INFO - Query: ML | Page: 4
+2025-05-16 10:16:02,143 - INFO - Query: ML | Page: 5
+2025-05-16 10:16:04,115 - INFO - Query: ML | Page: 6
+2025-05-16 10:16:06,098 - INFO - Query: ML | Page: 7
+2025-05-16 10:16:08,138 - INFO - Query: ML | Page: 8
+2025-05-16 10:16:13,091 - INFO - [+] FOUND — Python developer
+2025-05-16 10:16:13,232 - INFO - [+] FOUND — MarTech Architect
+2025-05-16 10:16:13,286 - INFO - Query: ML | Page: 9
+2025-05-16 10:16:15,145 - INFO - [+] FOUND — Full Stack Backend Engineer
+2025-05-16 10:16:15,335 - INFO - Query: ML | Page: 10
+2025-05-16 10:16:17,327 - INFO - Query: ML | Page: 11
+2025-05-16 10:16:19,299 - INFO - [+] FOUND — * Senior Full Stack Frontend Engineer (Advanced ReactJS Focused with Strong AWS Exp)*
+2025-05-16 10:16:19,352 - INFO - Query: ML | Page: 12
+2025-05-16 10:16:20,873 - INFO - [+] FOUND — MarTech Developer
+2025-05-16 10:16:21,064 - INFO - [+] FOUND — BRIM - Principal Software Architect, Bill To Revenue
+2025-05-16 10:16:21,249 - INFO - Query: ML | Page: 13
+2025-05-16 10:16:28,361 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML&page=13
+2025-05-16 10:16:28,362 - INFO - Total pages scanned for query 'ML': 12
+2025-05-16 10:16:28,362 - INFO - Total new jobs found for query 'ML': 6
+2025-05-16 10:16:28,362 - INFO - Query: Artificial Intelligence Engineer | Page: 1
+2025-05-16 10:16:30,389 - INFO - Query: Artificial Intelligence Engineer | Page: 2
+2025-05-16 10:16:32,423 - INFO - Query: Artificial Intelligence Engineer | Page: 3
+2025-05-16 10:16:34,473 - INFO - Query: Artificial Intelligence Engineer | Page: 4
+2025-05-16 10:16:36,630 - INFO - Query: Artificial Intelligence Engineer | Page: 5
+2025-05-16 10:16:38,625 - INFO - Query: Artificial Intelligence Engineer | Page: 6
+2025-05-16 10:16:45,632 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Artificial+Intelligence+Engineer&page=6
+2025-05-16 10:16:45,632 - INFO - Total pages scanned for query 'Artificial Intelligence Engineer': 5
+2025-05-16 10:16:45,632 - INFO - Total new jobs found for query 'Artificial Intelligence Engineer': 0
+2025-05-16 10:16:45,632 - INFO - Query: Machine Learning Engineer | Page: 1
+2025-05-16 10:16:47,727 - INFO - Query: Machine Learning Engineer | Page: 2
+2025-05-16 10:16:49,631 - INFO - Query: Machine Learning Engineer | Page: 3
+2025-05-16 10:16:56,724 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning+Engineer&page=3
+2025-05-16 10:16:56,724 - INFO - Total pages scanned for query 'Machine Learning Engineer': 2
+2025-05-16 10:16:56,724 - INFO - Total new jobs found for query 'Machine Learning Engineer': 0
+2025-05-16 10:16:56,724 - INFO - Query: Machine Learning | Page: 1
+2025-05-16 10:16:58,904 - INFO - Query: Machine Learning | Page: 2
+2025-05-16 10:17:00,992 - INFO - Query: Machine Learning | Page: 3
+2025-05-16 10:17:02,991 - INFO - Query: Machine Learning | Page: 4
+2025-05-16 10:17:04,949 - INFO - Query: Machine Learning | Page: 5
+2025-05-16 10:17:07,036 - INFO - Query: Machine Learning | Page: 6
+2025-05-16 10:17:09,090 - INFO - Query: Machine Learning | Page: 7
+2025-05-16 10:17:11,103 - INFO - Query: Machine Learning | Page: 8
+2025-05-16 10:17:13,166 - INFO - Query: Machine Learning | Page: 9
+2025-05-16 10:17:15,135 - INFO - Query: Machine Learning | Page: 10
+2025-05-16 10:17:17,098 - INFO - Query: Machine Learning | Page: 11
+2025-05-16 10:17:19,123 - INFO - Query: Machine Learning | Page: 12
+2025-05-16 10:17:20,873 - INFO - Query: Machine Learning | Page: 13
+2025-05-16 10:17:27,780 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning&page=13
+2025-05-16 10:17:27,780 - INFO - Total pages scanned for query 'Machine Learning': 12
+2025-05-16 10:17:27,780 - INFO - Total new jobs found for query 'Machine Learning': 0
+2025-05-16 10:17:27,780 - INFO - Query: Data Scientist | Page: 1
+2025-05-16 10:17:29,881 - INFO - Query: Data Scientist | Page: 2
+2025-05-16 10:17:31,626 - INFO - Query: Data Scientist | Page: 3
+2025-05-16 10:17:38,553 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Data+Scientist&page=3
+2025-05-16 10:17:38,553 - INFO - Total pages scanned for query 'Data Scientist': 2
+2025-05-16 10:17:38,553 - INFO - Total new jobs found for query 'Data Scientist': 0
+2025-05-16 10:17:38,553 - INFO - Query: Computer Vision Engineer | Page: 1
+2025-05-16 10:17:40,267 - INFO - Query: Computer Vision Engineer | Page: 2
+2025-05-16 10:17:47,240 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Computer+Vision+Engineer&page=2
+2025-05-16 10:17:47,240 - INFO - Total pages scanned for query 'Computer Vision Engineer': 1
+2025-05-16 10:17:47,240 - INFO - Total new jobs found for query 'Computer Vision Engineer': 0
+2025-05-16 10:17:47,241 - INFO - Query: Natural Language Processing Engineer | Page: 1
+2025-05-16 10:17:48,661 - INFO - Query: Natural Language Processing Engineer | Page: 2
+2025-05-16 10:17:55,579 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Natural+Language+Processing+Engineer&page=2
+2025-05-16 10:17:55,579 - INFO - Total pages scanned for query 'Natural Language Processing Engineer': 1
+2025-05-16 10:17:55,579 - INFO - Total new jobs found for query 'Natural Language Processing Engineer': 0
+2025-05-16 10:17:55,579 - INFO - Query: LLM Engineer | Page: 1
+2025-05-16 10:17:57,521 - INFO - Query: LLM Engineer | Page: 2
+2025-05-16 10:18:04,450 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=LLM+Engineer&page=2
+2025-05-16 10:18:04,450 - INFO - Total pages scanned for query 'LLM Engineer': 1
+2025-05-16 10:18:04,450 - INFO - Total new jobs found for query 'LLM Engineer': 0
+2025-05-16 10:18:04,450 - INFO - Query: AI Software Engineer | Page: 1
+2025-05-16 10:18:06,570 - INFO - Query: AI Software Engineer | Page: 2
+2025-05-16 10:18:08,673 - INFO - Query: AI Software Engineer | Page: 3
+2025-05-16 10:18:10,786 - INFO - Query: AI Software Engineer | Page: 4
+2025-05-16 10:18:12,869 - INFO - Query: AI Software Engineer | Page: 5
+2025-05-16 10:18:14,812 - INFO - Query: AI Software Engineer | Page: 6
+2025-05-16 10:18:21,815 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Software+Engineer&page=6
+2025-05-16 10:18:21,816 - INFO - Total pages scanned for query 'AI Software Engineer': 5
+2025-05-16 10:18:21,816 - INFO - Total new jobs found for query 'AI Software Engineer': 0
+2025-05-16 10:18:21,816 - INFO - Query: ML Software Engineer | Page: 1
+2025-05-16 10:18:23,838 - INFO - Query: ML Software Engineer | Page: 2
+2025-05-16 10:18:25,828 - INFO - Query: ML Software Engineer | Page: 3
+2025-05-16 10:18:32,808 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML+Software+Engineer&page=3
+2025-05-16 10:18:32,808 - INFO - Total pages scanned for query 'ML Software Engineer': 2
+2025-05-16 10:18:32,808 - INFO - Total new jobs found for query 'ML Software Engineer': 0
+2025-05-16 10:18:32,808 - INFO - Query: Prompt Engineer | Page: 1
+2025-05-16 10:18:39,782 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Prompt+Engineer&page=1
+2025-05-16 10:18:39,782 - INFO - Total pages scanned for query 'Prompt Engineer': 0
+2025-05-16 10:18:39,782 - INFO - Total new jobs found for query 'Prompt Engineer': 0
+2025-05-16 10:18:39,782 - INFO - Query: GenAI Solutions Engineer | Page: 1
+2025-05-16 10:18:41,235 - INFO - Query: GenAI Solutions Engineer | Page: 2
+2025-05-16 10:18:48,205 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=GenAI+Solutions+Engineer&page=2
+2025-05-16 10:18:48,206 - INFO - Total pages scanned for query 'GenAI Solutions Engineer': 1
+2025-05-16 10:18:48,206 - INFO - Total new jobs found for query 'GenAI Solutions Engineer': 0
+2025-05-16 10:18:48,206 - INFO - Query: Gen AI Architect | Page: 1
+2025-05-16 10:18:49,609 - INFO - Query: Gen AI Architect | Page: 2
+2025-05-16 10:18:56,529 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Gen+AI+Architect&page=2
+2025-05-16 10:18:56,529 - INFO - Total pages scanned for query 'Gen AI Architect': 1
+2025-05-16 10:18:56,529 - INFO - Total new jobs found for query 'Gen AI Architect': 0
+2025-05-16 10:18:56,529 - INFO - Query: AI | Page: 1
+2025-05-16 10:18:58,154 - INFO - Query: AI | Page: 2
+2025-05-16 10:19:00,073 - INFO - Query: AI | Page: 3
+2025-05-16 10:19:02,078 - INFO - Query: AI | Page: 4
+2025-05-16 10:19:04,054 - INFO - Query: AI | Page: 5
+2025-05-16 10:19:06,034 - INFO - Query: AI | Page: 6
+2025-05-16 10:19:08,125 - INFO - Query: AI | Page: 7
+2025-05-16 10:19:10,091 - INFO - Query: AI | Page: 8
+2025-05-16 10:19:12,087 - INFO - Query: AI | Page: 9
+2025-05-16 10:19:14,131 - INFO - [+] FOUND — UX/UI Designer III
+2025-05-16 10:19:14,223 - INFO - [+] FOUND — IT - Project Manager
+2025-05-16 10:19:14,223 - INFO - Query: AI | Page: 10
+2025-05-16 10:19:15,718 - INFO - [+] FOUND — Thermal Engineer
+2025-05-16 10:19:15,852 - INFO - [+] FOUND — Quality Assurance Tech II
+2025-05-16 10:19:15,940 - INFO - [+] FOUND — Quality Assurance Tech II
+2025-05-16 10:19:16,031 - INFO - [+] FOUND — Senior Business Data Analyst
+2025-05-16 10:19:16,120 - INFO - [+] FOUND — Manufacturing Process Engineer II
+2025-05-16 10:19:16,209 - INFO - [+] FOUND — Database Developer
+2025-05-16 10:19:16,299 - INFO - [+] FOUND — Manufacturing Process Engineer II
+2025-05-16 10:19:16,474 - INFO - [+] FOUND — Enterprise Linux 9 (RHEL) Senior Consultants
+2025-05-16 10:19:16,563 - INFO - [+] FOUND — Graphic Designer 4
+2025-05-16 10:19:16,650 - INFO - [+] FOUND — Software Development Engineer
+2025-05-16 10:19:16,740 - INFO - [+] FOUND — ServiceNow Architect
+2025-05-16 10:19:16,828 - INFO - [+] FOUND — Senior Ecommerce Product Manager
+2025-05-16 10:19:16,917 - INFO - [+] FOUND — Graphic Designer 3
+2025-05-16 10:19:17,006 - INFO - [+] FOUND — Informatica Developer
+2025-05-16 10:19:17,097 - INFO - [+] FOUND — Quality Assurance Tech I
+2025-05-16 10:19:17,238 - INFO - [+] FOUND — Software Development Engineer II
+2025-05-16 10:19:17,327 - INFO - [+] FOUND — Sr. API Developer
+2025-05-16 10:19:17,327 - INFO - Query: AI | Page: 11
+2025-05-16 10:19:18,897 - INFO - [+] FOUND — Software Dev Engineer
+2025-05-16 10:19:18,997 - INFO - [+] FOUND — Business Analyst II
+2025-05-16 10:19:19,086 - INFO - [+] FOUND — Product Owner
+2025-05-16 10:19:19,174 - INFO - [+] FOUND — Technical Program Product Manager III
+2025-05-16 10:19:19,262 - INFO - [+] FOUND — Email Developer & Designer
+2025-05-16 10:19:19,363 - INFO - [+] FOUND — IT Endpoint Analyst
+2025-05-16 10:19:19,451 - INFO - [+] FOUND — Graphic Designer II
+2025-05-16 10:19:19,623 - INFO - [+] FOUND — Programmer 6 - Full-Stack Java Developer
+2025-05-16 10:19:19,710 - INFO - [+] FOUND — Software Dev Engineer II
+2025-05-16 10:19:19,827 - INFO - [+] FOUND — Procurement Specialist III
+2025-05-16 10:19:19,914 - INFO - [+] FOUND — IT Audit Support
+2025-05-16 10:19:20,002 - INFO - [+] FOUND — Business Analyst P&C
+2025-05-16 10:19:20,090 - INFO - [+] FOUND — Digital Product Manager
+2025-05-16 10:19:20,206 - INFO - [+] FOUND — Business Intelligence Engineer
+2025-05-16 10:19:20,320 - INFO - [+] FOUND — Technical Writer
+2025-05-16 10:19:20,346 - INFO - Query: AI | Page: 12
+2025-05-16 10:19:21,882 - INFO - [+] FOUND — Sr. UX/UI Designer
+2025-05-16 10:19:21,979 - INFO - [+] FOUND — PC Technician
+2025-05-16 10:19:22,067 - INFO - [+] FOUND — Systems Administrator
+2025-05-16 10:19:22,155 - INFO - [+] FOUND — CCaaS Implementation Engineer
+2025-05-16 10:19:22,244 - INFO - [+] FOUND — Data Engineer (StreamSets)
+2025-05-16 10:19:22,332 - INFO - [+] FOUND — Intermediate UX Designer - Onsite
+2025-05-16 10:19:22,420 - INFO - [+] FOUND — Content Specialist (German)
+2025-05-16 10:19:22,594 - INFO - [+] FOUND — Sr. .NET Developer
+2025-05-16 10:19:22,685 - INFO - [+] FOUND — Developer - Enterprise Apps
+2025-05-16 10:19:22,773 - INFO - [+] FOUND — Product Manager
+2025-05-16 10:19:22,862 - INFO - [+] FOUND — Information Assurance
+2025-05-16 10:19:22,952 - INFO - [+] FOUND — Marketing Specialist
+2025-05-16 10:19:23,040 - INFO - [+] FOUND — Graphic Designer Amazon A+
+2025-05-16 10:19:23,128 - INFO - [+] FOUND — Desktop Support Specialist
+2025-05-16 10:19:23,242 - INFO - [+] FOUND — Digital Project Manager
+2025-05-16 10:19:23,329 - INFO - [+] FOUND — Maintenance Supervisor
+2025-05-16 10:19:23,443 - INFO - [+] FOUND — Senior IT Procurement Administrator
+2025-05-16 10:19:23,443 - INFO - Query: AI | Page: 13
+2025-05-16 10:19:24,999 - INFO - [+] FOUND — Sr Data Analyst
+2025-05-16 10:19:28,109 - INFO - [+] FOUND — Oracle Database Administrator in Downey, CA
+2025-05-16 10:19:28,249 - INFO - [+] FOUND — Senior Mac EndPoint Engineer
+2025-05-16 10:19:28,336 - INFO - [+] FOUND — Program Manager - Internal Fraud & Identity Risk
+2025-05-16 10:19:28,425 - INFO - [+] FOUND — Software Dev Engineer II
+2025-05-16 10:19:28,512 - INFO - [+] FOUND — Research Engineer I
+2025-05-16 10:19:28,600 - INFO - [+] FOUND — Enterprise Architect
+2025-05-16 10:19:31,761 - INFO - [+] FOUND — Privacy Analyst
+2025-05-16 10:19:31,849 - INFO - [+] FOUND — Full Stack Python Developer
+2025-05-16 10:19:31,994 - INFO - [+] FOUND — Data Reporting Analyst
+2025-05-16 10:19:32,084 - INFO - [+] FOUND — MarTech Solutions Architect
+2025-05-16 10:19:32,175 - INFO - [+] FOUND — Operations Support and Business Analyst
+2025-05-16 10:19:32,266 - INFO - [+] FOUND — Endpoint Engineer - Microsoft SME
+2025-05-16 10:19:32,358 - INFO - [+] FOUND — Associate Product Manager
+2025-05-16 10:19:32,358 - INFO - Query: AI | Page: 14
+2025-05-16 10:19:33,979 - INFO - [+] FOUND — Tableau BI Developer
+2025-05-16 10:19:34,084 - INFO - [+] FOUND — Project Manager
+2025-05-16 10:19:37,225 - INFO - [+] FOUND — Digital Product Owner :: Peoria IL or Chicago IL will sit onsite 1 day a week.
+2025-05-16 10:19:37,328 - INFO - [+] FOUND — Business Analyst
+2025-05-16 10:19:37,419 - INFO - [+] FOUND — Frontend Architect
+2025-05-16 10:19:37,509 - INFO - [+] FOUND — Senior DataOps Engineer
+2025-05-16 10:19:40,642 - INFO - [+] FOUND — Business Analyst
+2025-05-16 10:19:40,730 - INFO - [+] FOUND — BI Reporting Analyst IV
+2025-05-16 10:19:40,817 - INFO - [+] FOUND — Senior Technical Writer
+2025-05-16 10:19:40,906 - INFO - [+] FOUND — Telecom/VOIP Technician
+2025-05-16 10:19:41,019 - INFO - [+] FOUND — Email Marketing Manager
+2025-05-16 10:19:41,144 - INFO - [+] FOUND — Power BI Consultant
+2025-05-16 10:19:44,232 - INFO - [+] FOUND — Application Support Engineer
+2025-05-16 10:19:44,323 - INFO - [+] FOUND — SAP FICA Consultant
+2025-05-16 10:19:44,441 - INFO - [+] FOUND — Salesforce Enterprise Architect
+2025-05-16 10:19:44,528 - INFO - [+] FOUND — Systems Administrator
+2025-05-16 10:19:44,618 - INFO - [+] FOUND — Azure Cloud and Hosting Management Specialist
+2025-05-16 10:19:44,618 - INFO - Query: AI | Page: 15
+2025-05-16 10:19:49,169 - INFO - [+] FOUND — Digital Asset Manager
+2025-05-16 10:19:49,289 - INFO - [+] FOUND — Cloud Engineer
+2025-05-16 10:19:52,424 - INFO - [+] FOUND — Program Manager - Government Benefits program
+2025-05-16 10:19:52,515 - INFO - [+] FOUND — Technical Writer
+2025-05-16 10:19:52,629 - INFO - [+] FOUND — Marketing Manager
+2025-05-16 10:19:52,719 - INFO - [+] FOUND — BA / PM
+2025-05-16 10:19:52,861 - INFO - [+] FOUND — Senior Application Administrator
+2025-05-16 10:19:52,953 - INFO - [+] FOUND — Help Desk Analyst
+2025-05-16 10:19:53,074 - INFO - [+] FOUND — Software Engineer III
+2025-05-16 10:19:53,164 - INFO - [+] FOUND — Sr Manager of Data Insights & Engineering
+2025-05-16 10:19:53,254 - INFO - [+] FOUND — Digital Optimization Specialist
+2025-05-16 10:19:53,369 - INFO - [+] FOUND — Project/Program Manager III
+2025-05-16 10:19:53,459 - INFO - [+] FOUND — iOS Developer
+2025-05-16 10:19:53,548 - INFO - [+] FOUND — Web Site Designer
+2025-05-16 10:19:53,549 - INFO - Query: AI | Page: 16
+2025-05-16 10:19:55,108 - INFO - [+] FOUND — Help Desk Analyst
+2025-05-16 10:19:55,205 - INFO - [+] FOUND — Project Administrator I
+2025-05-16 10:19:58,319 - INFO - [+] FOUND — Infor M3 Implementation Consultant
+2025-05-16 10:20:01,452 - INFO - [+] FOUND — Project Manager/Sr. Consultant
+2025-05-16 10:20:01,600 - INFO - [+] FOUND — Marketing Operations Specialist
+2025-05-16 10:20:01,720 - INFO - [+] FOUND — Senior Systems/Storage Engineer
+2025-05-16 10:20:01,808 - INFO - [+] FOUND — Software Engineer
+2025-05-16 10:20:04,964 - INFO - [+] FOUND — Business Analyst
+2025-05-16 10:20:05,053 - INFO - [+] FOUND — Lead SAP TM Analyst
+2025-05-16 10:20:05,142 - INFO - [+] FOUND — Business Analyst III
+2025-05-16 10:20:05,255 - INFO - [+] FOUND — Principal Cloud Engineer - Remote
+2025-05-16 10:20:05,344 - INFO - [+] FOUND — Systems Administrator
+2025-05-16 10:20:05,431 - INFO - [+] FOUND — Project Manager / Delivery Manager
+2025-05-16 10:20:05,523 - INFO - [+] FOUND — Program Manager / Delivery Manager
+2025-05-16 10:20:05,612 - INFO - [+] FOUND — Business Analyst
+2025-05-16 10:20:05,612 - INFO - Query: AI | Page: 17
+2025-05-16 10:20:07,297 - INFO - [+] FOUND — Quality Assurance Tester
+2025-05-16 10:20:07,385 - INFO - [+] FOUND — Performance Testing Engineer
+2025-05-16 10:20:07,480 - INFO - [+] FOUND — BI / Data Analyst
+2025-05-16 10:20:10,619 - INFO - [+] FOUND — Sr. Manager, Security Operations Center
+2025-05-16 10:20:13,760 - INFO - [+] FOUND — Sr. Digital Marketing Manager
+2025-05-16 10:20:13,853 - INFO - [+] FOUND — Network Administrator
+2025-05-16 10:20:13,942 - INFO - [+] FOUND — Java Developer w/ GenAI
+2025-05-16 10:20:14,030 - INFO - [+] FOUND — Desktop Support Specialist
+2025-05-16 10:20:14,174 - INFO - [+] FOUND — Okta Administrator
+2025-05-16 10:20:14,289 - INFO - [+] FOUND — MFA Support Analyst
+2025-05-16 10:20:14,376 - INFO - [+] FOUND — Business Analyst I
+2025-05-16 10:20:14,465 - INFO - [+] FOUND — Data Engineer - Palantir Foundry. Expert
+2025-05-16 10:20:14,553 - INFO - [+] FOUND — Telecom Business Analyst
+2025-05-16 10:20:14,641 - INFO - [+] FOUND — Senior Network Engineer
+2025-05-16 10:20:17,771 - INFO - [+] FOUND — Test Engineer 2
+2025-05-16 10:20:17,852 - INFO - Query: AI | Page: 18
+2025-05-16 10:20:19,493 - INFO - [+] FOUND — Manager of Marketing Operations
+2025-05-16 10:20:19,584 - INFO - [+] FOUND — Desktop Support Analyst
+2025-05-16 10:20:19,675 - INFO - [+] FOUND — Business Systems Analyst
+2025-05-16 10:20:19,765 - INFO - [+] FOUND — Lead Software Engineer
+2025-05-16 10:20:19,856 - INFO - [+] FOUND — Compensation Project Manager
+2025-05-16 10:20:19,947 - INFO - [+] FOUND — ETL & Reporting Developer
+2025-05-16 10:20:20,064 - INFO - [+] FOUND — Part Time Student - Data Engineering - Ames, IA
+2025-05-16 10:20:23,280 - INFO - [+] FOUND — Product Owner
+2025-05-16 10:20:23,369 - INFO - [+] FOUND — Project Controls Analyst, Senior Hybrid
+2025-05-16 10:20:23,484 - INFO - [+] FOUND — Data Support Analyst
+2025-05-16 10:20:23,628 - INFO - [+] FOUND — Applications Engineer - Support Engineer
+2025-05-16 10:20:23,767 - INFO - [+] FOUND — Oracle Cloud HCM Functional (ORC)
+2025-05-16 10:20:23,767 - INFO - Query: AI | Page: 19
+2025-05-16 10:20:28,268 - INFO - [+] FOUND — Senior Dot Net Application Developer
+2025-05-16 10:20:28,357 - INFO - [+] FOUND — Business Systems Analyst
+2025-05-16 10:20:28,524 - INFO - [+] FOUND — D365 CRM Architect
+2025-05-16 10:20:31,678 - INFO - [+] FOUND — EUC Support Specialist
+2025-05-16 10:20:31,765 - INFO - [+] FOUND — Product Owners
+2025-05-16 10:20:31,906 - INFO - [+] FOUND — Senior Auditor - IT Controls and Compliance
+2025-05-16 10:20:32,077 - INFO - [+] FOUND — Senior Network Engineer
+2025-05-16 10:20:32,191 - INFO - [+] FOUND — Platform Automation Leader
+2025-05-16 10:20:32,305 - INFO - [+] FOUND — Cybersecurity Engineer - Microsoft SME
+2025-05-16 10:20:32,305 - INFO - Query: AI | Page: 20
+2025-05-16 10:20:33,901 - INFO - [+] FOUND — Python ETL Data Engineer Only Local to TX
+2025-05-16 10:20:37,081 - INFO - [+] FOUND — Site Reliability Engineer
+2025-05-16 10:20:37,196 - INFO - [+] FOUND — Google Cloud Platform Data Engineer - Only on W2
+2025-05-16 10:20:37,310 - INFO - [+] FOUND — Robotic Process Automation Engineer
+2025-05-16 10:20:37,397 - INFO - [+] FOUND — Full Stack Developer(OpenAI)
+2025-05-16 10:20:37,563 - INFO - [+] FOUND — Training Administrator/Coordinator III
+2025-05-16 10:20:37,704 - INFO - [+] FOUND — System Administrator
+2025-05-16 10:20:37,731 - INFO - Query: AI | Page: 21
+2025-05-16 10:20:39,243 - INFO - [+] FOUND — Sr. Field Service III
+2025-05-16 10:20:39,339 - INFO - [+] FOUND — Lab Support Technician Senior
+2025-05-16 10:20:39,427 - INFO - [+] FOUND — Engineer
+2025-05-16 10:20:39,515 - INFO - [+] FOUND — SAP RAR
+2025-05-16 10:20:39,604 - INFO - [+] FOUND — Voice Engineer
+2025-05-16 10:20:39,693 - INFO - [+] FOUND — Health Data Analysis 4
+2025-05-16 10:20:39,807 - INFO - [+] FOUND — Services - Field Technical Service I
+2025-05-16 10:20:40,033 - INFO - [+] FOUND — Mechanical Engineer 3
+2025-05-16 10:20:40,120 - INFO - [+] FOUND — Controls Engineer 3
+2025-05-16 10:20:40,234 - INFO - [+] FOUND — Full Stack Developer II
+2025-05-16 10:20:40,376 - INFO - [+] FOUND — MCS Associate Quality Control
+2025-05-16 10:20:40,490 - INFO - [+] FOUND — Network Tester 4
+2025-05-16 10:20:40,542 - INFO - Query: AI | Page: 22
+2025-05-16 10:20:42,086 - INFO - [+] FOUND — Senior Character Artist Prototyper
+2025-05-16 10:20:42,226 - INFO - [+] FOUND — MCS Supply Chain Associate
+2025-05-16 10:20:42,318 - INFO - [+] FOUND — Financial Analyst 5
+2025-05-16 10:20:42,414 - INFO - [+] FOUND — Engineering Aide 2
+2025-05-16 10:20:42,502 - INFO - [+] FOUND — Graphic Designer 3
+2025-05-16 10:20:42,590 - INFO - [+] FOUND — Contract Review Specialist Contract US-based Remote
+2025-05-16 10:20:42,679 - INFO - [+] FOUND — Marketing Operations I
+2025-05-16 10:20:42,852 - INFO - [+] FOUND — Catalog Specialist III
+2025-05-16 10:20:42,966 - INFO - [+] FOUND — Marketing Analyst III
+2025-05-16 10:20:43,053 - INFO - [+] FOUND — Residential Engineer
+2025-05-16 10:20:43,141 - INFO - [+] FOUND — Architect Level 2
+2025-05-16 10:20:43,283 - INFO - [+] FOUND — Quality Complaints Senior Associate
+2025-05-16 10:20:43,374 - INFO - [+] FOUND — Network Engineer III
+2025-05-16 10:20:43,465 - INFO - [+] FOUND — IT Healthcare Project Manager (Medicaid/Medicare Experience) | Albany NY (Remote)
+2025-05-16 10:20:43,582 - INFO - [+] FOUND — Communication Designer
+2025-05-16 10:20:43,582 - INFO - Query: AI | Page: 23
+2025-05-16 10:20:45,211 - INFO - [+] FOUND — CoWoS Packaging Engineer
+2025-05-16 10:20:48,326 - INFO - [+] FOUND — Third Party Risk and Trust Analyst
+2025-05-16 10:20:51,457 - INFO - [+] FOUND — Fabric Administrator || TX.
+2025-05-16 10:20:51,572 - INFO - [+] FOUND — Client Implementation Associate
+2025-05-16 10:20:51,715 - INFO - [+] FOUND — Supply Chain Project Manager (Change Control, Trackwise, BioPharma)
+2025-05-16 10:20:51,802 - INFO - [+] FOUND — Graphic Designer 4
+2025-05-16 10:20:51,890 - INFO - [+] FOUND — Salesforce Developer
+2025-05-16 10:20:51,976 - INFO - [+] FOUND — eCommerce Solution Architect
+2025-05-16 10:20:52,090 - INFO - [+] FOUND — Technical Project Manager II
+2025-05-16 10:20:52,209 - INFO - [+] FOUND — Instructional Designer II
+2025-05-16 10:20:52,296 - INFO - [+] FOUND — QA Test Analyst 3
+2025-05-16 10:20:52,411 - INFO - [+] FOUND — Engineer Level 2
+2025-05-16 10:20:52,497 - INFO - [+] FOUND — Salesforce MCP Solution Architect
+2025-05-16 10:20:52,524 - INFO - Query: AI | Page: 24
+2025-05-16 10:20:54,042 - INFO - [+] FOUND — Financial Analyst 1
+2025-05-16 10:20:54,143 - INFO - [+] FOUND — Account Receivable specialist
+2025-05-16 10:20:54,233 - INFO - [+] FOUND — Business Process Analyst - II
+2025-05-16 10:20:54,322 - INFO - [+] FOUND — Microsoft .NET/ SQL Server Developer
+2025-05-16 10:20:54,410 - INFO - [+] FOUND — IT Project Manager 2
+2025-05-16 10:20:54,500 - INFO - [+] FOUND — Network Engineer - III
+2025-05-16 10:20:54,593 - INFO - [+] FOUND — Software Engineer II
+2025-05-16 10:20:54,796 - INFO - [+] FOUND — Data Science/GenAI
+2025-05-16 10:20:54,886 - INFO - [+] FOUND — Business Analyst III
+2025-05-16 10:20:54,977 - INFO - [+] FOUND — Program Manager (Non IT) II
+2025-05-16 10:20:55,070 - INFO - [+] FOUND — Product Owner 5
+2025-05-16 10:20:55,159 - INFO - [+] FOUND — QA Analyst IV
+2025-05-16 10:20:55,251 - INFO - [+] FOUND — Treasury Analyst
+2025-05-16 10:20:55,341 - INFO - [+] FOUND — Developer III
+2025-05-16 10:20:55,459 - INFO - [+] FOUND — Senior Project Manager
+2025-05-16 10:20:55,552 - INFO - [+] FOUND — Pega Sr. System Architect
+2025-05-16 10:20:55,643 - INFO - [+] FOUND — Engineer
+2025-05-16 10:20:55,740 - INFO - [+] FOUND — Human Factors Engineer
+2025-05-16 10:20:55,769 - INFO - Query: AI | Page: 25
+2025-05-16 10:20:57,365 - INFO - [+] FOUND — Office Coordinator
+2025-05-16 10:20:57,468 - INFO - [+] FOUND — Network Project Manager - V
+2025-05-16 10:20:57,561 - INFO - [+] FOUND — MCS Supply Chain Associate
+2025-05-16 10:20:57,650 - INFO - [+] FOUND — RTA Posted Job Description
+2025-05-16 10:20:57,739 - INFO - [+] FOUND — Controls Engineer 3
+2025-05-16 10:20:57,828 - INFO - [+] FOUND — Cloud Engineer IV
+2025-05-16 10:20:57,918 - INFO - [+] FOUND — Sr Human Factors Engineer
+2025-05-16 10:20:58,099 - INFO - [+] FOUND — Engineer Principal
+2025-05-16 10:21:01,254 - INFO - [+] FOUND — eCommerce Solution Architect
+2025-05-16 10:21:01,347 - INFO - [+] FOUND — SAP S/4 HANA Tester with ETL/DW/BI Exp
+2025-05-16 10:21:01,488 - INFO - [+] FOUND — Specialist Manufacturing
+2025-05-16 10:21:04,654 - INFO - [+] FOUND — Cable Technician (Data Center)
+2025-05-16 10:21:04,745 - INFO - [+] FOUND — Principal and Sr Security Researcher
+2025-05-16 10:21:04,833 - INFO - [+] FOUND — Data Modeler
+2025-05-16 10:21:04,859 - INFO - Total pages scanned for query 'AI': 25
+2025-05-16 10:21:04,860 - INFO - Total new jobs found for query 'AI': 226
+2025-05-16 10:21:04,885 - INFO - [✅] Scraping complete. Total new jobs saved: 317
