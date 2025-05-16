@@ -171,10 +171,8 @@ def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
     return new_jobs
 
 def main():
-
     DELAY_WAIT = config["delay"]
     CSV_FILE = config["main_csv_file"]
-    OUTPUT_CSV_FILE = config["out_csv_file"]
     EMAIL = os.getenv("SCRAPER_EMAIL") or config["email"]
     PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
     MAX_PAGES = config.get("max_pages", 20)
@@ -206,10 +204,8 @@ def main():
         df_new["date_added"] = pd.to_datetime(df_new["date_added"], format="%m/%d/%Y")
 
     df_combined = pd.concat([df_existing, df_new], ignore_index=True).drop_duplicates(subset=["link", "date_posted"], keep="first")
-    df_combined.to_csv(OUTPUT_CSV_FILE, index=False)
-
-    # ✅ Track reposted jobs: same link, new posted date
-    reposted_csv_path = "output/reposted_jobs.csv"
+    df_combined.to_csv(CSV_FILE, index=False)
+    
     if not df_existing.empty and not df_new.empty:
         reposted_jobs = df_new.merge(df_existing, on="link", suffixes=("_new", "_old"))
         reposted_jobs = reposted_jobs[
@@ -234,12 +230,10 @@ def main():
     else:
         # ✅ First run case: still create the file
         pd.DataFrame(columns=["title", "company", "link", "new_posted_date", "previous_posted_date"]) \
-            .to_csv(reposted_csv_path, index=False)
+            .to_csv(REPOSTED_FILE, index=False)
         print("[🔁] No existing data — empty reposted_jobs.csv created.")
 
-    # ✅ Save log summary
-    log_dir = Path("output/logs")
-    log_dir.mkdir(parents=True, exist_ok=True)
+    # Save log summary
     log_file = log_dir / f"save_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
     unique_added = len(df_combined) - len(df_existing) if not df_existing.empty else len(df_combined)
 
@@ -248,10 +242,9 @@ def main():
         f.write(f"New unique jobs added: {unique_added}\n")
         f.write(f"Total jobs saved: {len(df_combined)}\n")
 
-    logger.info(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
-    print(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
+    logger.info(f"[✅] Scraping complete. Total new jobs saved: {len(df_new)}")
+    print(f"[✅] Scraping complete. Total jobs saved: {len(df_new)}")
     driver.quit()
-
 
 if __name__ == "__main__":
     main()
