@@ -72,6 +72,7 @@ def login_to_dice(driver):
     logger.info("Logging into Dice...")
     print("Logging into Dice...")
     driver.get("https://www.dice.com/dashboard/login")
+    time.sleep(DELAY+10)
     WebDriverWait(driver, DELAY+10).until(
         EC.presence_of_element_located((By.NAME, "email"))
     ).send_keys(EMAIL)
