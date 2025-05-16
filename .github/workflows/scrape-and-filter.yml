@@ -2,9 +2,13 @@ name: Scrape & Filter Dice Jobs
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # 7 AM EST
+    - cron: '0 10 * * *'  # 6 AM EST
+    - cron: '0 13 * * *'  # 9 AM EST
     - cron: '0 16 * * *'  # 12 PM EST
-    - cron: '0 21 * * *'  # 5 PM EST
+    - cron: '0 19 * * *'  # 3 PM EST
+    - cron: '0 22 * * *'  # 6 PM EST
+    - cron: '0 1 * * *'  # 9 PM EST
+    
   workflow_dispatch:
     
 permissions:
