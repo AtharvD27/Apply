@@ -1,0 +1,1134 @@
+2025-05-16 06:19:30,960 - INFO - Logging into Dice...
+2025-05-16 06:19:33,273 - INFO - Login successful.
+2025-05-16 06:19:44,664 - INFO - SAVED: Data Scientist
+2025-05-16 06:19:48,804 - ERROR - FAILED to apply for Data Scientist - https://www.dice.com/job-detail/6e1e0d05-77d4-46c2-afef-db1ec845b5f4: Message: element click intercepted: Element <apply-button-wc job-id="6e1e0d05-77d4-46c2-afef-db1ec845b5f4" job-title="Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_h2AbBguVwY">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:19:57,997 - INFO - SAVED: Project Manager Must have AI/ML and Gen AI
+2025-05-16 06:20:02,101 - ERROR - FAILED to apply for Project Manager Must have AI/ML and Gen AI - https://www.dice.com/job-detail/c3be7b6e-1871-45f3-9a26-f4807506cc40: Message: element click intercepted: Element <apply-button-wc job-id="c3be7b6e-1871-45f3-9a26-f4807506cc40" job-title="Project Manager Must have AI/ML and Gen AI" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_HihhjrFUM5">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:20:11,240 - INFO - SAVED: Senior AI/Machine Learning Engineer
+2025-05-16 06:20:15,352 - ERROR - FAILED to apply for Senior AI/Machine Learning Engineer - https://www.dice.com/job-detail/3abd26fe-9bf7-4cfd-a053-c392de076fa7: Message: element click intercepted: Element <apply-button-wc job-id="3abd26fe-9bf7-4cfd-a053-c392de076fa7" job-title="Senior AI/Machine Learning Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_-tM2LDuuAd">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:20:24,494 - INFO - SAVED: ML Data Engineer - Remote
+2025-05-16 06:20:28,610 - ERROR - FAILED to apply for ML Data Engineer - Remote - https://www.dice.com/job-detail/c3fa9f98-6500-4791-aa27-bf3134ab29bf: Message: element click intercepted: Element <apply-button-wc job-id="c3fa9f98-6500-4791-aa27-bf3134ab29bf" job-title="ML Data Engineer - Remote" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_SF_2AJ-tBT">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:20:37,740 - INFO - SAVED: AI/ML Engineer
+2025-05-16 06:20:41,854 - ERROR - FAILED to apply for AI/ML Engineer - https://www.dice.com/job-detail/5a3b95e5-df2e-45b3-9c86-d9d61cdec052: Message: element click intercepted: Element <apply-button-wc job-id="5a3b95e5-df2e-45b3-9c86-d9d61cdec052" job-title="AI/ML Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_-bY6nGy415">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:20:50,572 - INFO - SAVED: AI/ML Engineer
+2025-05-16 06:20:54,706 - ERROR - FAILED to apply for AI/ML Engineer - https://www.dice.com/job-detail/0f3169cc-4f1e-40bb-9688-170816b62294: Message: element click intercepted: Element <apply-button-wc job-id="0f3169cc-4f1e-40bb-9688-170816b62294" job-title="AI/ML Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_ShDfEpC5bZ">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:21:03,356 - INFO - SAVED: AI/ML Engineer
+2025-05-16 06:21:07,479 - ERROR - FAILED to apply for AI/ML Engineer - https://www.dice.com/job-detail/c08f0725-221f-4a58-8993-76a53601ce8c: Message: element click intercepted: Element <apply-button-wc job-id="c08f0725-221f-4a58-8993-76a53601ce8c" job-title="AI/ML Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_v183BxWVEz">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:21:16,657 - INFO - SAVED: Sr. AI/ ML Engineer -- Santa Clara, CA - Hybrid model
+2025-05-16 06:21:20,795 - ERROR - FAILED to apply for Sr. AI/ ML Engineer -- Santa Clara, CA - Hybrid model - https://www.dice.com/job-detail/25689e65-5646-4cc7-b197-4f9fe3c7360c: Message: element click intercepted: Element <apply-button-wc job-id="25689e65-5646-4cc7-b197-4f9fe3c7360c" job-title="Sr. AI/ ML Engineer -- Santa Clara, CA - Hybrid model" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_G5zyX61cjA">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:21:29,375 - INFO - SAVED: AI/ML Architect
+2025-05-16 06:21:33,507 - ERROR - FAILED to apply for AI/ML Architect - https://www.dice.com/job-detail/7aa091bb-42ec-49e2-93fa-fcdc708a2bdf: Message: element click intercepted: Element <apply-button-wc job-id="7aa091bb-42ec-49e2-93fa-fcdc708a2bdf" job-title="AI/ML Architect" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_83VwGFXvto">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:21:42,082 - INFO - SAVED: ML/AI Engineer
+2025-05-16 06:21:46,214 - ERROR - FAILED to apply for ML/AI Engineer - https://www.dice.com/job-detail/c3aa9261-6a10-422b-bd18-148a6b752274: Message: element click intercepted: Element <apply-button-wc job-id="c3aa9261-6a10-422b-bd18-148a6b752274" job-title="ML/AI Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_KWm4nkEkDn">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:21:54,786 - INFO - SAVED: Machine Learning Engineer - Fremont, CA - F2F Interview
+2025-05-16 06:21:58,933 - ERROR - FAILED to apply for Machine Learning Engineer - Fremont, CA - F2F Interview - https://www.dice.com/job-detail/feba9d98-674a-4197-ad06-d4381031ac34: Message: element click intercepted: Element <apply-button-wc job-id="feba9d98-674a-4197-ad06-d4381031ac34" job-title="Machine Learning Engineer - Fremont, CA - F2F Interview" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_H3rRoTMvKc">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:22:07,529 - INFO - SAVED: AI/ML Lead
+2025-05-16 06:22:11,671 - ERROR - FAILED to apply for AI/ML Lead - https://www.dice.com/job-detail/8eb7443f-2504-453e-afab-d0fa77a54abe: Message: element click intercepted: Element <apply-button-wc job-id="8eb7443f-2504-453e-afab-d0fa77a54abe" job-title="AI/ML Lead" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_1InOORK3ZM">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:22:20,736 - INFO - SAVED: AI/ML Engineer:
+2025-05-16 06:22:24,877 - ERROR - FAILED to apply for AI/ML Engineer: - https://www.dice.com/job-detail/d3029803-de41-4252-80b0-51ceadda3247: Message: element click intercepted: Element <apply-button-wc job-id="d3029803-de41-4252-80b0-51ceadda3247" job-title="AI/ML Engineer:" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_0O6WjivYVs">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:22:33,501 - INFO - SAVED: Machine Learning Engineer
+2025-05-16 06:22:37,651 - ERROR - FAILED to apply for Machine Learning Engineer - https://www.dice.com/job-detail/8661e385-e4ce-4f9d-b12e-8c5f901309b0: Message: element click intercepted: Element <apply-button-wc job-id="8661e385-e4ce-4f9d-b12e-8c5f901309b0" job-title="Machine Learning Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_CpO9KVHUdi">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:22:46,743 - INFO - SAVED: AI/ML Engineer
+2025-05-16 06:22:50,846 - ERROR - FAILED to apply for AI/ML Engineer - https://www.dice.com/job-detail/f8671f59-f8cd-419b-ae9a-7dc834cad66d: Message: element click intercepted: Element <apply-button-wc job-id="f8671f59-f8cd-419b-ae9a-7dc834cad66d" job-title="AI/ML Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_XNtPE6I-mC">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:22:59,958 - INFO - SAVED: AI/ML Engineer
+2025-05-16 06:23:04,111 - ERROR - FAILED to apply for AI/ML Engineer - https://www.dice.com/job-detail/9356eab3-8291-4dc8-82f0-b956cc52f988: Message: element click intercepted: Element <apply-button-wc job-id="9356eab3-8291-4dc8-82f0-b956cc52f988" job-title="AI/ML Engineer" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_eg7ZZci6BR">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:23:13,229 - INFO - SAVED: AI ML Engineer / Solution Architect
+2025-05-16 06:23:17,366 - ERROR - FAILED to apply for AI ML Engineer / Solution Architect - https://www.dice.com/job-detail/ca646beb-a0b9-4f59-88e2-7c31e988ad9a: Message: element click intercepted: Element <apply-button-wc job-id="ca646beb-a0b9-4f59-88e2-7c31e988ad9a" job-title="AI ML Engineer / Solution Architect" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_EpvlL4yOFO">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:23:25,984 - INFO - SAVED: Java Developer with AI/ML exp.
+2025-05-16 06:23:30,086 - ERROR - FAILED to apply for Java Developer with AI/ML exp. - https://www.dice.com/job-detail/fcce4812-2e81-47b7-b6a0-d99d6b9bac8a: Message: element click intercepted: Element <apply-button-wc job-id="fcce4812-2e81-47b7-b6a0-d99d6b9bac8a" job-title="Java Developer with AI/ML exp." class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_d6UXCStRw3">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:23:39,261 - INFO - SAVED: ML/Ops Architect
+2025-05-16 06:23:43,396 - ERROR - FAILED to apply for ML/Ops Architect - https://www.dice.com/job-detail/fc758237-e62e-433f-a82f-cfe2346e0ed1: Message: element click intercepted: Element <apply-button-wc job-id="fc758237-e62e-433f-a82f-cfe2346e0ed1" job-title="ML/Ops Architect" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_PDuhLeBSVa">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:23:52,565 - INFO - SAVED: Data Scientist with AI and Lifesciences knowledge
+2025-05-16 06:23:56,680 - ERROR - FAILED to apply for Data Scientist with AI and Lifesciences knowledge - https://www.dice.com/job-detail/0fba490b-6734-4288-86dc-d0b57dd22808: Message: element click intercepted: Element <apply-button-wc job-id="0fba490b-6734-4288-86dc-d0b57dd22808" job-title="Data Scientist with AI and Lifesciences knowledge" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_YcT2rsacLj">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:24:05,802 - INFO - SAVED: Data Scientist with AI ML only for Houston TX Locals
+2025-05-16 06:24:09,963 - ERROR - FAILED to apply for Data Scientist with AI ML only for Houston TX Locals - https://www.dice.com/job-detail/d12a192c-0790-494c-906e-a284f7032d1a: Message: element click intercepted: Element <apply-button-wc job-id="d12a192c-0790-494c-906e-a284f7032d1a" job-title="Data Scientist with AI ML only for Houston TX Locals" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_aUAlMPBlOe">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:24:19,073 - INFO - SAVED: Senior Data Scientist
+2025-05-16 06:24:23,225 - ERROR - FAILED to apply for Senior Data Scientist - https://www.dice.com/job-detail/69f95dda-1eb1-4208-bb5d-d93af39b43c7: Message: element click intercepted: Element <apply-button-wc job-id="69f95dda-1eb1-4208-bb5d-d93af39b43c7" job-title="Senior Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_fGxr0J0g-Y">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:24:31,782 - INFO - SAVED: Data Scientist
+2025-05-16 06:24:35,884 - ERROR - FAILED to apply for Data Scientist - https://www.dice.com/job-detail/da48716c-dadb-4448-a8be-a4b8fcca52ce: Message: element click intercepted: Element <apply-button-wc job-id="da48716c-dadb-4448-a8be-a4b8fcca52ce" job-title="Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_E50ylyeM9D">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:24:44,947 - INFO - SAVED: AI/Data Scientist consultant
+2025-05-16 06:24:49,069 - ERROR - FAILED to apply for AI/Data Scientist consultant - https://www.dice.com/job-detail/497d656d-37ec-43cd-a0cd-42b4a48a7639: Message: element click intercepted: Element <apply-button-wc job-id="497d656d-37ec-43cd-a0cd-42b4a48a7639" job-title="AI/Data Scientist consultant" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_yliC3fwQv5">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:24:57,642 - INFO - SAVED: Lead Data Scientist (PhD) - Intelligent Forecast Application
+2025-05-16 06:25:01,800 - ERROR - FAILED to apply for Lead Data Scientist (PhD) - Intelligent Forecast Application - https://www.dice.com/job-detail/e6b384ed-56a4-41e8-b690-69d18fbeee17: Message: element click intercepted: Element <apply-button-wc job-id="e6b384ed-56a4-41e8-b690-69d18fbeee17" job-title="Lead Data Scientist (PhD) - Intelligent Forecast Application" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_bzIO5X1ZzL">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:25:10,333 - INFO - SAVED: Data Scientist
+2025-05-16 06:25:14,439 - ERROR - FAILED to apply for Data Scientist - https://www.dice.com/job-detail/3bf6d98e-bc04-4be0-82ea-59591dd9abc2: Message: element click intercepted: Element <apply-button-wc job-id="3bf6d98e-bc04-4be0-82ea-59591dd9abc2" job-title="Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_Il7159RdVM">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:25:23,642 - INFO - SAVED: Data Scientist - REMOTE
+2025-05-16 06:25:27,788 - ERROR - FAILED to apply for Data Scientist - REMOTE - https://www.dice.com/job-detail/04ae0fbb-0568-4b43-8261-aed9e9cec79a: Message: element click intercepted: Element <apply-button-wc job-id="04ae0fbb-0568-4b43-8261-aed9e9cec79a" job-title="Data Scientist - REMOTE" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_vzuGgoUB8S">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:25:36,848 - INFO - SAVED: Data Scientist
+2025-05-16 06:25:40,978 - ERROR - FAILED to apply for Data Scientist - https://www.dice.com/job-detail/c0c8041b-ae1d-4103-a8e6-8ab8d5417d21: Message: element click intercepted: Element <apply-button-wc job-id="c0c8041b-ae1d-4103-a8e6-8ab8d5417d21" job-title="Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_4BX8erXAKV">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:25:50,170 - INFO - SAVED: Data Scientist
+2025-05-16 06:25:54,315 - ERROR - FAILED to apply for Data Scientist - https://www.dice.com/job-detail/0fd81517-c389-48f3-9a53-fa4de70d7a7f: Message: element click intercepted: Element <apply-button-wc job-id="0fd81517-c389-48f3-9a53-fa4de70d7a7f" job-title="Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_xeTcTWcthl">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:26:02,944 - INFO - SAVED: Data scientist With AI
+2025-05-16 06:26:07,095 - ERROR - FAILED to apply for Data scientist With AI - https://www.dice.com/job-detail/d191a7fe-2885-4523-9fa7-a6118888642b: Message: element click intercepted: Element <apply-button-wc job-id="d191a7fe-2885-4523-9fa7-a6118888642b" job-title="Data scientist With AI" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_VcMNtn_6mc">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:26:15,745 - INFO - SAVED: Data Scientist
+2025-05-16 06:26:19,882 - ERROR - FAILED to apply for Data Scientist - https://www.dice.com/job-detail/0b27e927-5a66-42e8-aee6-982a4c7744bf: Message: element click intercepted: Element <apply-button-wc job-id="0b27e927-5a66-42e8-aee6-982a4c7744bf" job-title="Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_QmIZa-2EDc">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:26:28,880 - INFO - SAVED: Data Scientist + Gen AI Lead/Architect
+2025-05-16 06:26:32,997 - ERROR - FAILED to apply for Data Scientist + Gen AI Lead/Architect - https://www.dice.com/job-detail/9502cb98-a326-46af-9b53-6f78ff2353af: Message: element click intercepted: Element <apply-button-wc job-id="9502cb98-a326-46af-9b53-6f78ff2353af" job-title="Data Scientist + Gen AI Lead/Architect" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_G5HlLaAkYx">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:26:42,036 - INFO - SAVED: Data Scientist with AI SME
+2025-05-16 06:26:46,175 - ERROR - FAILED to apply for Data Scientist with AI SME - https://www.dice.com/job-detail/9e15ba40-fa49-42e7-b491-35066f40ae58: Message: element click intercepted: Element <apply-button-wc job-id="9e15ba40-fa49-42e7-b491-35066f40ae58" job-title="Data Scientist with AI SME" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_oOjZHmsoxh">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:26:54,769 - INFO - SAVED: Data Scientist with HIPAA, ICD, Medicare, Medicaid term experience - Woodland Hills, CA
+2025-05-16 06:26:58,930 - ERROR - FAILED to apply for Data Scientist with HIPAA, ICD, Medicare, Medicaid term experience - Woodland Hills, CA - https://www.dice.com/job-detail/9af55b7a-55c3-4935-ae4e-5518df84fc86: Message: element click intercepted: Element <apply-button-wc job-id="9af55b7a-55c3-4935-ae4e-5518df84fc86" job-title="Data Scientist with HIPAA, ICD, Medicare, Medicaid term experience - Woodland Hills, CA" class="hydrated"></apply-button-wc> is not clickable at point (1532, 333). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_nDPPqU2wo8">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:27:08,559 - INFO - SAVED: Data Scientist with AWS
+2025-05-16 06:27:12,661 - ERROR - FAILED to apply for Data Scientist with AWS - https://www.dice.com/job-detail/7a805722-1957-4d67-9f4e-a3d4c03485a3: Message: element click intercepted: Element <apply-button-wc job-id="7a805722-1957-4d67-9f4e-a3d4c03485a3" job-title="Data Scientist with AWS" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_T8U8v8Mtsp">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:27:21,293 - INFO - SAVED: DATA SCIENTIST
+2025-05-16 06:27:25,402 - ERROR - FAILED to apply for DATA SCIENTIST - https://www.dice.com/job-detail/3c6d407c-8258-4529-a8c8-b75df02495f9: Message: element click intercepted: Element <apply-button-wc job-id="3c6d407c-8258-4529-a8c8-b75df02495f9" job-title="DATA SCIENTIST" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_CDUaCAHKQv">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:27:34,859 - INFO - SAVED: NLP Data Scientist
+2025-05-16 06:27:39,023 - ERROR - FAILED to apply for NLP Data Scientist - https://www.dice.com/job-detail/a1d4df07-abd6-4e54-af64-188c53bfd25a: Message: element click intercepted: Element <apply-button-wc job-id="a1d4df07-abd6-4e54-af64-188c53bfd25a" job-title="NLP Data Scientist" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_GYn7QP-B2H">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:27:47,640 - INFO - SAVED: Data Scientist with Healthcare, Woodland Hills, CA (Hybrid)-Local to CA-C2C- CH
+2025-05-16 06:27:51,770 - ERROR - FAILED to apply for Data Scientist with Healthcare, Woodland Hills, CA (Hybrid)-Local to CA-C2C- CH - https://www.dice.com/job-detail/5d13e799-a88f-4f85-ada6-b32f7fb86027: Message: element click intercepted: Element <apply-button-wc job-id="5d13e799-a88f-4f85-ada6-b32f7fb86027" job-title="Data Scientist with Healthcare, Woodland Hills, CA (Hybrid)-Local to CA-C2C- CH" class="hydrated"></apply-button-wc> is not clickable at point (1532, 333). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_XOn8nFG7ou">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:28:00,948 - INFO - SAVED: Machine Learning Engineer with Generative AI
+2025-05-16 06:28:05,061 - ERROR - FAILED to apply for Machine Learning Engineer with Generative AI - https://www.dice.com/job-detail/c26b3837-b371-4645-9bb8-eb20cdf60eaa: Message: element click intercepted: Element <apply-button-wc job-id="c26b3837-b371-4645-9bb8-eb20cdf60eaa" job-title="Machine Learning Engineer with Generative AI" class="hydrated"></apply-button-wc> is not clickable at point (1532, 285). Other element would receive the click: <login-dhi-modal class="theme-dice sc-login-modal sc-login-dhi-modal-h sc-login-dhi-modal-s hydrated" id="dhi-modal_PIptOhiPH5">...</login-dhi-modal>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x556fd85d975a <unknown>
+#1 0x556fd807c0a0 <unknown>
+#2 0x556fd80d484c <unknown>
+#3 0x556fd80d26ac <unknown>
+#4 0x556fd80cfd42 <unknown>
+#5 0x556fd80cf440 <unknown>
+#6 0x556fd80c1b9d <unknown>
+#7 0x556fd80f33a2 <unknown>
+#8 0x556fd80c151a <unknown>
+#9 0x556fd80f356e <unknown>
+#10 0x556fd81192a0 <unknown>
+#11 0x556fd80f3173 <unknown>
+#12 0x556fd80bfd4b <unknown>
+#13 0x556fd80c09b1 <unknown>
+#14 0x556fd859e90b <unknown>
+#15 0x556fd85a280a <unknown>
+#16 0x556fd8586662 <unknown>
+#17 0x556fd85a3394 <unknown>
+#18 0x556fd856b49f <unknown>
+#19 0x556fd85c7538 <unknown>
+#20 0x556fd85c7716 <unknown>
+#21 0x556fd85d85c6 <unknown>
+#22 0x7f736829caa4 <unknown>
+#23 0x7f7368329c3c <unknown>
+
+2025-05-16 06:28:05,244 - INFO - [DONE] Newly applied: 0 out of 39 Easy Apply jobs (Total in CSV: 39)
