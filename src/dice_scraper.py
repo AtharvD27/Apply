@@ -171,7 +171,6 @@ def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
     return new_jobs
 
 def main():
-    config = load_config("config.yaml")
 
     DELAY_WAIT = config["delay"]
     CSV_FILE = config["main_csv_file"]
