@@ -8,6 +8,8 @@ import tempfile
 from selenium import webdriver
 from pathlib import Path
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -66,17 +68,21 @@ def get_driver():
 
     return driver
 
-def login_to_dice(driver):
+def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
     logger.info("Logging into Dice...")
     print("Logging into Dice...")
     driver.get("https://www.dice.com/dashboard/login")
-    time.sleep(5)
-    driver.find_element(By.NAME, "email").send_keys(EMAIL)
+    WebDriverWait(driver, DELAY_WAIT).until(
+        EC.presence_of_element_located((By.NAME, "email"))
+    ).send_keys(EMAIL)
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-    time.sleep(5)
-    driver.find_element(By.NAME, "password").send_keys(PASSWORD)
+
+    WebDriverWait(driver, DELAY_WAIT).until(
+        EC.presence_of_element_located((By.NAME, "password"))
+    ).send_keys(PASSWORD)
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-    time.sleep(5)
+
+    WebDriverWait(driver, DELAY_WAIT).until(EC.url_contains("dashboard"))
     logger.info("Login successful.")
     print("Login successful.")
 
