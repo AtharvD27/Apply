@@ -26,8 +26,7 @@ EMAIL = os.getenv("APPLY_EMAIL") or config["email"]
 PASSWORD = os.getenv("APPLY_PASSWORD") or config["password"]
 DRIVER_PATH = config.get("driver_path", "/usr/local/bin/chromedriver")
 LOG_DIR = Path(config.get("log_dir", "output/logs"))
-print(EMAIL)
-print(PASSWORD)
+
 # ====== Logging ======
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 log_filename = LOG_DIR / f"apply_job_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
@@ -66,16 +65,12 @@ def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
     print("Logging into Dice...")
 
     driver.get("https://www.dice.com/dashboard/login")
-    print(f"[DEBUG] URL: {driver.current_url}")
-    print(f"[DEBUG] Title: {driver.title}")
     
     WebDriverWait(driver, DELAY_WAIT).until(
         EC.presence_of_element_located((By.NAME, "email"))
     ).send_keys(EMAIL)
 
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-    print(f"[DEBUG] Current URL: {driver.current_url}")
-    print(f"[DEBUG] Page Title: {driver.title}")
 
     WebDriverWait(driver, DELAY_WAIT).until(
         EC.presence_of_element_located((By.NAME, "password"))
@@ -117,31 +112,36 @@ def easy_apply(driver, job_link, job_title):
         try:
             apply_component = driver.find_element(By.TAG_NAME, "apply-button-wc")
             shadow_root = driver.execute_script("return arguments[0].shadowRoot", apply_component)
-            submitted_tag = shadow_root.find_elements(By.CSS_SELECTOR, ".application-submitted")
-            if submitted_tag:
+            
+            if shadow_root.find_elements(By.CSS_SELECTOR, "application-submitted"):
                 logger.info(f"SKIPPED (already applied): {job_title}")
                 print(f"SKIPPED (already applied): {job_title}")
                 return "Applied"
+            
         except Exception as e:
             logger.warning(f"Could not check status for {job_title} — {e}")
             print(f"Could not check status for {job_title}")
 
-        # Easy Apply steps
-        apply_button = driver.find_element(By.TAG_NAME, "apply-button-wc")
-        apply_button.click()
-        time.sleep(DELAY)
+        apply_btn = shadow_root.find_element(By.CSS_SELECTOR, "button.btn.btn-primary")
+        apply_text = apply_btn.text.strip().lower()
+        if "easy apply" in apply_text:
+            apply_btn.click()
+            time.sleep(DELAY)
 
-        next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-        next_btn.click()
-        time.sleep(DELAY-2)
+            next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
+            next_btn.click()
+            time.sleep(DELAY-2)
 
-        final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-        final_btn.click()
-        time.sleep(DELAY-2)
+            final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
+            final_btn.click()
+            time.sleep(DELAY-2)
 
-        logger.info(f"APPLIED: {job_title}")
-        print(f"APPLIED: {job_title}")
-        return "Applied"
+            logger.info(f"APPLIED: {job_title}")
+            print(f"APPLIED: {job_title}")
+            return "Applied"
+
+        logger.warning(f"❓ Unexpected apply state for {job_title}")
+        return "Skipped"
 
     except (NoSuchElementException, ElementClickInterceptedException) as e:
         logger.error(f"FAILED to apply for {job_title} - {job_link}: {e}")

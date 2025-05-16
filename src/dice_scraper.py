@@ -202,6 +202,24 @@ def main():
 
     df_combined = pd.concat([df_existing, df_new], ignore_index=True).drop_duplicates(subset=["link", "date_posted"], keep="first")
     df_combined.to_csv(CSV_FILE, index=False)
+    
+    if not df_existing.empty and not df_new.empty:
+        reposted_jobs = df_new.merge(df_existing, on="link", suffixes=("_new", "_old"))
+        reposted_jobs = reposted_jobs[
+            reposted_jobs["date_posted_new"] != reposted_jobs["date_posted_old"]
+        ]
+        if not reposted_jobs.empty:
+            reposted_jobs_out = reposted_jobs[
+                ["title_new", "company_new", "link", "date_posted_new", "date_posted_old"]
+            ].rename(columns={
+                "title_new": "title",
+                "company_new": "company",
+                "date_posted_new": "new_posted_date",
+                "date_posted_old": "previous_posted_date"
+            })
+            reposted_jobs_out.to_csv("output/reposted_jobs.csv", index=False)
+            logger.info(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
+            print(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
 
     # Save log summary
     log_file = log_dir / f"save_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
@@ -213,7 +231,7 @@ def main():
         f.write(f"Total jobs saved: {len(df_combined)}\n")
 
     logger.info(f"[✅] Scraping complete. Total new jobs saved: {len(df_new)}")
-    print(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
+    print(f"[✅] Scraping complete. Total jobs saved: {len(df_new)}")
     driver.quit()
 
 if __name__ == "__main__":
