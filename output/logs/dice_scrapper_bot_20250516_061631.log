@@ -1,0 +1,53 @@
+2025-05-16 06:16:31,732 - INFO - Logging into Dice...
+2025-05-16 06:16:34,480 - INFO - Login successful.
+2025-05-16 06:16:34,481 - INFO - Query: MLML | Page: 1
+2025-05-16 06:16:41,871 - WARNING - Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=MLML&page=1
+
+2025-05-16 06:16:41,872 - INFO - Total pages scanned for query 'MLML': 0
+2025-05-16 06:16:41,872 - INFO - Total new jobs found for query 'MLML': 0
+2025-05-16 06:16:41,872 - INFO - Query: data scientist | Page: 1
+2025-05-16 06:16:44,228 - INFO - [+] FOUND — Data Scientist
+2025-05-16 06:16:47,361 - INFO - [+] FOUND — Senior Data Scientist
+2025-05-16 06:16:47,453 - INFO - [+] FOUND — Data Scientist
+2025-05-16 06:16:47,543 - INFO - [+] FOUND — AI/Data Scientist consultant
+2025-05-16 06:16:47,638 - INFO - [+] FOUND — Lead Data Scientist (PhD) - Intelligent Forecast Application
+2025-05-16 06:16:47,732 - INFO - [+] FOUND — Data Scientist
+2025-05-16 06:16:47,828 - INFO - [+] FOUND — Data Scientist - REMOTE
+2025-05-16 06:16:47,925 - INFO - [+] FOUND — Data Scientist
+2025-05-16 06:16:48,021 - INFO - [+] FOUND — Data scientist With AI
+2025-05-16 06:16:48,118 - INFO - [+] FOUND — Data Scientist with Healthcare, Woodland Hills, CA (Hybrid)-Local to CA-C2C- CH
+2025-05-16 06:16:48,213 - INFO - [+] FOUND — Data Scientist
+2025-05-16 06:16:51,312 - INFO - [+] FOUND — Data Scientist + Gen AI Lead/Architect
+2025-05-16 06:16:51,408 - INFO - [+] FOUND — Data Scientist with AI SME
+2025-05-16 06:16:51,505 - INFO - [+] FOUND — Data Scientist with HIPAA, ICD, Medicare, Medicaid term experience - Woodland Hills, CA
+2025-05-16 06:16:51,602 - INFO - [+] FOUND — Data Scientist with AWS
+2025-05-16 06:16:51,697 - INFO - [+] FOUND — DATA SCIENTIST
+2025-05-16 06:16:51,794 - INFO - [+] FOUND — NLP Data Scientist
+2025-05-16 06:16:54,888 - INFO - [+] FOUND — Data Scientist with AI ML only for Houston TX Locals
+2025-05-16 06:16:55,058 - INFO - [+] FOUND — Data Scientist
+2025-05-16 06:16:55,151 - INFO - [+] FOUND — Data Scientist with AI and Lifesciences knowledge
+2025-05-16 06:16:55,151 - INFO - Total pages scanned for query 'data scientist': 1
+2025-05-16 06:16:55,151 - INFO - Total new jobs found for query 'data scientist': 20
+2025-05-16 06:16:55,151 - INFO - Query: machine learning | Page: 1
+2025-05-16 06:16:56,769 - INFO - [+] FOUND — AI/ML Architect
+2025-05-16 06:16:56,874 - INFO - [+] FOUND — Project Manager Must have AI/ML and Gen AI
+2025-05-16 06:16:56,964 - INFO - [+] FOUND — Senior AI/Machine Learning Engineer
+2025-05-16 06:16:57,054 - INFO - [+] FOUND — ML Data Engineer - Remote
+2025-05-16 06:16:57,142 - INFO - [+] FOUND — AI/ML Engineer
+2025-05-16 06:16:57,231 - INFO - [+] FOUND — AI/ML Engineer
+2025-05-16 06:16:57,320 - INFO - [+] FOUND — AI/ML Engineer
+2025-05-16 06:17:00,425 - INFO - [+] FOUND — Sr. AI/ ML Engineer -- Santa Clara, CA - Hybrid model
+2025-05-16 06:17:00,516 - INFO - [+] FOUND — ML/AI Engineer
+2025-05-16 06:17:03,660 - INFO - [+] FOUND — Java Developer with AI/ML exp.
+2025-05-16 06:17:03,757 - INFO - [+] FOUND — Machine Learning Engineer - Fremont, CA - F2F Interview
+2025-05-16 06:17:03,851 - INFO - [+] FOUND — AI/ML Lead
+2025-05-16 06:17:03,976 - INFO - [+] FOUND — AI/ML Engineer:
+2025-05-16 06:17:04,070 - INFO - [+] FOUND — Machine Learning Engineer
+2025-05-16 06:17:04,165 - INFO - [+] FOUND — AI/ML Engineer
+2025-05-16 06:17:04,266 - INFO - [+] FOUND — AI/ML Engineer
+2025-05-16 06:17:04,361 - INFO - [+] FOUND — AI ML Engineer / Solution Architect
+2025-05-16 06:17:04,457 - INFO - [+] FOUND — ML/Ops Architect
+2025-05-16 06:17:07,555 - INFO - [+] FOUND — Machine Learning Engineer with Generative AI
+2025-05-16 06:17:07,555 - INFO - Total pages scanned for query 'machine learning': 1
+2025-05-16 06:17:07,555 - INFO - Total new jobs found for query 'machine learning': 19
+2025-05-16 06:17:07,561 - INFO - [✅] Scraping complete. Total new jobs saved: 39
