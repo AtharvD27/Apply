@@ -52,7 +52,7 @@ jobs:
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
-        git add output/final_ml_jobs.csv output/logs/*.log
+        git add output/final_ml_jobs.csv output/logs/*
 
         if git diff --cached --quiet; then
           echo "No changes to commit."

@@ -71,27 +71,31 @@ def get_driver():
 def login_to_dice(driver):
     logger.info("Logging into Dice...")
     driver.get("https://www.dice.com/dashboard/login")
-
     wait = WebDriverWait(driver, 15)
 
-    # Wait for email field
-    email_input = wait.until(EC.presence_of_element_located((By.NAME, "email")))
-    email_input.send_keys(EMAIL)
+    try:
+        email_input = wait.until(EC.presence_of_element_located((By.NAME, "email")))
+        email_input.send_keys(EMAIL)
 
-    # Click "Next" or submit email
-    driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
+        driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-    # Wait for password field
-    password_input = wait.until(EC.presence_of_element_located((By.NAME, "password")))
-    password_input.send_keys(PASSWORD)
+        password_input = wait.until(EC.presence_of_element_located((By.NAME, "password")))
+        password_input.send_keys(PASSWORD)
 
-    # Submit login
-    driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
+        driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
+        wait.until(EC.url_contains("dashboard"))
 
-    # Wait until dashboard loads (URL or some element to confirm login)
-    wait.until(EC.url_contains("dashboard"))
-    logger.info("Login successful.")
-    print("Login successful.")
+        logger.info("Login successful.")
+        print("Login successful.")
+    except Exception as e:
+        # Save screenshot for debugging
+        log_dir = "output/logs"
+        os.makedirs(log_dir, exist_ok=True)
+        screenshot_path = os.path.join(log_dir, "login_error.png")
+        driver.save_screenshot(screenshot_path)
+
+        logger.error(f"[ERROR] Login failed: {e}")
+        raise
 
 def easy_apply(driver, job_link, job_title):
     try:
