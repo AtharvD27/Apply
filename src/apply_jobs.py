@@ -22,8 +22,8 @@ def load_config(path="config/apply_job_config.yaml"):
 config = load_config()
 DELAY = config["delay"]
 CSV_FILE = config["main_csv_file"]
-EMAIL = os.getenv("SCRAPER_EMAIL") or config["email"]
-PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
+EMAIL = os.getenv("APPLY_EMAIL") or config["email"]
+PASSWORD = os.getenv("APPLY_PASSWORD") or config["password"]
 DRIVER_PATH = config.get("driver_path", "/usr/local/bin/chromedriver")
 LOG_DIR = Path(config.get("log_dir", "output/logs"))
 print(EMAIL)
