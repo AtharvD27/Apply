@@ -65,11 +65,16 @@ def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
     print("Logging into Dice...")
 
     driver.get("https://www.dice.com/dashboard/login")
+    print(f"[DEBUG] URL: {driver.current_url}")
+    print(f"[DEBUG] Title: {driver.title}")
+    
     WebDriverWait(driver, DELAY_WAIT).until(
         EC.presence_of_element_located((By.NAME, "email"))
     ).send_keys(EMAIL)
 
     driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
+    print(f"[DEBUG] Current URL: {driver.current_url}")
+    print(f"[DEBUG] Page Title: {driver.title}")
 
     WebDriverWait(driver, DELAY_WAIT).until(
         EC.presence_of_element_located((By.NAME, "password"))
@@ -80,8 +85,6 @@ def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
     WebDriverWait(driver, DELAY_WAIT).until(EC.url_contains("dashboard"))
     logger.info("Login successful.")
     print("Login successful.")
-
-
 
 def easy_apply(driver, job_link, job_title):
     try:
