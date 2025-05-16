@@ -26,7 +26,8 @@ EMAIL = os.getenv("SCRAPER_EMAIL") or config["email"]
 PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
 DRIVER_PATH = config.get("driver_path", "/usr/local/bin/chromedriver")
 LOG_DIR = Path(config.get("log_dir", "output/logs"))
-
+print(EMAIL)
+print(PASSWORD)
 # ====== Logging ======
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 log_filename = LOG_DIR / f"apply_job_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
