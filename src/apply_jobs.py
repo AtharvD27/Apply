@@ -153,7 +153,7 @@ def main():
     login_to_dice(driver, EMAIL, PASSWORD, DELAY)
 
     df = pd.read_csv(CSV_FILE)
-    df["date_posted"] = pd.to_datetime(df["date_posted"], errors="coerce")  # for sorting
+    df["date_posted"] = pd.to_datetime(df["date_posted"], format="%m/%d/%Y", errors="coerce")  # for sorting
 
     # 1. Filter only Easy Apply jobs
     easy_apply_df = df[df["apply_text"].str.strip().str.lower() == "easy apply"].copy()

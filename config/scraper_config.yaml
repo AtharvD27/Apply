@@ -3,8 +3,8 @@ password: ${SCRAPER_PASSWORD}
 delay: 5
 main_csv_file: output/jobs.csv
 filtered_csv_file: output/final_ml_jobs.csv
-query_file: queries.txt
-max_pages: 30
+query_file: q1.txt
+max_pages: 1
 log_dir: output/logs
 base_url: ${BASE_URL}
 driver_path: /usr/local/bin/chromedriver
