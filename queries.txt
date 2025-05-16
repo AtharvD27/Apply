@@ -3,9 +3,9 @@ Generative AI Engineer
 AI/ML DevOps Engineer
 AI Business Analyst
 ML
-AI
 Artificial Intelligence Engineer
 Machine Learning Engineer
+Machine Learning
 Data Scientist
 Computer Vision Engineer
 Natural Language Processing Engineer
@@ -15,3 +15,4 @@ ML Software Engineer
 Prompt Engineer
 GenAI Solutions Engineer
 Gen AI Architect
+AI

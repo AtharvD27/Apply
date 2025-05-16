@@ -132,13 +132,13 @@ def easy_apply(driver, job_link, job_title):
         final_btn.click()
         time.sleep(DELAY-2)
 
-        logger.info(f"APPLIED: {job_title} — {job_link}")
+        logger.info(f"APPLIED: {job_title}")
         print(f"APPLIED: {job_title}")
         return "Applied"
 
     except (NoSuchElementException, ElementClickInterceptedException) as e:
-        logger.error(f"FAILED to apply for {job_title}: {e}")
-        print(f"FAILED to apply for {job_title}")
+        logger.error(f"FAILED to apply for {job_title} - {job_link}: {e}")
+        print(f"FAILED to apply for {job_title} - {job_link}")
         return "Failed"
 
 def main():
@@ -146,21 +146,39 @@ def main():
     login_to_dice(driver)
 
     df = pd.read_csv(CSV_FILE)
+    df["date_posted"] = pd.to_datetime(df["date_posted"], errors="coerce")  # for sorting
+
+    # 1. Filter only Easy Apply jobs
+    easy_apply_df = df[df["apply_text"].str.strip().str.lower() == "easy apply"].copy()
+    
+    # 2. Further filter to only Pending status
+    pending_df = easy_apply_df[easy_apply_df["status"].str.lower() != "applied"].copy()
+    total_pending = len(pending_df)
     applied = 0
 
-    for idx, row in df.iterrows():
-        if str(row.get("status", "")).lower() == "applied":
-            continue
+    for idx, row in pending_df.iterrows():
         result = easy_apply(driver, row["link"], row["title"])
-        df.at[idx, "status"] = result
+        easy_apply_df.at[row.name, "status"] = result
         if result == "Applied":
             applied += 1
 
-    df.to_csv(CSV_FILE, index=False)
+    # 3. Merge updated Easy Apply section back into full df
+    df_remaining = df.drop(easy_apply_df.index)
+    df_combined = pd.concat([df_remaining, easy_apply_df], ignore_index=True)
+
+    # 4. Sort
+    df_combined = df_combined.sort_values(
+        by=["status", "date_posted", "apply_text"],
+        ascending=[True, False, True]
+    ).reset_index(drop=True)
+
+    # 5. Save
+    df_combined.to_csv(CSV_FILE, index=False)
     driver.quit()
 
-    logger.info(f"[DONE] Applied to {applied} jobs out of {len(df)} total.")
-    print(f"[DONE] Applied to {applied} jobs out of {len(df)} total.")
+    logger.info(f"[DONE] Newly applied: {applied} out of {total_pending} Easy Apply jobs (Total in CSV: {len(df)})")
+    print(f"[DONE] Newly applied: {applied} out of {total_pending} Easy Apply jobs (Total in CSV: {len(df)})")
 
 if __name__ == "__main__":
     main()
+

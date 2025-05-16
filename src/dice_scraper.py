@@ -118,7 +118,7 @@ def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
                 seen_links.add((job_link, posted_date))
 
                 job_title = job_link_el.text.strip()
-                company_el = card.find_elements(By.CSS_SELECTOR, "p.line-clamp-1")
+                company_el = card.find_elements(By.CSS_SELECTOR, "p.line-clamp-2.text-sm")
                 company = company_el[0].text.strip() if company_el else "N/A"
 
                 try:

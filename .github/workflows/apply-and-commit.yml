@@ -1,17 +1,13 @@
-name: Scrape & Filter Dice Jobs
+name: Auto Apply Jobs
 
 on:
-  schedule:
-    - cron: '0 11 * * *'  # 7 AM EST
-    - cron: '0 16 * * *'  # 12 PM EST
-    - cron: '0 21 * * *'  # 5 PM EST
-  workflow_dispatch:
-    
+  workflow_dispatch:  # ✅ Manual trigger only
+
 permissions:
   contents: write
 
 jobs:
-  scrape_and_filter:
+  auto_apply:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,52 +22,41 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install Chrome 136 and matching Chromedriver from Testing Bucket
+    - name: Install Chrome 136 and Chromedriver
       run: |
         set -e
         sudo apt-get update
         sudo apt-get install -y wget unzip curl
-
-        # Download and install Chrome 136.0.7103.94
         wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
         unzip -q chrome-linux64.zip
         sudo mv chrome-linux64 /opt/chrome
-
-        # 🔥 Replace system's default google-chrome
         sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
-
-        # Download and install Chromedriver 136.0.7103.94
         wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
         unzip -q chromedriver-linux64.zip
         sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
         sudo chmod +x /usr/local/bin/chromedriver
-
-        # Final check
         google-chrome --version
         chromedriver --version
 
-
     - name: Install Python dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run main.py to scrape and filter
+    - name: Run auto_apply.py
       env:
-        SCRAPER_EMAIL: ${{ secrets.SCRAPER_EMAIL }}
-        SCRAPER_PASSWORD: ${{ secrets.SCRAPER_PASSWORD }}
-        BASE_URL: ${{ secrets.BASE_URL }}
-      run: python src/main.py
+        APPLY_EMAIL: ${{ secrets.APPLY_EMAIL }}
+        APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
+      run: python src/apply_jobs.py
 
-    - name: Commit and push updated job files
+    - name: Commit and push updated final_ml_jobs.csv
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
-        git add output/jobs.csv output/final_ml_jobs.csv output/logs/*.log
+        git add output/final_ml_jobs.csv output/logs/*.log
 
         if git diff --cached --quiet; then
           echo "No changes to commit."
         else
-          git commit -m "🔄 Auto-update jobs.csv and final_ml_jobs.csv"
+          git commit -m "✅ Auto-applied jobs and updated final_ml_jobs.csv"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
         fi
