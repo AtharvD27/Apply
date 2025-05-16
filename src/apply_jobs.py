@@ -87,12 +87,17 @@ def easy_apply(driver, job_link, job_title):
         driver.get(job_link)
         time.sleep(DELAY)
 
-        # Save job
+        # Save the job
         try:
+            # Step 1: Get outer shadow root of dhi-job-search-save-job
             save_host = driver.find_element(By.CSS_SELECTOR, "dhi-job-search-save-job")
             outer_shadow = driver.execute_script("return arguments[0].shadowRoot", save_host)
+
+            # Step 2: Get shadow root of inner seds-button
             seds_button = outer_shadow.find_element(By.CSS_SELECTOR, "seds-button")
             inner_shadow = driver.execute_script("return arguments[0].shadowRoot", seds_button)
+
+            # Step 3: Read text from the <button>
             button = inner_shadow.find_element(By.CSS_SELECTOR, "button")
             save_text = button.text.strip().lower()
 
@@ -100,57 +105,62 @@ def easy_apply(driver, job_link, job_title):
                 logger.info(f"SKIPPED Save (already saved): {job_title}")
                 print(f"SKIPPED Save (already saved): {job_title}")
             else:
-                seds_button.click()
-                time.sleep(DELAY-2)
+                button.click()
                 logger.info(f"SAVED: {job_title}")
                 print(f"SAVED: {job_title}")
+                time.sleep(DELAY - 2)
         except Exception as e:
-            logger.warning(f"Save button failed: {job_title} — {e}")
-            print(f"Save button failed: {job_title}")
+            logger.warning(f"Save logic failed for {job_title} — {e}")
+            print(f"Save logic failed for {job_title}")
 
-        # Check if already applied
+        # Check application status first
         try:
             apply_component = driver.find_element(By.TAG_NAME, "apply-button-wc")
             shadow_root = driver.execute_script("return arguments[0].shadowRoot", apply_component)
-            submitted_tag = shadow_root.find_elements(By.CSS_SELECTOR, ".application-submitted")
-            if submitted_tag:
+            if shadow_root.find_elements(By.CSS_SELECTOR, "application-submitted"):
                 logger.info(f"SKIPPED (already applied): {job_title}")
                 print(f"SKIPPED (already applied): {job_title}")
                 return "Applied"
         except Exception as e:
-            logger.warning(f"Could not check status for {job_title} — {e}")
-            print(f"Could not check status for {job_title}")
-        
-        # Wait until login modal disappears (if it's still present)
+            logger.warning(f"Could not check application status for {job_title} — {e}")
+
+        # Wait for login modal to disappear if it's open
         try:
             WebDriverWait(driver, 5).until_not(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "login-dhi-modal"))
             )
         except TimeoutException:
-            print("Login modal did not disappear in time — may block apply button.")
-            pass
+            logger.info("Login modal did not disappear — continuing anyway")
 
-        # Easy Apply steps
-        apply_button = driver.find_element(By.TAG_NAME, "apply-button-wc")
-        apply_button.click()
-        time.sleep(DELAY)
+        # Apply the job
+        try:
+            apply_button = driver.find_element(By.TAG_NAME, "apply-button-wc")
+            driver.execute_script("arguments[0].scrollIntoView(true);", apply_button)
+            apply_button.click()
+            time.sleep(DELAY)
 
-        next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-        next_btn.click()
-        time.sleep(DELAY-2)
+            next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
+            next_btn.click()
+            time.sleep(DELAY - 2)
 
-        final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-        final_btn.click()
-        time.sleep(DELAY-2)
+            final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
+            final_btn.click()
+            time.sleep(DELAY - 2)
 
-        logger.info(f"APPLIED: {job_title}")
-        print(f"APPLIED: {job_title}")
-        return "Applied"
+            logger.info(f"APPLIED: {job_title}")
+            print(f"APPLIED: {job_title}")
+            return "Applied"
 
-    except (NoSuchElementException, ElementClickInterceptedException) as e:
+        except ElementClickInterceptedException as e:
+            logger.warning(f"Blocked from clicking Apply for {job_title} — likely already applied.")
+            print(f"Blocked from clicking Apply for {job_title}")
+            return "Skipped"
+
+    except Exception as e:
         logger.error(f"FAILED to apply for {job_title} - {job_link}: {e}")
         print(f"FAILED to apply for {job_title} - {job_link}")
         return "Failed"
+
 
 def main():
     driver = get_driver()

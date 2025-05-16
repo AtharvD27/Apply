@@ -14,6 +14,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
+# URL: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q={query}&page={page}
+
 # ====== CONFIG ======
 def load_config(path="config.yaml"):
     with open(path, "r") as f:
@@ -169,13 +171,16 @@ def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
     return new_jobs
 
 def main():
+    config = load_config("config.yaml")
+
     DELAY_WAIT = config["delay"]
     CSV_FILE = config["main_csv_file"]
+    OUTPUT_CSV_FILE = config["out_csv_file"]
     EMAIL = os.getenv("SCRAPER_EMAIL") or config["email"]
     PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
     MAX_PAGES = config.get("max_pages", 20)
     QUERY_FILE = config["query_file"]
-    reposted_jobs_file = config["reposted_jobs_csv"]
+    REPOSTED_FILE = config["reposted_csv_file"]
 
     driver = get_driver()
     login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT)
@@ -202,8 +207,10 @@ def main():
         df_new["date_added"] = pd.to_datetime(df_new["date_added"], format="%m/%d/%Y")
 
     df_combined = pd.concat([df_existing, df_new], ignore_index=True).drop_duplicates(subset=["link", "date_posted"], keep="first")
-    df_combined.to_csv(CSV_FILE, index=False)
-    
+    df_combined.to_csv(OUTPUT_CSV_FILE, index=False)
+
+    # ✅ Track reposted jobs: same link, new posted date
+    reposted_csv_path = "output/reposted_jobs.csv"
     if not df_existing.empty and not df_new.empty:
         reposted_jobs = df_new.merge(df_existing, on="link", suffixes=("_new", "_old"))
         reposted_jobs = reposted_jobs[
@@ -218,11 +225,22 @@ def main():
                 "date_posted_new": "new_posted_date",
                 "date_posted_old": "previous_posted_date"
             })
-            reposted_jobs_out.to_csv(reposted_jobs_file, index=False)
-            logger.info(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
+            reposted_jobs_out.to_csv(REPOSTED_FILE, index=False)
             print(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
+        else:
+            # ✅ No reposts, but create the CSV anyway
+            pd.DataFrame(columns=["title", "company", "link", "new_posted_date", "previous_posted_date"]) \
+                .to_csv(REPOSTED_FILE, index=False)
+            print("[🔁] No reposted jobs found — empty CSV created.")
+    else:
+        # ✅ First run case: still create the file
+        pd.DataFrame(columns=["title", "company", "link", "new_posted_date", "previous_posted_date"]) \
+            .to_csv(reposted_csv_path, index=False)
+        print("[🔁] No existing data — empty reposted_jobs.csv created.")
 
-    # Save log summary
+    # ✅ Save log summary
+    log_dir = Path("output/logs")
+    log_dir.mkdir(parents=True, exist_ok=True)
     log_file = log_dir / f"save_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
     unique_added = len(df_combined) - len(df_existing) if not df_existing.empty else len(df_combined)
 
@@ -231,9 +249,10 @@ def main():
         f.write(f"New unique jobs added: {unique_added}\n")
         f.write(f"Total jobs saved: {len(df_combined)}\n")
 
-    logger.info(f"[✅] Scraping complete. Total new jobs saved: {len(df_new)}")
-    print(f"[✅] Scraping complete. Total jobs saved: {len(df_new)}")
+    logger.info(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
+    print(f"[✅] Scraping complete. Total jobs saved: {len(df_combined)}")
     driver.quit()
+
 
 if __name__ == "__main__":
     main()
