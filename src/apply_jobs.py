@@ -9,7 +9,7 @@ from pathlib import Path
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
+from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, TimeoutException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from dotenv import load_dotenv
@@ -112,36 +112,40 @@ def easy_apply(driver, job_link, job_title):
         try:
             apply_component = driver.find_element(By.TAG_NAME, "apply-button-wc")
             shadow_root = driver.execute_script("return arguments[0].shadowRoot", apply_component)
-            
-            if shadow_root.find_elements(By.CSS_SELECTOR, "application-submitted"):
+            submitted_tag = shadow_root.find_elements(By.CSS_SELECTOR, ".application-submitted")
+            if submitted_tag:
                 logger.info(f"SKIPPED (already applied): {job_title}")
                 print(f"SKIPPED (already applied): {job_title}")
                 return "Applied"
-            
         except Exception as e:
             logger.warning(f"Could not check status for {job_title} — {e}")
             print(f"Could not check status for {job_title}")
+        
+        # Wait until login modal disappears (if it's still present)
+        try:
+            WebDriverWait(driver, 5).until_not(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "login-dhi-modal"))
+            )
+        except TimeoutException:
+            print("Login modal did not disappear in time — may block apply button.")
+            pass
 
-        apply_btn = shadow_root.find_element(By.CSS_SELECTOR, "button.btn.btn-primary")
-        apply_text = apply_btn.text.strip().lower()
-        if "easy apply" in apply_text:
-            apply_btn.click()
-            time.sleep(DELAY)
+        # Easy Apply steps
+        apply_button = driver.find_element(By.TAG_NAME, "apply-button-wc")
+        apply_button.click()
+        time.sleep(DELAY)
 
-            next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-            next_btn.click()
-            time.sleep(DELAY-2)
+        next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
+        next_btn.click()
+        time.sleep(DELAY-2)
 
-            final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-            final_btn.click()
-            time.sleep(DELAY-2)
+        final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
+        final_btn.click()
+        time.sleep(DELAY-2)
 
-            logger.info(f"APPLIED: {job_title}")
-            print(f"APPLIED: {job_title}")
-            return "Applied"
-
-        logger.warning(f"❓ Unexpected apply state for {job_title}")
-        return "Skipped"
+        logger.info(f"APPLIED: {job_title}")
+        print(f"APPLIED: {job_title}")
+        return "Applied"
 
     except (NoSuchElementException, ElementClickInterceptedException) as e:
         logger.error(f"FAILED to apply for {job_title} - {job_link}: {e}")

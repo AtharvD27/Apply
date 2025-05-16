@@ -1,13 +1,19 @@
 name: Auto Apply Jobs
 
 on:
-  workflow_dispatch:  # ✅ Manual trigger only
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Scrape & Filter Dice Jobs"]
+    types:
+      - completed
+
 
 permissions:
   contents: write
 
 jobs:
   auto_apply:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:

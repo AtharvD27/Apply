@@ -175,6 +175,7 @@ def main():
     PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
     MAX_PAGES = config.get("max_pages", 20)
     QUERY_FILE = config["query_file"]
+    reposted_jobs_file = config["reposted_jobs_csv"]
 
     driver = get_driver()
     login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT)
@@ -217,7 +218,7 @@ def main():
                 "date_posted_new": "new_posted_date",
                 "date_posted_old": "previous_posted_date"
             })
-            reposted_jobs_out.to_csv("output/reposted_jobs.csv", index=False)
+            reposted_jobs_out.to_csv(reposted_jobs_file, index=False)
             logger.info(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
             print(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
 
