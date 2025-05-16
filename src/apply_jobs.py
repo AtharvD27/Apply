@@ -4,7 +4,6 @@ import yaml
 import logging
 from datetime import datetime
 import pandas as pd
-import tempfile
 from selenium import webdriver
 from pathlib import Path
 from selenium.webdriver.common.by import By
@@ -40,65 +39,48 @@ logger = logging.getLogger()
 
 load_dotenv()
 
-import tempfile
-
 def get_driver():
     chrome_options = Options()
 
-    # ✅ Use safest headless mode
-    chrome_options.add_argument("--headless=new")  # try "--headless=chrome" if this fails
+    # ✅ Use stable headless mode compatible with CI
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
 
-    # ✅ Force Chrome version 136
+    # ✅ Use Chrome 136 installed via CI
     chrome_options.binary_location = "/opt/chrome/chrome"
-
-    # ✅ Create an isolated unique user data dir (in working dir)
-    user_data_dir = tempfile.mkdtemp(prefix="chrome-profile-", dir="/tmp")
-    chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
 
     driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
     service = Service(driver_path)
 
-    # ✅ Start driver
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.implicitly_wait(3)
-
     return driver
 
-def login_to_dice(driver):
+
+def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
     logger.info("Logging into Dice...")
     print("Logging into Dice...")
 
     driver.get("https://www.dice.com/dashboard/login")
-    time.sleep(DELAY+10)  # ✅ Let page JS load
+    WebDriverWait(driver, DELAY_WAIT).until(
+        EC.presence_of_element_located((By.NAME, "email"))
+    ).send_keys(EMAIL)
 
-    try:
-        wait = WebDriverWait(driver, DELAY + 10)
+    driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-        email_input = wait.until(EC.presence_of_element_located((By.NAME, "email")))
-        email_input.send_keys(EMAIL)
+    WebDriverWait(driver, DELAY_WAIT).until(
+        EC.presence_of_element_located((By.NAME, "password"))
+    ).send_keys(PASSWORD)
 
-        driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
+    driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
-        password_input = wait.until(EC.presence_of_element_located((By.NAME, "password")))
-        password_input.send_keys(PASSWORD)
+    WebDriverWait(driver, DELAY_WAIT).until(EC.url_contains("dashboard"))
+    logger.info("Login successful.")
+    print("Login successful.")
 
-        driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-        wait.until(EC.url_contains("dashboard"))
-
-        logger.info("Login successful.")
-        print("Login successful.")
-
-    except Exception as e:
-        os.makedirs("output/logs", exist_ok=True)
-        screenshot_path = "output/logs/login_error.png"
-        driver.save_screenshot(screenshot_path)
-        logger.error(f"[ERROR] Login failed: {e}")
-        print(f"[ERROR] Login failed: {e}")
-        raise
 
 
 def easy_apply(driver, job_link, job_title):
@@ -164,7 +146,7 @@ def easy_apply(driver, job_link, job_title):
 
 def main():
     driver = get_driver()
-    login_to_dice(driver)
+    login_to_dice(driver, EMAIL, PASSWORD, DELAY)
 
     df = pd.read_csv(CSV_FILE)
     df["date_posted"] = pd.to_datetime(df["date_posted"], errors="coerce")  # for sorting
