@@ -1,0 +1,661 @@
+2025-05-18 16:24:41,735 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-18 16:24:42,213 - INFO - Logging into Dice...
+2025-05-18 16:24:45,265 - INFO - Login successful.
+2025-05-18 16:24:48,143 - INFO - [INFO] Will attempt 31 job(s) this run (target 53, available 31)
+2025-05-18 16:25:05,385 - WARNING - Save logic failed for Data Engineer (EHR- HL7- FHIR)- Fully Remote- Contract 2 Perm - ONLY Citizen or Perm Residence in Seattle, WA — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 329). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:25:05,406 - INFO - SKIPPED (already applied): Data Engineer (EHR- HL7- FHIR)- Fully Remote- Contract 2 Perm - ONLY Citizen or Perm Residence in Seattle, WA
+2025-05-18 16:25:21,401 - WARNING - Save logic failed for AI Engineer with Techyon Platform — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:25:21,418 - INFO - SKIPPED (already applied): AI Engineer with Techyon Platform
+2025-05-18 16:25:39,037 - INFO - SKIPPED Save (already saved): GenAI Solutions Engineer
+2025-05-18 16:25:39,054 - INFO - SKIPPED (already applied): GenAI Solutions Engineer
+2025-05-18 16:25:53,891 - INFO - SKIPPED Save (already saved): Senior LLM Implementation Developer
+2025-05-18 16:25:53,906 - INFO - SKIPPED (already applied): Senior LLM Implementation Developer
+2025-05-18 16:26:10,039 - INFO - SKIPPED Save (already saved): Senior GenAI/LLM Engineer
+2025-05-18 16:26:10,055 - INFO - SKIPPED (already applied): Senior GenAI/LLM Engineer
+2025-05-18 16:26:28,347 - WARNING - Save logic failed for Computer Vision Engineer - Newark, CA (Onsite) — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:26:28,364 - INFO - SKIPPED (already applied): Computer Vision Engineer - Newark, CA (Onsite)
+2025-05-18 16:26:43,458 - INFO - SKIPPED Save (already saved): Data Scientist
+2025-05-18 16:26:43,473 - INFO - SKIPPED (already applied): Data Scientist
+2025-05-18 16:26:58,857 - INFO - SKIPPED Save (already saved): Lead Data Scientist (PhD)
+2025-05-18 16:26:58,872 - INFO - SKIPPED (already applied): Lead Data Scientist (PhD)
+2025-05-18 16:27:13,421 - WARNING - Save logic failed for Senior Data Scientist — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:27:13,437 - INFO - SKIPPED (already applied): Senior Data Scientist
+2025-05-18 16:27:29,056 - WARNING - Save logic failed for Full-Stack Architect (eCommerce/Data Platform Focus) — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:27:29,071 - INFO - SKIPPED (already applied): Full-Stack Architect (eCommerce/Data Platform Focus)
+2025-05-18 16:27:44,259 - WARNING - Save logic failed for Sr Data Scientist (Data quality, Anomaly detection, ML conceptual approaches) — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 329). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:27:44,275 - INFO - SKIPPED (already applied): Sr Data Scientist (Data quality, Anomaly detection, ML conceptual approaches)
+2025-05-18 16:28:00,071 - INFO - SKIPPED Save (already saved): Python Developer
+2025-05-18 16:28:00,086 - INFO - SKIPPED (already applied): Python Developer
+2025-05-18 16:28:17,196 - WARNING - Save logic failed for SENIOR GEN AI DEVELOPER — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:28:17,211 - INFO - SKIPPED (already applied): SENIOR GEN AI DEVELOPER
+2025-05-18 16:28:32,510 - WARNING - Save logic failed for Principal Data Engineer (Pharmaceutical Domain) — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:28:32,526 - INFO - SKIPPED (already applied): Principal Data Engineer (Pharmaceutical Domain)
+2025-05-18 16:28:51,517 - WARNING - Save logic failed for Sr. Data Scientist - Local to Bellevue WA (Hybrid) - — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:28:51,533 - INFO - SKIPPED (already applied): Sr. Data Scientist - Local to Bellevue WA (Hybrid) -
+2025-05-18 16:29:08,106 - WARNING - Save logic failed for AIML Engineer — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:29:08,121 - INFO - SKIPPED (already applied): AIML Engineer
+2025-05-18 16:29:24,402 - WARNING - Save logic failed for GenAI Engineer — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:29:24,417 - INFO - SKIPPED (already applied): GenAI Engineer
+2025-05-18 16:29:38,629 - WARNING - Save logic failed for Data Scientist/ AI/ML — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:29:38,644 - INFO - SKIPPED (already applied): Data Scientist/ AI/ML
+2025-05-18 16:29:55,063 - WARNING - Save logic failed for Prompt Engineer /AI engineer || Atlanta, Ga or Newyork || Hybrid — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:29:55,077 - INFO - SKIPPED (already applied): Prompt Engineer /AI engineer || Atlanta, Ga or Newyork || Hybrid
+2025-05-18 16:30:12,660 - WARNING - Save logic failed for Data Scientist AI/ML Focus — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:30:12,674 - INFO - SKIPPED (already applied): Data Scientist AI/ML Focus
+2025-05-18 16:30:32,260 - WARNING - Save logic failed for AI/ML Engineer — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:30:32,275 - INFO - SKIPPED (already applied): AI/ML Engineer
+2025-05-18 16:30:48,476 - WARNING - Save logic failed for Generative AI Engineer — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:30:48,491 - INFO - SKIPPED (already applied): Generative AI Engineer
+2025-05-18 16:31:03,338 - WARNING - Save logic failed for AI Specialist- Generative AI (GenAI) — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:31:03,352 - INFO - SKIPPED (already applied): AI Specialist- Generative AI (GenAI)
+2025-05-18 16:31:20,307 - INFO - SKIPPED Save (already saved): Prompt Engineer/AI Engineer
+2025-05-18 16:31:20,322 - INFO - SKIPPED (already applied): Prompt Engineer/AI Engineer
+2025-05-18 16:31:37,554 - WARNING - Save logic failed for Technical Lead, Palantir Foundry with Date Science/ Machine Learning — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 329). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:31:37,569 - INFO - SKIPPED (already applied): Technical Lead, Palantir Foundry with Date Science/ Machine Learning
+2025-05-18 16:31:51,946 - INFO - SKIPPED Save (already saved): Senior Data Engineer
+2025-05-18 16:31:51,960 - INFO - SKIPPED (already applied): Senior Data Engineer
+2025-05-18 16:32:07,305 - INFO - SKIPPED Save (already saved): Need Azure Data Engineer - Houston,TX - Hybrid
+2025-05-18 16:32:07,319 - INFO - SKIPPED (already applied): Need Azure Data Engineer - Houston,TX - Hybrid
+2025-05-18 16:32:21,920 - WARNING - Save logic failed for Java Engineer (AI/ML, Application Security & Cryptography) — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:32:21,936 - INFO - SKIPPED (already applied): Java Engineer (AI/ML, Application Security & Cryptography)
+2025-05-18 16:32:39,883 - WARNING - Save logic failed for AI Engineer with Tachyon Platform in Charlotte, NC - Hybrid — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:32:39,898 - INFO - SKIPPED (already applied): AI Engineer with Tachyon Platform in Charlotte, NC - Hybrid
+2025-05-18 16:32:58,580 - WARNING - Save logic failed for Data Scientist — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1406, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:32:58,595 - INFO - SKIPPED (already applied): Data Scientist
+2025-05-18 16:33:16,056 - WARNING - Save logic failed for Full Stack Python Developer — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.94)
+Stacktrace:
+#0 0x560f8daad75a <unknown>
+#1 0x560f8d5500a0 <unknown>
+#2 0x560f8d5a884c <unknown>
+#3 0x560f8d5a66ac <unknown>
+#4 0x560f8d5a3d42 <unknown>
+#5 0x560f8d5a3440 <unknown>
+#6 0x560f8d595b9d <unknown>
+#7 0x560f8d5c73a2 <unknown>
+#8 0x560f8d59551a <unknown>
+#9 0x560f8d5c756e <unknown>
+#10 0x560f8d5ed2a0 <unknown>
+#11 0x560f8d5c7173 <unknown>
+#12 0x560f8d593d4b <unknown>
+#13 0x560f8d5949b1 <unknown>
+#14 0x560f8da7290b <unknown>
+#15 0x560f8da7680a <unknown>
+#16 0x560f8da5a662 <unknown>
+#17 0x560f8da77394 <unknown>
+#18 0x560f8da3f49f <unknown>
+#19 0x560f8da9b538 <unknown>
+#20 0x560f8da9b716 <unknown>
+#21 0x560f8daac5c6 <unknown>
+#22 0x7ff937e9caa4 <unknown>
+#23 0x7ff937f29c3c <unknown>
+
+2025-05-18 16:33:16,071 - INFO - SKIPPED (already applied): Full Stack Python Developer
+2025-05-18 16:33:19,124 - INFO - [DONE] Newly applied: 31 out of 31 chosen (Total CSV rows: 750)
