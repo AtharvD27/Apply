@@ -1,0 +1,50 @@
+2025-05-18 19:17:43,979 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-18 19:18:09,873 - INFO - Logging into Dice...
+2025-05-18 19:18:16,720 - INFO - Login successful.
+2025-05-18 19:18:20,074 - INFO - [INFO] Will attempt 9 job(s) this run (target 51, available 9)
+2025-05-18 19:18:38,243 - INFO - SKIPPED Save (already saved): Data Engineer with Tableau ,Hadoop and ML
+2025-05-18 19:18:38,266 - INFO - SKIPPED (already applied): Data Engineer with Tableau ,Hadoop and ML
+2025-05-18 19:18:53,913 - INFO - SKIPPED Save (already saved): Senior Data Scientist with LLM Expertise (Bilingual, English & Spanish)
+2025-05-18 19:18:53,930 - INFO - SKIPPED (already applied): Senior Data Scientist with LLM Expertise (Bilingual, English & Spanish)
+2025-05-18 19:19:09,107 - INFO - SKIPPED Save (already saved): AI Solutions Architect ( LLM & Generative AI )
+2025-05-18 19:19:09,124 - INFO - SKIPPED (already applied): AI Solutions Architect ( LLM & Generative AI )
+2025-05-18 19:19:24,176 - INFO - SKIPPED Save (already saved): Sr. Java Developer with Generative AI - Irving, TX
+2025-05-18 19:19:24,193 - INFO - SKIPPED (already applied): Sr. Java Developer with Generative AI - Irving, TX
+2025-05-18 19:19:39,746 - INFO - SKIPPED Save (already saved): Project Manager with AI/ML experience.
+2025-05-18 19:19:39,764 - INFO - SKIPPED (already applied): Project Manager with AI/ML experience.
+2025-05-18 19:19:54,404 - INFO - SKIPPED Save (already saved): The Gen AI Architect
+2025-05-18 19:19:54,421 - INFO - SKIPPED (already applied): The Gen AI Architect
+2025-05-18 19:20:12,164 - WARNING - Save logic failed for Data scientist With AI — Message: element click intercepted: Element <button class="seds-button seds-button-tertiary">...</button> is not clickable at point (1401, 281). Other element would receive the click: <seds-button icon-left="" icon-left-variant="unfilled" class="seds seds-mb-100 hydrated">...</seds-button>
+  (Session info: chrome=136.0.7103.0)
+Stacktrace:
+#0 0x55d74bac675a <unknown>
+#1 0x55d74b5690a0 <unknown>
+#2 0x55d74b5c184c <unknown>
+#3 0x55d74b5bf6ac <unknown>
+#4 0x55d74b5bcd42 <unknown>
+#5 0x55d74b5bc440 <unknown>
+#6 0x55d74b5aeb9d <unknown>
+#7 0x55d74b5e03a2 <unknown>
+#8 0x55d74b5ae51a <unknown>
+#9 0x55d74b5e056e <unknown>
+#10 0x55d74b6062a0 <unknown>
+#11 0x55d74b5e0173 <unknown>
+#12 0x55d74b5acd4b <unknown>
+#13 0x55d74b5ad9b1 <unknown>
+#14 0x55d74ba8b90b <unknown>
+#15 0x55d74ba8f80a <unknown>
+#16 0x55d74ba73662 <unknown>
+#17 0x55d74ba90394 <unknown>
+#18 0x55d74ba5849f <unknown>
+#19 0x55d74bab4538 <unknown>
+#20 0x55d74bab4716 <unknown>
+#21 0x55d74bac55c6 <unknown>
+#22 0x7f5cbbc9caa4 <unknown>
+#23 0x7f5cbbd29c3c <unknown>
+
+2025-05-18 19:20:12,182 - INFO - SKIPPED (already applied): Data scientist With AI
+2025-05-18 19:20:28,655 - INFO - SKIPPED Save (already saved): ML Data Scientist with ClearScape Analytics
+2025-05-18 19:20:28,673 - INFO - SKIPPED (already applied): ML Data Scientist with ClearScape Analytics
+2025-05-18 19:20:41,899 - INFO - SKIPPED Save (already saved): Senior GenAI Developer with Prompt Engg and LLM exp
+2025-05-18 19:20:41,917 - INFO - SKIPPED (already applied): Senior GenAI Developer with Prompt Engg and LLM exp
+2025-05-18 19:20:44,498 - INFO - [DONE] Newly applied: 9 out of 9 chosen (Total CSV rows: 759)
