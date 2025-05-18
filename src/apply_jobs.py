@@ -19,6 +19,8 @@ from dotenv import load_dotenv
 def load_config(path="config/apply_job_config.yaml"):
     with open(path, "r") as f:
         return yaml.safe_load(f)
+    
+def str2bool(s): return str(s).lower() in {"1","true","yes","y"}
 
 config = load_config()
 load_dotenv()
@@ -29,6 +31,7 @@ EMAIL = os.getenv("APPLY_EMAIL") or config["email"]
 PASSWORD = os.getenv("APPLY_PASSWORD") or config["password"]
 DRIVER_PATH = config.get("driver_path", "/usr/local/bin/chromedriver")
 LOG_DIR = Path(config.get("log_dir", "output/logs"))
+PROCESS_FAILED = str2bool(os.getenv("APPLY_PROCESS_FAILED", "false"))
 
 # ====== Logging ======
 LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -88,6 +91,7 @@ def easy_apply(driver, job_link, job_title):
         driver.get(job_link)
         time.sleep(DELAY)
 
+        '''
         # Save the job
         try:
             # Step 1: Get outer shadow root of dhi-job-search-save-job
@@ -113,6 +117,7 @@ def easy_apply(driver, job_link, job_title):
         except Exception as e:
             logger.warning(f"Save logic failed for {job_title} — {e}")
             print(f"Save logic failed for {job_title}")
+        '''
 
         # Check if already applied
         try:
@@ -189,9 +194,12 @@ def main(process_failed=False):
         n_to_apply = min(target_n, len(pending_df))   # but don’t exceed available
         if n_to_apply < len(pending_df):
             pending_df = pending_df.sample(n=n_to_apply, random_state=None)
+
         logger.info(f"[INFO] Will attempt {n_to_apply} job(s) this run "
                     f"(requested {target_n}, available {len(df)})")
-
+        print(f"[INFO] Will attempt {n_to_apply} job(s) this run "
+            f"(requested {target_n}, available {len(df)})")
+        
         logger.info(f"[INFO] Processing jobs with status: {status_to_process}")
         print(f"[INFO] Processing jobs with status: {status_to_process}")
 
@@ -226,5 +234,5 @@ def main(process_failed=False):
         driver.quit()
 
 if __name__ == "__main__":
-    main(process_failed=False)
+    main(process_failed=PROCESS_FAILED)
 
