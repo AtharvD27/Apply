@@ -103,6 +103,7 @@ def easy_apply(driver, job_link, job_title):
         driver.get(job_link)
         time.sleep(DELAY)
 
+        '''
         # Save the job
         try:
             # Step 1: Get outer shadow root of dhi-job-search-save-job
@@ -128,7 +129,8 @@ def easy_apply(driver, job_link, job_title):
         except Exception as e:
             logger.warning(f"Save logic failed for {job_title} — {e}")
             print(f"Save logic failed for {job_title}")
-
+        '''
+        
         # Check if already applied
         try:
             apply_component = driver.find_element(By.TAG_NAME, "apply-button-wc")
