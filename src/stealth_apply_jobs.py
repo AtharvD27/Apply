@@ -185,21 +185,26 @@ def main(process_failed: bool = False):
     # --- Get driver ------------------------------------------------
     driver = get_stealth_driver(headless=True)
 
+    df = pd.read_csv(CSV_FILE)
+
+    # 1. Filter only Easy Apply jobs
+    easy_apply_df = df[df["apply_text"].str.strip().str.lower() == "easy apply"].copy()
+
+    # 2. Further filter to only Pending (or Failed if specified)
+    status_to_process = ["pending"]
+    if process_failed:
+        status_to_process.append("failed")
+
+    pending_df = easy_apply_df[easy_apply_df["status"].str.lower().isin(status_to_process)].copy()
+
+    if pending_df.empty:
+        logger.info("✅ No new jobs to apply. Exiting early.")
+        print("✅ No new jobs to apply. Exiting early.")
+        return
+
     try:
         login_to_dice(driver, EMAIL, PASSWORD, DELAY)
         human_delay(3)
-
-        df = pd.read_csv(CSV_FILE)
-
-        # 1. Filter only Easy Apply jobs
-        easy_apply_df = df[df["apply_text"].str.strip().str.lower() == "easy apply"].copy()
-
-        # 2. Further filter to only Pending (or Failed if specified)
-        status_to_process = ["pending"]
-        if process_failed:
-            status_to_process.append("failed")
-
-        pending_df = easy_apply_df[easy_apply_df["status"].str.lower().isin(status_to_process)].copy()
 
         # 3. Decide how many to apply this run (50‑100 random)
         target = random.randint(50, 100)
