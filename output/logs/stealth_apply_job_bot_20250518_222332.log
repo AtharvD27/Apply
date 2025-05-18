@@ -1,0 +1,42 @@
+2025-05-18 22:23:32,784 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-18 22:23:42,056 - INFO - Logging into Dice...
+2025-05-18 22:23:46,922 - INFO - Login successful.
+2025-05-18 22:23:49,314 - INFO - [INFO] Will attempt 14 job(s) this run (target 85, available 14)
+2025-05-18 22:24:07,771 - INFO - SKIPPED (already applied): Data Engineer with Data scientist
+2025-05-18 22:24:22,204 - INFO - SKIPPED (already applied): Data Scientist
+2025-05-18 22:24:36,930 - INFO - SKIPPED (already applied): ML Data Analyst - Onsite
+2025-05-18 22:24:53,594 - INFO - SKIPPED (already applied): Data Scientist Need senior resume w2 only
+2025-05-18 22:25:11,289 - INFO - SKIPPED (already applied): MLOps Engineer with Strong Python Experience
+2025-05-18 22:25:26,262 - INFO - SKIPPED (already applied): MLOps Engineer
+2025-05-18 22:25:39,078 - INFO - SKIPPED (already applied): Sr. GenAI Developer
+2025-05-18 22:25:58,201 - ERROR - FAILED to apply for Senior GenAI Developer - https://www.dice.com/job-detail/e548cbb6-ae38-4f9b-8057-29b8891bac39: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class, 'btn-next')]"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55adf280875a <unknown>
+#1 0x55adf22ab0a0 <unknown>
+#2 0x55adf22fc9b0 <unknown>
+#3 0x55adf22fcba1 <unknown>
+#4 0x55adf234aea4 <unknown>
+#5 0x55adf23223cd <unknown>
+#6 0x55adf23482a0 <unknown>
+#7 0x55adf2322173 <unknown>
+#8 0x55adf22eed4b <unknown>
+#9 0x55adf22ef9b1 <unknown>
+#10 0x55adf27cd90b <unknown>
+#11 0x55adf27d180a <unknown>
+#12 0x55adf27b5662 <unknown>
+#13 0x55adf27d2394 <unknown>
+#14 0x55adf279a49f <unknown>
+#15 0x55adf27f6538 <unknown>
+#16 0x55adf27f6716 <unknown>
+#17 0x55adf28075c6 <unknown>
+#18 0x7f829ec9caa4 <unknown>
+#19 0x7f829ed29c3c <unknown>
+
+2025-05-18 22:26:14,851 - INFO - SKIPPED (already applied): GenAI Developer - RAG Architecture Exp
+2025-05-18 22:26:29,021 - INFO - SKIPPED (already applied): AI Solutions Architect ( LLM & Generative AI )
+2025-05-18 22:26:42,321 - INFO - SKIPPED (already applied): AI/ML Project Manager
+2025-05-18 22:26:59,569 - INFO - SKIPPED (already applied): Senior Developer (LLM Implementation Focus)
+2025-05-18 22:27:13,558 - INFO - SKIPPED (already applied): Sr GenAI Engineer
+2025-05-18 22:27:26,339 - INFO - SKIPPED (already applied): Data Engineer
+2025-05-18 22:27:29,007 - INFO - [DONE] Newly applied: 13 out of 14 chosen (Total CSV rows: 773)
