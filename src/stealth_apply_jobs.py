@@ -1,27 +1,28 @@
 import os
-import time
-import yaml
-import logging
+import sys
 import random
-from datetime import datetime
+import time
+import logging
+import yaml
 import pandas as pd
-from selenium import webdriver
+from typing import List
 from pathlib import Path
+from datetime import datetime
+
+# Selenium / stealth ---------------------------------------------
+from undetected_chromedriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from dotenv import load_dotenv
 
-# ====== CONFIG ======
+# --- CONFIG ------------------------------------------------------
 def load_config(path="config/apply_job_config.yaml"):
     with open(path, "r") as f:
         return yaml.safe_load(f)
 
 config = load_config()
-load_dotenv()
 
 DELAY = config["delay"]
 CSV_FILE = config["main_csv_file"]
@@ -32,7 +33,7 @@ LOG_DIR = Path(config.get("log_dir", "output/logs"))
 
 # ====== Logging ======
 LOG_DIR.mkdir(parents=True, exist_ok=True)
-log_filename = LOG_DIR / f"apply_job_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+log_filename = LOG_DIR / f"stealth_apply_job_bot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 logging.basicConfig(
     filename=str(log_filename),
     level=logging.INFO,
@@ -40,25 +41,39 @@ logging.basicConfig(
 )
 logger = logging.getLogger()
 
-def get_driver():
-    chrome_options = Options()
 
-    # ✅ Use stable headless mode compatible with CI
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")
+USER_AGENTS: List[str] = [
+    # add a handful of recent, real desktop UA strings
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+]
 
-    # ✅ Use Chrome 136 installed via CI
-    chrome_options.binary_location = "/opt/chrome/chrome"
+# ----------------------------------------------------------------
 
-    driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
-    service = Service(driver_path)
+def human_delay(base: float = 2.0, jitter: float = 0.6):
+    """Sleep for N( base, jitter^2 ) seconds – never negative."""
+    time.sleep(max(0.05, random.normalvariate(base, jitter)))
 
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    driver.implicitly_wait(3)
-    return driver
+
+def wiggle_mouse(driver):
+    """Tiny mouse move to generate real DOM events."""
+    body = driver.find_element(By.TAG_NAME, "body")
+    actions = ActionChains(driver)
+    dx, dy = random.randint(10, 400), random.randint(10, 400)
+    actions.move_to_element_with_offset(body, dx, dy).pause(random.random() / 2).perform()
+
+
+def get_stealth_driver(headless: bool = True):
+    opts = ChromeOptions()
+    if headless:
+        # new headless mode mimics full Chrome better
+        opts.add_argument("--headless=new")
+    opts.add_argument("--disable-blink-features=AutomationControlled")
+    opts.add_argument("--window-size=1280,900")
+    opts.add_argument(f"--user-agent={random.choice(USER_AGENTS)}")
+    # match GitHub runner Chrome version (136)
+    return Chrome(options=opts, version_main=136)
 
 
 def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
@@ -164,67 +179,71 @@ def easy_apply(driver, job_link, job_title):
         print(f"FAILED to apply for {job_title} - {job_link}")
         return "Failed"
 
+# ----------------------------------------------------------------
 
-def main(process_failed=False):
-    driver = get_driver()
+def main(process_failed: bool = False):
+    # --- Get driver ------------------------------------------------
+    driver = get_stealth_driver(headless=True)
 
     try:
         login_to_dice(driver, EMAIL, PASSWORD, DELAY)
+        human_delay(3)
 
         df = pd.read_csv(CSV_FILE)
-        
+
         # 1. Filter only Easy Apply jobs
         easy_apply_df = df[df["apply_text"].str.strip().str.lower() == "easy apply"].copy()
-        
+
         # 2. Further filter to only Pending (or Failed if specified)
         status_to_process = ["pending"]
         if process_failed:
             status_to_process.append("failed")
 
-        pending_df = easy_apply_df[
-            easy_apply_df["status"].str.lower().isin(status_to_process)
-        ].copy()
+        pending_df = easy_apply_df[easy_apply_df["status"].str.lower().isin(status_to_process)].copy()
 
-        target_n = random.randint(50, 100)            # pick a target
-        n_to_apply = min(target_n, len(pending_df))   # but don’t exceed available
+        # 3. Decide how many to apply this run (50‑100 random)
+        target = random.randint(MIN_APPLY, MAX_APPLY)
+        n_to_apply = min(target, len(pending_df))
         if n_to_apply < len(pending_df):
             pending_df = pending_df.sample(n=n_to_apply, random_state=None)
-        logger.info(f"[INFO] Will attempt {n_to_apply} job(s) this run "
-                    f"(requested {target_n}, available {len(df)})")
+        logger.info(f"[INFO] Will attempt {n_to_apply} job(s) this run (target {target}, available {len(pending_df)})")
 
-        logger.info(f"[INFO] Processing jobs with status: {status_to_process}")
-        print(f"[INFO] Processing jobs with status: {status_to_process}")
-
+        # 4. Iterate applications
         results = []
-
         for _, row in pending_df.iterrows():
+            human_delay(random.uniform(4, 8))
+            wiggle_mouse(driver)
             try:
                 result = easy_apply(driver, row["link"], row["title"])
-            except Exception as e:
-                logger.error(f"Error applying for {row['title']} - {row['link']}: {e}")
+            except Exception as exc:
+                logger.exception(exc)
                 result = "Failed"
             results.append(result)
+            human_delay(random.uniform(2, 4))
 
-        easy_apply_df.loc[pending_df.index, "status"] = results
         applied = results.count("Applied")
-        total_pending = len(pending_df)
 
-        # 3. Merge updated Easy Apply section back into full df
+        # 5. Update DataFrame in bulk
+        easy_apply_df.loc[pending_df.index, "status"] = results
+
+        # 6. Re‑merge & sort
         df_remaining = df.drop(easy_apply_df.index)
         df_combined = pd.concat([df_remaining, easy_apply_df], ignore_index=True)
-
-        # Sort by status only
         df_combined["status"] = pd.Categorical(df_combined["status"], categories=["Pending", "Applied", "Failed"], ordered=True)
         df_combined = df_combined.sort_values(by="status").reset_index(drop=True)
 
+        # 7. Atomic CSV write
         df_combined.to_csv(CSV_FILE, index=False)
 
-        logger.info(f"[DONE] Newly applied: {applied} out of {total_pending} Easy Apply jobs (Total in CSV: {len(df)})")
-        print(f"[DONE] Newly applied: {applied} out of {total_pending} Easy Apply jobs (Total in CSV: {len(df)})")
-    
+        logger.info(f"[DONE] Newly applied: {applied} out of {len(pending_df)} chosen (Total CSV rows: {len(df)})")
+        print(f"[DONE] Newly applied: {applied} out of {len(pending_df)} chosen (Total CSV rows: {len(df)})")
     finally:
         driver.quit()
 
+    # propagate success/failure to CI if needed
+    if applied == 0:
+        sys.exit(1)
+
+
 if __name__ == "__main__":
     main(process_failed=False)
-

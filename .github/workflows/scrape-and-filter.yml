@@ -1,14 +1,29 @@
 name: Scrape & Filter Dice Jobs
 
 on:    
+  schedule:
+      - cron: '0 10 * * *'  # 6 AM EST
+      - cron: '0 13 * * *'  # 9 AM EST
+      - cron: '0 16 * * *'  # 12 PM EST
+      - cron: '0 19 * * *'  # 3 PM EST
+      - cron: '0 22 * * *'  # 6 PM EST
+      - cron: '0 1 * * *'  # 9 PM EST
   workflow_dispatch:
     
 permissions:
   contents: write
 
+concurrency:
+  group: dice-scrape-cancel          # <-- Scrape duplicates
+  cancel-in-progress: true           #      are cancelled
+
 jobs:
   scrape_and_filter:
     runs-on: ubuntu-latest
+
+    concurrency:
+      group: dice-job-lock           # <-- same string as Apply job
+      cancel-in-progress: false      #     so Scrape simply queues
 
     steps:
     - name: Checkout repo
@@ -54,8 +69,6 @@ jobs:
 
     - name: Run main.py to scrape and filter
       env:
-        SCRAPER_EMAIL: ${{ secrets.SCRAPER_EMAIL }}
-        SCRAPER_PASSWORD: ${{ secrets.SCRAPER_PASSWORD }}
         BASE_URL: ${{ secrets.BASE_URL }}
       run: python src/main.py
 
@@ -63,11 +76,17 @@ jobs:
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
-        git add output/jobs.csv output/final_ml_jobs.csv output/logs/*.log output/reposted_jobs.csv
+        git add output/jobs.csv output/final_ml_jobs.csv output/logs/*.log
 
         if git diff --cached --quiet; then
-          echo "No changes to commit."
+          echo "✅ No changes to commit."
         else
           git commit -m "🔄 Auto-update jobs.csv and final_ml_jobs.csv"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
         fi
+
+    - name: Trigger Apply workflow
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: apply-and-commit.yml
+        token:    ${{ secrets.GITHUB_TOKEN }}

@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dice-job-lock          # <-- shared with Scrape (see below)
+  group: dice-job-lock-stealth          # <-- shared with Scrape (see below)
   cancel-in-progress: false
 
 jobs:
@@ -48,11 +48,11 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run auto_apply.py
+    - name: Run stealth_auto_apply.py
       env:
         APPLY_EMAIL: ${{ secrets.APPLY_EMAIL }}
         APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
-      run: python src/apply_jobs.py
+      run: python src/stealth_apply_jobs.py
 
     - name: Commit and push updated final_ml_jobs.csv
       run: |

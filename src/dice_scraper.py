@@ -2,9 +2,7 @@ import os
 import pandas as pd
 import logging
 import yaml
-from dotenv import load_dotenv
 from pathlib import Path
-import tempfile
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -14,7 +12,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
-# URL: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q={query}&page={page}
+'''
+BASE_URL = (
+    "https://www.dice.com/jobs?"
+    "filters.easyApply=true&"
+    "filters.postedDate=THREE&"
+    "filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&"
+    "q={query}&page={page}"
+)
+'''
 
 # ====== CONFIG ======
 def load_config(path="config.yaml"):
@@ -36,10 +42,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger()
 
-load_dotenv()
-
-import tempfile
-
 def get_driver():
     chrome_options = Options()
 
@@ -53,33 +55,12 @@ def get_driver():
     # ✅ Use manually installed Chrome 136
     chrome_options.binary_location = "/opt/chrome/chrome"
 
-    # ❌ DO NOT set user-data-dir — it causes session issues on GitHub
-    # chrome_options.add_argument("--user-data-dir=/tmp/somepath") ← REMOVE THIS LINE
-
     driver_path = config.get("driver_path", "/usr/local/bin/chromedriver")
     service = Service(driver_path)
 
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.implicitly_wait(3)
     return driver
-
-def login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT):
-    logger.info("Logging into Dice...")
-    print("Logging into Dice...")
-    driver.get("https://www.dice.com/dashboard/login")
-    WebDriverWait(driver, DELAY_WAIT).until(
-        EC.presence_of_element_located((By.NAME, "email"))
-    ).send_keys(EMAIL)
-    driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-
-    WebDriverWait(driver, DELAY_WAIT).until(
-        EC.presence_of_element_located((By.NAME, "password"))
-    ).send_keys(PASSWORD)
-    driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
-
-    WebDriverWait(driver, DELAY_WAIT).until(EC.url_contains("dashboard"))
-    logger.info("Login successful.")
-    print("Login successful.")
 
 def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
     new_jobs = []
@@ -173,23 +154,19 @@ def scrape_query(driver, query, seen_links, MAX_PAGES, DELAY_WAIT):
 def main():
     DELAY_WAIT = config["delay"]
     CSV_FILE = config["main_csv_file"]
-    EMAIL = os.getenv("SCRAPER_EMAIL") or config["email"]
-    PASSWORD = os.getenv("SCRAPER_PASSWORD") or config["password"]
     MAX_PAGES = config.get("max_pages", 20)
     QUERY_FILE = config["query_file"]
-    REPOSTED_FILE = config["reposted_csv_file"]
 
     driver = get_driver()
-    login_to_dice(driver, EMAIL, PASSWORD, DELAY_WAIT)
 
     if os.path.exists(CSV_FILE):
         df_existing = pd.read_csv(CSV_FILE)
+        seen_links = set(
+        zip(df_existing["link"], df_existing.get("date_posted", pd.Series([""] * len(df_existing))))
+    )
     else:
         df_existing = pd.DataFrame()
-
-    seen_links = set(
-        zip(df_existing["link"], df_existing.get("date_posted", pd.Series([""] * len(df_existing))))
-    ) if not df_existing.empty else set()
+        seen_links = set()
 
     with open(QUERY_FILE, "r") as f:
         queries = [line.strip() for line in f if line.strip()]
@@ -203,47 +180,12 @@ def main():
         df_new["status"] = "Pending"
         df_new["date_added"] = pd.to_datetime(df_new["date_added"], format="%m/%d/%Y")
 
-    df_combined = pd.concat([df_existing, df_new], ignore_index=True).drop_duplicates(subset=["link", "date_posted"], keep="first")
+    df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+    df_combined = df_combined.drop_duplicates(subset=["link", "date_posted"], keep="first")
     df_combined.to_csv(CSV_FILE, index=False)
-    
-    if not df_existing.empty and not df_new.empty:
-        reposted_jobs = df_new.merge(df_existing, on="link", suffixes=("_new", "_old"))
-        reposted_jobs = reposted_jobs[
-            reposted_jobs["date_posted_new"] != reposted_jobs["date_posted_old"]
-        ]
-        if not reposted_jobs.empty:
-            reposted_jobs_out = reposted_jobs[
-                ["title_new", "company_new", "link", "date_posted_new", "date_posted_old"]
-            ].rename(columns={
-                "title_new": "title",
-                "company_new": "company",
-                "date_posted_new": "new_posted_date",
-                "date_posted_old": "previous_posted_date"
-            })
-            reposted_jobs_out.to_csv(REPOSTED_FILE, index=False)
-            print(f"[🔁] Reposted jobs saved: {len(reposted_jobs_out)}")
-        else:
-            # ✅ No reposts, but create the CSV anyway
-            pd.DataFrame(columns=["title", "company", "link", "new_posted_date", "previous_posted_date"]) \
-                .to_csv(REPOSTED_FILE, index=False)
-            print("[🔁] No reposted jobs found — empty CSV created.")
-    else:
-        # ✅ First run case: still create the file
-        pd.DataFrame(columns=["title", "company", "link", "new_posted_date", "previous_posted_date"]) \
-            .to_csv(REPOSTED_FILE, index=False)
-        print("[🔁] No existing data — empty reposted_jobs.csv created.")
 
-    # Save log summary
-    log_file = log_dir / f"save_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
-    unique_added = len(df_combined) - len(df_existing) if not df_existing.empty else len(df_combined)
-
-    with open(log_file, "w") as f:
-        f.write(f"✅ Save log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write(f"New unique jobs added: {unique_added}\n")
-        f.write(f"Total jobs saved: {len(df_combined)}\n")
-
-    logger.info(f"[✅] Scraping complete. Total new jobs saved: {len(df_new)}")
-    print(f"[✅] Scraping complete. Total jobs saved: {len(df_new)}")
+    logger.info("[✅] Scraping complete. New jobs found: {len(df_new)} | Total: {len(df_combined)}")
+    print(f"[✅] Scraping complete. New jobs found: {len(df_new)} | Total: {len(df_combined)}")
     driver.quit()
 
 if __name__ == "__main__":
