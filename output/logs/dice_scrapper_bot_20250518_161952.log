@@ -1,0 +1,200 @@
+2025-05-18 16:19:52,504 - INFO - Query: AI Trainer | Page: 1
+2025-05-18 16:19:54,823 - INFO - [+] FOUND — Lead AI Automation Engineer
+2025-05-18 16:19:54,917 - INFO - [+] FOUND — SENIOR GEN AI DEVELOPER
+2025-05-18 16:19:55,156 - INFO - [+] FOUND — AI Engineer with Techyon Platform
+2025-05-18 16:19:55,342 - INFO - [+] FOUND — Prompt Engineer/AI Engineer
+2025-05-18 16:19:55,496 - INFO - [+] FOUND — AI Specialist- Generative AI (GenAI)
+2025-05-18 16:19:55,739 - INFO - Query: AI Trainer | Page: 2
+2025-05-18 16:20:00,388 - INFO - [+] FOUND — Linux programmer - AI and GPU programming
+2025-05-18 16:20:03,588 - INFO - [+] FOUND — Sr AI & Full Stack Engineer
+2025-05-18 16:20:03,703 - INFO - [+] FOUND — Generative AI Engineer
+2025-05-18 16:20:03,814 - INFO - [+] FOUND — AI/ML Engineer
+2025-05-18 16:20:04,042 - INFO - [+] FOUND — Data Scientist AI/ML Focus
+2025-05-18 16:20:04,128 - INFO - [+] FOUND — Prompt Engineer /AI engineer || Atlanta, Ga or Newyork || Hybrid
+2025-05-18 16:20:04,180 - INFO - Query: AI Trainer | Page: 3
+2025-05-18 16:20:05,334 - INFO - [+] FOUND — Data Scientist/ AI/ML
+2025-05-18 16:20:05,420 - INFO - Query: AI Trainer | Page: 4
+2025-05-18 16:20:12,321 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Trainer&page=4
+2025-05-18 16:20:12,321 - INFO - Total pages scanned for query 'AI Trainer': 3
+2025-05-18 16:20:12,321 - INFO - Total new jobs found for query 'AI Trainer': 12
+2025-05-18 16:20:12,321 - INFO - Query: Generative AI Engineer | Page: 1
+2025-05-18 16:20:13,415 - INFO - Query: Generative AI Engineer | Page: 2
+2025-05-18 16:20:20,349 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Generative+AI+Engineer&page=2
+2025-05-18 16:20:20,349 - INFO - Total pages scanned for query 'Generative AI Engineer': 1
+2025-05-18 16:20:20,350 - INFO - Total new jobs found for query 'Generative AI Engineer': 0
+2025-05-18 16:20:20,350 - INFO - Query: AI/ML DevOps Engineer | Page: 1
+2025-05-18 16:20:22,132 - INFO - [+] FOUND — GenAI Engineer
+2025-05-18 16:20:22,158 - INFO - Query: AI/ML DevOps Engineer | Page: 2
+2025-05-18 16:20:23,356 - INFO - [+] FOUND — AIML Engineer
+2025-05-18 16:20:23,522 - INFO - [+] FOUND — Sr Cloud Engineer
+2025-05-18 16:20:23,614 - INFO - [+] FOUND — Solution Architect (Data & Cloud Solutions)
+2025-05-18 16:20:23,879 - INFO - [+] FOUND — RPA Project Manager
+2025-05-18 16:20:24,084 - INFO - [+] FOUND — Sr Cloud Engineer (pv W2)
+2025-05-18 16:20:24,110 - INFO - Query: AI/ML DevOps Engineer | Page: 3
+2025-05-18 16:20:25,421 - INFO - [+] FOUND — Sr. Data Scientist - Local to Bellevue WA (Hybrid) -
+2025-05-18 16:20:25,746 - INFO - [+] FOUND — Technical Lead, Palantir Foundry with Date Science/ Machine Learning
+2025-05-18 16:20:25,925 - INFO - Query: AI/ML DevOps Engineer | Page: 4
+2025-05-18 16:20:28,028 - INFO - Query: AI/ML DevOps Engineer | Page: 5
+2025-05-18 16:20:29,398 - INFO - [+] FOUND — Test Lead / Architect Azure DevOps (ADO) || Grapevine, TX Hybrid
+2025-05-18 16:20:29,518 - INFO - [+] FOUND — Senior Data Architect Microsoft Fabric
+2025-05-18 16:20:29,873 - INFO - [+] FOUND — AWS Cloud Engineer (W2 ONLY)
+2025-05-18 16:20:29,873 - INFO - Query: AI/ML DevOps Engineer | Page: 6
+2025-05-18 16:20:31,135 - INFO - [+] FOUND — Coveo Search Platform Architect
+2025-05-18 16:20:31,407 - INFO - [+] FOUND — CTH***DevOps Engineer***Only W2 Candidates***Local to TX****15+Years of Exp Required
+2025-05-18 16:20:31,571 - INFO - [+] FOUND — Sr. HR Generalist
+2025-05-18 16:20:31,693 - INFO - [+] FOUND — Principal Data Engineer (Pharmaceutical Domain)
+2025-05-18 16:20:31,918 - INFO - [+] FOUND — .NET and Power Platform Developer
+2025-05-18 16:20:31,918 - INFO - Query: AI/ML DevOps Engineer | Page: 7
+2025-05-18 16:20:33,345 - INFO - [+] FOUND — Python Developer
+2025-05-18 16:20:33,510 - INFO - Query: AI/ML DevOps Engineer | Page: 8
+2025-05-18 16:20:40,447 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI/ML+DevOps+Engineer&page=8
+2025-05-18 16:20:40,447 - INFO - Total pages scanned for query 'AI/ML DevOps Engineer': 7
+2025-05-18 16:20:40,447 - INFO - Total new jobs found for query 'AI/ML DevOps Engineer': 17
+2025-05-18 16:20:40,447 - INFO - Query: AI Business Analyst | Page: 1
+2025-05-18 16:20:42,130 - INFO - Query: AI Business Analyst | Page: 2
+2025-05-18 16:20:43,846 - INFO - Query: AI Business Analyst | Page: 3
+2025-05-18 16:20:45,010 - INFO - Query: AI Business Analyst | Page: 4
+2025-05-18 16:20:51,908 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Business+Analyst&page=4
+2025-05-18 16:20:51,908 - INFO - Total pages scanned for query 'AI Business Analyst': 3
+2025-05-18 16:20:51,908 - INFO - Total new jobs found for query 'AI Business Analyst': 0
+2025-05-18 16:20:51,908 - INFO - Query: ML | Page: 1
+2025-05-18 16:20:53,265 - INFO - [+] FOUND — Sr Data Scientist (Data quality, Anomaly detection, ML conceptual approaches)
+2025-05-18 16:20:53,729 - INFO - Query: ML | Page: 2
+2025-05-18 16:20:55,374 - INFO - [+] FOUND — Full-Stack Architect (eCommerce/Data Platform Focus)
+2025-05-18 16:20:55,738 - INFO - [+] FOUND — Senior Data Scientist
+2025-05-18 16:20:55,978 - INFO - [+] FOUND — Python Software Engineer(W2 Contract)
+2025-05-18 16:20:55,978 - INFO - Query: ML | Page: 3
+2025-05-18 16:20:57,631 - INFO - [+] FOUND — Lead Data Scientist (PhD)
+2025-05-18 16:20:57,657 - INFO - Query: ML | Page: 4
+2025-05-18 16:20:59,272 - INFO - Query: ML | Page: 5
+2025-05-18 16:21:00,909 - INFO - [+] FOUND — Power Apps Developer
+2025-05-18 16:21:01,012 - INFO - Query: ML | Page: 6
+2025-05-18 16:21:02,612 - INFO - Query: ML | Page: 7
+2025-05-18 16:21:04,180 - INFO - Query: ML | Page: 8
+2025-05-18 16:21:11,105 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML&page=8
+2025-05-18 16:21:11,105 - INFO - Total pages scanned for query 'ML': 7
+2025-05-18 16:21:11,105 - INFO - Total new jobs found for query 'ML': 6
+2025-05-18 16:21:11,105 - INFO - Query: Artificial Intelligence Engineer | Page: 1
+2025-05-18 16:21:12,836 - INFO - Query: Artificial Intelligence Engineer | Page: 2
+2025-05-18 16:21:14,664 - INFO - Query: Artificial Intelligence Engineer | Page: 3
+2025-05-18 16:21:16,000 - INFO - Query: Artificial Intelligence Engineer | Page: 4
+2025-05-18 16:21:22,904 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Artificial+Intelligence+Engineer&page=4
+2025-05-18 16:21:22,904 - INFO - Total pages scanned for query 'Artificial Intelligence Engineer': 3
+2025-05-18 16:21:22,904 - INFO - Total new jobs found for query 'Artificial Intelligence Engineer': 0
+2025-05-18 16:21:22,904 - INFO - Query: Machine Learning Engineer | Page: 1
+2025-05-18 16:21:24,618 - INFO - Query: Machine Learning Engineer | Page: 2
+2025-05-18 16:21:25,942 - INFO - Query: Machine Learning Engineer | Page: 3
+2025-05-18 16:21:32,853 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning+Engineer&page=3
+2025-05-18 16:21:32,853 - INFO - Total pages scanned for query 'Machine Learning Engineer': 2
+2025-05-18 16:21:32,853 - INFO - Total new jobs found for query 'Machine Learning Engineer': 0
+2025-05-18 16:21:32,853 - INFO - Query: Machine Learning | Page: 1
+2025-05-18 16:21:34,509 - INFO - Query: Machine Learning | Page: 2
+2025-05-18 16:21:36,222 - INFO - Query: Machine Learning | Page: 3
+2025-05-18 16:21:37,994 - INFO - Query: Machine Learning | Page: 4
+2025-05-18 16:21:39,613 - INFO - Query: Machine Learning | Page: 5
+2025-05-18 16:21:41,357 - INFO - Query: Machine Learning | Page: 6
+2025-05-18 16:21:43,311 - INFO - Query: Machine Learning | Page: 7
+2025-05-18 16:21:44,753 - INFO - Query: Machine Learning | Page: 8
+2025-05-18 16:21:51,645 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning&page=8
+2025-05-18 16:21:51,645 - INFO - Total pages scanned for query 'Machine Learning': 7
+2025-05-18 16:21:51,645 - INFO - Total new jobs found for query 'Machine Learning': 0
+2025-05-18 16:21:51,645 - INFO - Query: Data Scientist | Page: 1
+2025-05-18 16:21:53,308 - INFO - [+] FOUND — Data Scientist
+2025-05-18 16:21:53,463 - INFO - Query: Data Scientist | Page: 2
+2025-05-18 16:21:57,819 - INFO - [+] FOUND — Scrum Master
+2025-05-18 16:21:57,820 - INFO - Query: Data Scientist | Page: 3
+2025-05-18 16:22:04,745 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Data+Scientist&page=3
+2025-05-18 16:22:04,745 - INFO - Total pages scanned for query 'Data Scientist': 2
+2025-05-18 16:22:04,745 - INFO - Total new jobs found for query 'Data Scientist': 2
+2025-05-18 16:22:04,745 - INFO - Query: Computer Vision Engineer | Page: 1
+2025-05-18 16:22:05,823 - INFO - [+] FOUND — Computer Vision Engineer - Newark, CA (Onsite)
+2025-05-18 16:22:05,853 - INFO - Query: Computer Vision Engineer | Page: 2
+2025-05-18 16:22:12,832 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Computer+Vision+Engineer&page=2
+2025-05-18 16:22:12,832 - INFO - Total pages scanned for query 'Computer Vision Engineer': 1
+2025-05-18 16:22:12,832 - INFO - Total new jobs found for query 'Computer Vision Engineer': 1
+2025-05-18 16:22:12,832 - INFO - Query: Natural Language Processing Engineer | Page: 1
+2025-05-18 16:22:19,792 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Natural+Language+Processing+Engineer&page=1
+2025-05-18 16:22:19,792 - INFO - Total pages scanned for query 'Natural Language Processing Engineer': 0
+2025-05-18 16:22:19,792 - INFO - Total new jobs found for query 'Natural Language Processing Engineer': 0
+2025-05-18 16:22:19,792 - INFO - Query: LLM Engineer | Page: 1
+2025-05-18 16:22:23,946 - INFO - [+] FOUND — Senior GenAI/LLM Engineer
+2025-05-18 16:22:24,069 - INFO - [+] FOUND — Senior LLM Implementation Developer
+2025-05-18 16:22:24,223 - INFO - Query: LLM Engineer | Page: 2
+2025-05-18 16:22:31,094 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=LLM+Engineer&page=2
+2025-05-18 16:22:31,094 - INFO - Total pages scanned for query 'LLM Engineer': 1
+2025-05-18 16:22:31,094 - INFO - Total new jobs found for query 'LLM Engineer': 2
+2025-05-18 16:22:31,094 - INFO - Query: AI Software Engineer | Page: 1
+2025-05-18 16:22:32,814 - INFO - Query: AI Software Engineer | Page: 2
+2025-05-18 16:22:34,509 - INFO - Query: AI Software Engineer | Page: 3
+2025-05-18 16:22:35,851 - INFO - Query: AI Software Engineer | Page: 4
+2025-05-18 16:22:42,784 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Software+Engineer&page=4
+2025-05-18 16:22:42,784 - INFO - Total pages scanned for query 'AI Software Engineer': 3
+2025-05-18 16:22:42,784 - INFO - Total new jobs found for query 'AI Software Engineer': 0
+2025-05-18 16:22:42,784 - INFO - Query: ML Software Engineer | Page: 1
+2025-05-18 16:22:44,466 - INFO - Query: ML Software Engineer | Page: 2
+2025-05-18 16:22:45,735 - INFO - Query: ML Software Engineer | Page: 3
+2025-05-18 16:22:52,632 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML+Software+Engineer&page=3
+2025-05-18 16:22:52,633 - INFO - Total pages scanned for query 'ML Software Engineer': 2
+2025-05-18 16:22:52,633 - INFO - Total new jobs found for query 'ML Software Engineer': 0
+2025-05-18 16:22:52,633 - INFO - Query: Prompt Engineer | Page: 1
+2025-05-18 16:22:53,800 - INFO - Query: Prompt Engineer | Page: 2
+2025-05-18 16:23:00,688 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Prompt+Engineer&page=2
+2025-05-18 16:23:00,688 - INFO - Total pages scanned for query 'Prompt Engineer': 1
+2025-05-18 16:23:00,688 - INFO - Total new jobs found for query 'Prompt Engineer': 0
+2025-05-18 16:23:00,688 - INFO - Query: GenAI Solutions Engineer | Page: 1
+2025-05-18 16:23:04,707 - INFO - [+] FOUND — GenAI Solutions Engineer
+2025-05-18 16:23:04,707 - INFO - Query: GenAI Solutions Engineer | Page: 2
+2025-05-18 16:23:11,541 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=GenAI+Solutions+Engineer&page=2
+2025-05-18 16:23:11,541 - INFO - Total pages scanned for query 'GenAI Solutions Engineer': 1
+2025-05-18 16:23:11,541 - INFO - Total new jobs found for query 'GenAI Solutions Engineer': 1
+2025-05-18 16:23:11,541 - INFO - Query: Gen AI Architect | Page: 1
+2025-05-18 16:23:12,597 - INFO - Query: Gen AI Architect | Page: 2
+2025-05-18 16:23:19,536 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Gen+AI+Architect&page=2
+2025-05-18 16:23:19,536 - INFO - Total pages scanned for query 'Gen AI Architect': 1
+2025-05-18 16:23:19,536 - INFO - Total new jobs found for query 'Gen AI Architect': 0
+2025-05-18 16:23:19,536 - INFO - Query: AI | Page: 1
+2025-05-18 16:23:21,168 - INFO - Query: AI | Page: 2
+2025-05-18 16:23:22,797 - INFO - Query: AI | Page: 3
+2025-05-18 16:23:24,373 - INFO - [+] FOUND — Technical Writer
+2025-05-18 16:23:24,549 - INFO - [+] FOUND — Lead Robotic Process Automation Engineer
+2025-05-18 16:23:24,576 - INFO - Query: AI | Page: 4
+2025-05-18 16:23:26,216 - INFO - Query: AI | Page: 5
+2025-05-18 16:23:27,519 - INFO - [+] FOUND — Site Merchandiser
+2025-05-18 16:23:27,860 - INFO - Query: AI | Page: 6
+2025-05-18 16:23:29,473 - INFO - Query: AI | Page: 7
+2025-05-18 16:23:31,164 - INFO - Query: AI | Page: 8
+2025-05-18 16:23:32,750 - INFO - Query: AI | Page: 9
+2025-05-18 16:23:34,358 - INFO - Query: AI | Page: 10
+2025-05-18 16:23:36,169 - INFO - Query: AI | Page: 11
+2025-05-18 16:23:37,550 - INFO - [+] FOUND — Sr. Java Developer
+2025-05-18 16:23:37,865 - INFO - Query: AI | Page: 12
+2025-05-18 16:23:39,470 - INFO - [+] FOUND — IT Project Coordinator With Project management (& Only)
+2025-05-18 16:23:39,547 - INFO - Query: AI | Page: 13
+2025-05-18 16:23:40,939 - INFO - [+] FOUND — Global Digital Product Owner
+2025-05-18 16:23:41,226 - INFO - Query: AI | Page: 14
+2025-05-18 16:23:42,862 - INFO - Query: AI | Page: 15
+2025-05-18 16:23:44,446 - INFO - Query: AI | Page: 16
+2025-05-18 16:23:46,080 - INFO - [+] FOUND — Project Manager
+2025-05-18 16:23:46,193 - INFO - [+] FOUND — Program Manager
+2025-05-18 16:23:46,279 - INFO - Query: AI | Page: 17
+2025-05-18 16:23:47,477 - INFO - [+] FOUND — Java Backend Services Developer (Contract to Hire) ---Only locals
+2025-05-18 16:23:47,702 - INFO - [+] FOUND — Data Engineer (EHR- HL7- FHIR)- Fully Remote- Contract 2 Perm - ONLY Citizen or Perm Residence in Seattle, WA
+2025-05-18 16:23:47,895 - INFO - [+] FOUND — Enterprise Architect with SAP Experience
+2025-05-18 16:23:48,043 - INFO - [+] FOUND — Desktop Support Technician
+2025-05-18 16:23:48,200 - INFO - [+] FOUND — Senior Data Engineer
+2025-05-18 16:23:48,339 - INFO - [+] FOUND — Salesforce Data cloud Architect
+2025-05-18 16:23:48,339 - INFO - Query: AI | Page: 18
+2025-05-18 16:23:49,707 - INFO - [+] FOUND — Product Manager - Contact Center
+2025-05-18 16:23:50,036 - INFO - Query: AI | Page: 19
+2025-05-18 16:23:51,217 - INFO - [+] FOUND — Scrum Master Website Redesign Program (Adobe Experience Manager)
+2025-05-18 16:23:51,577 - INFO - [+] FOUND — OpenText ECM Developer
+2025-05-18 16:23:51,749 - INFO - [+] FOUND — Administrator Construction Manager (CMIII)
+2025-05-18 16:23:51,902 - INFO - Query: AI | Page: 20
+2025-05-18 16:23:53,170 - INFO - [+] FOUND — Administrator Construction Manager (CMIII)
+2025-05-18 16:23:53,282 - INFO - [+] FOUND — Administrator Construction Manager (CMIII)
+2025-05-18 16:23:53,609 - INFO - [+] FOUND — SDET
+2025-05-18 16:23:53,724 - INFO - Query: AI | Page: 21
+2025-05-18 16:24:00,556 - WARNING - Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI&page=21
+2025-05-18 16:24:00,556 - INFO - Total pages scanned for query 'AI': 20
+2025-05-18 16:24:00,556 - INFO - Total new jobs found for query 'AI': 21
+2025-05-18 16:24:00,587 - INFO - [✅] Scraping complete. New jobs found: {len(df_new)} | Total: {len(df_combined)}
