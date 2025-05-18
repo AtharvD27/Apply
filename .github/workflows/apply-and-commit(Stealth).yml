@@ -1,4 +1,4 @@
-name: Auto Apply Jobs
+name: Auto Apply Jobs Stealth
 
 on:
   workflow_dispatch:

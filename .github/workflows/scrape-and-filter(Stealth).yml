@@ -1,4 +1,4 @@
-name: Scrape & Filter Dice Jobs
+name: Scrape & Filter Dice Jobs Stealth
 
 on:    
   schedule:
