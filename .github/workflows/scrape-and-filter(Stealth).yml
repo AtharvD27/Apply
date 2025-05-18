@@ -85,8 +85,8 @@ jobs:
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
         fi
 
-    - name: Trigger Apply workflow
+    - name: Trigger Stealth Apply workflow
       uses: benc-uk/workflow-dispatch@v1
       with:
-        workflow: apply-and-commit.yml
+        workflow: apply-and-commit(Stealth).yml
         token:    ${{ secrets.GITHUB_TOKEN }}
