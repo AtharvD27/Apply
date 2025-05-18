@@ -1,7 +1,6 @@
 name: Scrape & Filter Dice Jobs
 
 on:    
-  schedule:
   workflow_dispatch:
     
 permissions:
