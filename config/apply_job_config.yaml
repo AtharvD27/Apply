@@ -1,7 +1,7 @@
 email: ${APPLY_EMAIL}
 password: ${APPLY_PASSWORD}
 delay: 5
-main_csv_file: output/final_ml_jobs-test.csv
+main_csv_file: output/final_ml_jobs.csv
 log_dir: output/logs
 driver_path: ./chromedriver.exe
 driver_path: /usr/local/bin/chromedriver

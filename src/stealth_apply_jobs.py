@@ -202,7 +202,7 @@ def main(process_failed: bool = False):
         pending_df = easy_apply_df[easy_apply_df["status"].str.lower().isin(status_to_process)].copy()
 
         # 3. Decide how many to apply this run (50‑100 random)
-        target = random.randint(MIN_APPLY, MAX_APPLY)
+        target = random.randint(50, 100)
         n_to_apply = min(target, len(pending_df))
         if n_to_apply < len(pending_df):
             pending_df = pending_df.sample(n=n_to_apply, random_state=None)
