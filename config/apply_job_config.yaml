@@ -1,5 +1,6 @@
 email: ${APPLY_EMAIL}
 password: ${APPLY_PASSWORD}
+process_failed: ${APPLY_PROCESS_FAILED}
 delay: 5
 main_csv_file: output/final_ml_jobs.csv
 log_dir: output/logs

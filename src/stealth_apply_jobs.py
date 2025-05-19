@@ -30,6 +30,7 @@ EMAIL = os.getenv("APPLY_EMAIL") or config["email"]
 PASSWORD = os.getenv("APPLY_PASSWORD") or config["password"]
 DRIVER_PATH = config.get("driver_path", "/usr/local/bin/chromedriver")
 LOG_DIR = Path(config.get("log_dir", "output/logs"))
+PROCESS_FAILED = os.getenv("APPLY_PROCESS_FAILED") or config.get("process_failed", False)
 
 # ====== Logging ======
 LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -253,4 +254,4 @@ def main(process_failed: bool = False):
 
 
 if __name__ == "__main__":
-    main(process_failed=False)
+    main(process_failed=PROCESS_FAILED)
