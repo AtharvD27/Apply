@@ -1,0 +1,9 @@
+2025-05-19 06:14:58,322 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-19 06:15:10,392 - INFO - Logging into Dice...
+2025-05-19 06:15:15,886 - INFO - Login successful.
+2025-05-19 06:15:18,813 - INFO - [INFO] Will attempt 4 job(s) this run (target 72, available 4)
+2025-05-19 06:15:32,792 - INFO - SKIPPED (already applied): Sr. Azure Data Engineer ---Remote and Onsite Twice a Week --- LOCALS ONLY ( NO THIRD PARTIES PLS )
+2025-05-19 06:15:47,612 - INFO - SKIPPED (already applied): Visual AI Specialist
+2025-05-19 06:16:00,782 - INFO - SKIPPED (already applied): Senior AI Engineer (Data Scientist)
+2025-05-19 06:16:16,549 - INFO - SKIPPED (already applied): AI Solutions Architect
+2025-05-19 06:16:20,263 - INFO - [DONE] Newly applied: 4 out of 4 chosen (Total CSV rows: 784)
