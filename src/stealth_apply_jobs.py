@@ -138,8 +138,8 @@ def easy_apply(driver, job_link, job_title):
             shadow_root = driver.execute_script("return arguments[0].shadowRoot", apply_component)
             submitted_tag = shadow_root.find_elements(By.CSS_SELECTOR, ".application-submitted")
             if submitted_tag:
-                logger.info(f"SKIPPED (already applied): {job_title}")
-                print(f"SKIPPED (already applied): {job_title}")
+                logger.info(f"SKIPPED (already applied): {job_title} - {job_link}")
+                print(f"SKIPPED (already applied): {job_title} - {job_link}")
                 return "Applied"
         except Exception as e:
             logger.warning(f"Could not check application status for {job_title} — {e}")
