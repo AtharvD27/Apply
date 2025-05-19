@@ -1,0 +1,1139 @@
+2025-05-19 11:20:06,512 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-19 11:20:07,513 - INFO - Logging into Dice...
+2025-05-19 11:20:11,587 - INFO - Login successful.
+2025-05-19 11:20:13,440 - INFO - [INFO] Will attempt 30 job(s) this run (target 65, available 30)
+2025-05-19 11:20:29,735 - WARNING - Could not check application status for AI/ML Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:20:34,901 - ERROR - Cannot click apply-button-wc for AI/ML Engineer: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:20:48,525 - WARNING - Could not check application status for Data Analyst — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:20:53,686 - ERROR - Cannot click apply-button-wc for Data Analyst: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:21:11,548 - WARNING - Could not check application status for GenAI Solutions Engineer - W2 Only — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:21:16,719 - ERROR - Cannot click apply-button-wc for GenAI Solutions Engineer - W2 Only: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:21:35,079 - WARNING - Could not check application status for AI Consultant - US physical resident - Remote — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:21:40,245 - ERROR - Cannot click apply-button-wc for AI Consultant - US physical resident - Remote: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:22:02,353 - INFO - APPLIED: Senior GenAI Developer - https://www.dice.com/job-detail/e548cbb6-ae38-4f9b-8057-29b8891bac39
+2025-05-19 11:22:17,976 - WARNING - Could not check application status for AI Engineer (Fullstack) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:22:23,144 - ERROR - Cannot click apply-button-wc for AI Engineer (Fullstack): Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:22:36,915 - WARNING - Could not check application status for Face 2 Face Interview! AI Solutions Consultant with Microsoft Power Platform and Dynamics 365 architecture, New York, NYC — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:22:42,082 - ERROR - Cannot click apply-button-wc for Face 2 Face Interview! AI Solutions Consultant with Microsoft Power Platform and Dynamics 365 architecture, New York, NYC: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:22:58,609 - WARNING - Could not check application status for The Gen AI Architect — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:23:03,779 - ERROR - Cannot click apply-button-wc for The Gen AI Architect: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:23:20,389 - WARNING - Could not check application status for Senior GenAI/LLM Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:23:25,559 - ERROR - Cannot click apply-button-wc for Senior GenAI/LLM Engineer: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:23:42,137 - WARNING - Could not check application status for Java Developer with AI/ML exp. — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:23:47,363 - ERROR - Cannot click apply-button-wc for Java Developer with AI/ML exp.: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:24:09,818 - INFO - APPLIED: Senior Data Scientist - https://www.dice.com/job-detail/d7ec9c05-ffb7-47ba-9217-9b84664e1e9e
+2025-05-19 11:24:27,736 - WARNING - Could not check application status for ML/Ops Architect — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:24:33,010 - ERROR - Cannot click apply-button-wc for ML/Ops Architect: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:24:53,072 - WARNING - Could not check application status for Embedded Analytics - CDS SME — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:24:58,239 - ERROR - Cannot click apply-button-wc for Embedded Analytics - CDS SME: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:25:15,626 - WARNING - Could not check application status for Java Developer with Generative AI Experience — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:25:20,793 - ERROR - Cannot click apply-button-wc for Java Developer with Generative AI Experience: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:25:33,660 - WARNING - Could not check application status for AI Consultant - US physical resident - Remote — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:25:38,826 - ERROR - Cannot click apply-button-wc for AI Consultant - US physical resident - Remote: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:25:52,532 - WARNING - Could not check application status for Computer Vision Engineer - Robotics & Embedded Systems — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:25:57,726 - ERROR - Cannot click apply-button-wc for Computer Vision Engineer - Robotics & Embedded Systems: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:26:14,061 - WARNING - Could not check application status for Gen AI / Machine Learning Subject Matter Expert — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:26:19,228 - ERROR - Cannot click apply-button-wc for Gen AI / Machine Learning Subject Matter Expert: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:26:33,684 - WARNING - Could not check application status for Data Scientist — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:26:38,879 - ERROR - Cannot click apply-button-wc for Data Scientist: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:26:52,746 - WARNING - Could not check application status for Data Scientist — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:26:57,915 - ERROR - Cannot click apply-button-wc for Data Scientist: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:27:15,241 - WARNING - Could not check application status for Senior Java Developer (Generative AI) - Phoenix, AZ / Irving, TX / Charlotte, NC - W2 ONLY — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:27:20,408 - ERROR - Cannot click apply-button-wc for Senior Java Developer (Generative AI) - Phoenix, AZ / Irving, TX / Charlotte, NC - W2 ONLY: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:27:32,083 - INFO - SKIPPED (already applied): Java Solution Architect ? AI/ML (GenAI)
+2025-05-19 11:27:55,342 - INFO - APPLIED: Senior GenAI Developer - https://www.dice.com/job-detail/e548cbb6-ae38-4f9b-8057-29b8891bac39
+2025-05-19 11:28:15,892 - WARNING - Could not check application status for GenAI Solutions Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:28:21,059 - ERROR - Cannot click apply-button-wc for GenAI Solutions Engineer: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:28:45,951 - INFO - APPLIED: AI/ML Architect - https://www.dice.com/job-detail/7aa091bb-42ec-49e2-93fa-fcdc708a2bdf
+2025-05-19 11:29:03,077 - WARNING - Could not check application status for Data Scientist — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:29:08,284 - ERROR - Cannot click apply-button-wc for Data Scientist: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:29:24,157 - WARNING - Could not check application status for Senior Developer (LLM Implementation Focus) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:29:29,327 - ERROR - Cannot click apply-button-wc for Senior Developer (LLM Implementation Focus): Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:29:46,420 - WARNING - Could not check application status for Gen AI Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:29:51,663 - ERROR - Cannot click apply-button-wc for Gen AI Engineer: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:30:08,490 - WARNING - Could not check application status for Full Stack Developer (Agentic AI Stack Experience) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:30:13,659 - ERROR - Cannot click apply-button-wc for Full Stack Developer (Agentic AI Stack Experience): Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:30:37,731 - INFO - APPLIED: Senior Data Scientist - https://www.dice.com/job-detail/5d128201-189b-4cdf-846b-2c442bab1900
+2025-05-19 11:30:53,316 - WARNING - Could not check application status for Data Scientist with AI ML only for Houston TX Locals — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:30:58,483 - ERROR - Cannot click apply-button-wc for Data Scientist with AI ML only for Houston TX Locals: Message: 
+Stacktrace:
+#0 0x5574b221a75a <unknown>
+#1 0x5574b1cbd0a0 <unknown>
+#2 0x5574b1d0e9b0 <unknown>
+#3 0x5574b1d0eba1 <unknown>
+#4 0x5574b1d5cea4 <unknown>
+#5 0x5574b1d343cd <unknown>
+#6 0x5574b1d5a2a0 <unknown>
+#7 0x5574b1d34173 <unknown>
+#8 0x5574b1d00d4b <unknown>
+#9 0x5574b1d019b1 <unknown>
+#10 0x5574b21df90b <unknown>
+#11 0x5574b21e380a <unknown>
+#12 0x5574b21c7662 <unknown>
+#13 0x5574b21e4394 <unknown>
+#14 0x5574b21ac49f <unknown>
+#15 0x5574b2208538 <unknown>
+#16 0x5574b2208716 <unknown>
+#17 0x5574b22195c6 <unknown>
+#18 0x7fdaf8c9caa4 <unknown>
+#19 0x7fdaf8d29c3c <unknown>
+
+2025-05-19 11:31:00,835 - INFO - [DONE] Newly applied: 6 out of 30 chosen (Total CSV rows: 784)
