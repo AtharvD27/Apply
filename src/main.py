@@ -1,5 +1,5 @@
 # main.py
-from dice_scraper import main as run_dice_scraper
+from stealth_dice_scraper import main as run_dice_scraper
 import json
 import pandas as pd
 import os

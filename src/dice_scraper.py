@@ -184,7 +184,7 @@ def main():
     df_combined = df_combined.drop_duplicates(subset=["link", "date_posted"], keep="first")
     df_combined.to_csv(CSV_FILE, index=False)
 
-    logger.info("[✅] Scraping complete. New jobs found: {len(df_new)} | Total: {len(df_combined)}")
+    logger.info(f"[✅] Scraping complete. New jobs found: {len(df_new)} | Total: {len(df_combined)}")
     print(f"[✅] Scraping complete. New jobs found: {len(df_new)} | Total: {len(df_combined)}")
     driver.quit()
 
