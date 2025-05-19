@@ -169,8 +169,8 @@ def scrape_query(driver,query: str,seen_links: Set[Tuple[str, str]]) -> list:
                     }
                 )
 
-                logger.info(f"[+] FOUND — {job_title}")
-                print(f"[+] FOUND — {job_title}")
+                logger.info(f"[+] FOUND — {job_title} — {apply_text} — {job_link}")
+                print(f"[+] FOUND — {job_title} — {apply_text }— {job_link}")
                 
             except Exception as exc:
                 logger.error(f"Error parsing card: {exc}")

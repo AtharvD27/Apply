@@ -2,7 +2,7 @@ name: Scrape & Filter Dice Jobs Stealth
 
 on:   
   schedule:
-    - cron: '0 10 * * *'  # 6 AM EST
+    - cron: '0 11 * * *'  # 7 AM EST
     - cron: '0 13 * * *'  # 9 AM EST
     - cron: '0 16 * * *'  # 12 PM EST
     - cron: '0 19 * * *'  # 3 PM EST

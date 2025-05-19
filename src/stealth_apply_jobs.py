@@ -172,8 +172,8 @@ def easy_apply(driver, job_link, job_title):
         final_btn.click()
         time.sleep(DELAY - 2)
 
-        logger.info(f"APPLIED: {job_title}")
-        print(f"APPLIED: {job_title}")
+        logger.info(f"APPLIED: {job_title} - {job_link}")
+        print(f"APPLIED: {job_title} - {job_link}")
         return "Applied"
 
     except Exception as e:
