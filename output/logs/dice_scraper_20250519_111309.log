@@ -1,0 +1,119 @@
+2025-05-19 11:13:09,550 [INFO] patching driver executable /usr/local/bin/chromedriver
+2025-05-19 11:13:10,045 [INFO] Query: AI Trainer | Page: 1
+2025-05-19 11:13:18,189 [INFO] Query: AI Trainer | Page: 2
+2025-05-19 11:13:23,715 [INFO] Query: AI Trainer | Page: 3
+2025-05-19 11:13:30,644 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Trainer&page=3
+2025-05-19 11:13:30,644 [INFO] Total pages scanned for query 'AI Trainer': 2
+2025-05-19 11:13:30,644 [INFO] Total new jobs found for query 'AI Trainer': 0
+2025-05-19 11:13:30,644 [INFO] Query: Generative AI Engineer | Page: 1
+2025-05-19 11:13:35,908 [INFO] Query: Generative AI Engineer | Page: 2
+2025-05-19 11:13:42,887 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Generative+AI+Engineer&page=2
+2025-05-19 11:13:42,887 [INFO] Total pages scanned for query 'Generative AI Engineer': 1
+2025-05-19 11:13:42,887 [INFO] Total new jobs found for query 'Generative AI Engineer': 0
+2025-05-19 11:13:42,887 [INFO] Query: AI/ML DevOps Engineer | Page: 1
+2025-05-19 11:13:49,129 [INFO] Query: AI/ML DevOps Engineer | Page: 2
+2025-05-19 11:13:54,713 [INFO] Query: AI/ML DevOps Engineer | Page: 3
+2025-05-19 11:14:00,391 [INFO] Query: AI/ML DevOps Engineer | Page: 4
+2025-05-19 11:14:04,329 [INFO] Query: AI/ML DevOps Engineer | Page: 5
+2025-05-19 11:14:11,304 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI/ML+DevOps+Engineer&page=5
+2025-05-19 11:14:11,304 [INFO] Total pages scanned for query 'AI/ML DevOps Engineer': 4
+2025-05-19 11:14:11,304 [INFO] Total new jobs found for query 'AI/ML DevOps Engineer': 0
+2025-05-19 11:14:11,304 [INFO] Query: AI Business Analyst | Page: 1
+2025-05-19 11:14:15,941 [INFO] Query: AI Business Analyst | Page: 2
+2025-05-19 11:14:20,061 [INFO] Query: AI Business Analyst | Page: 3
+2025-05-19 11:14:27,040 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Business+Analyst&page=3
+2025-05-19 11:14:27,040 [INFO] Total pages scanned for query 'AI Business Analyst': 2
+2025-05-19 11:14:27,040 [INFO] Total new jobs found for query 'AI Business Analyst': 0
+2025-05-19 11:14:27,040 [INFO] Query: ML | Page: 1
+2025-05-19 11:14:32,668 [INFO] Query: ML | Page: 2
+2025-05-19 11:14:38,917 [INFO] Query: ML | Page: 3
+2025-05-19 11:14:44,468 [INFO] Query: ML | Page: 4
+2025-05-19 11:14:48,751 [INFO] Query: ML | Page: 5
+2025-05-19 11:14:53,035 [INFO] Query: ML | Page: 6
+2025-05-19 11:15:00,121 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML&page=6
+2025-05-19 11:15:00,122 [INFO] Total pages scanned for query 'ML': 5
+2025-05-19 11:15:00,122 [INFO] Total new jobs found for query 'ML': 0
+2025-05-19 11:15:00,122 [INFO] Query: Artificial Intelligence Engineer | Page: 1
+2025-05-19 11:15:05,046 [INFO] Query: Artificial Intelligence Engineer | Page: 2
+2025-05-19 11:15:10,415 [INFO] Query: Artificial Intelligence Engineer | Page: 3
+2025-05-19 11:15:17,397 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Artificial+Intelligence+Engineer&page=3
+2025-05-19 11:15:17,397 [INFO] Total pages scanned for query 'Artificial Intelligence Engineer': 2
+2025-05-19 11:15:17,397 [INFO] Total new jobs found for query 'Artificial Intelligence Engineer': 0
+2025-05-19 11:15:17,397 [INFO] Query: Machine Learning Engineer | Page: 1
+2025-05-19 11:15:23,546 [INFO] Query: Machine Learning Engineer | Page: 2
+2025-05-19 11:15:30,489 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning+Engineer&page=2
+2025-05-19 11:15:30,489 [INFO] Total pages scanned for query 'Machine Learning Engineer': 1
+2025-05-19 11:15:30,489 [INFO] Total new jobs found for query 'Machine Learning Engineer': 0
+2025-05-19 11:15:30,489 [INFO] Query: Machine Learning | Page: 1
+2025-05-19 11:15:34,742 [INFO] Query: Machine Learning | Page: 2
+2025-05-19 11:15:40,464 [INFO] Query: Machine Learning | Page: 3
+2025-05-19 11:15:46,637 [INFO] Query: Machine Learning | Page: 4
+2025-05-19 11:15:50,663 [INFO] Query: Machine Learning | Page: 5
+2025-05-19 11:15:55,044 [INFO] Query: Machine Learning | Page: 6
+2025-05-19 11:16:01,945 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning&page=6
+2025-05-19 11:16:01,945 [INFO] Total pages scanned for query 'Machine Learning': 5
+2025-05-19 11:16:01,945 [INFO] Total new jobs found for query 'Machine Learning': 0
+2025-05-19 11:16:01,946 [INFO] Query: Data Scientist | Page: 1
+2025-05-19 11:16:09,672 [INFO] Query: Data Scientist | Page: 2
+2025-05-19 11:16:15,650 [INFO] Query: Data Scientist | Page: 3
+2025-05-19 11:16:22,651 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Data+Scientist&page=3
+2025-05-19 11:16:22,651 [INFO] Total pages scanned for query 'Data Scientist': 2
+2025-05-19 11:16:22,651 [INFO] Total new jobs found for query 'Data Scientist': 0
+2025-05-19 11:16:22,651 [INFO] Query: Computer Vision Engineer | Page: 1
+2025-05-19 11:16:27,910 [INFO] Query: Computer Vision Engineer | Page: 2
+2025-05-19 11:16:34,888 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Computer+Vision+Engineer&page=2
+2025-05-19 11:16:34,888 [INFO] Total pages scanned for query 'Computer Vision Engineer': 1
+2025-05-19 11:16:34,889 [INFO] Total new jobs found for query 'Computer Vision Engineer': 0
+2025-05-19 11:16:34,889 [INFO] Query: Natural Language Processing Engineer | Page: 1
+2025-05-19 11:16:41,964 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Natural+Language+Processing+Engineer&page=1
+2025-05-19 11:16:41,964 [INFO] Total pages scanned for query 'Natural Language Processing Engineer': 0
+2025-05-19 11:16:41,964 [INFO] Total new jobs found for query 'Natural Language Processing Engineer': 0
+2025-05-19 11:16:41,964 [INFO] Query: LLM Engineer | Page: 1
+2025-05-19 11:16:46,731 [INFO] Query: LLM Engineer | Page: 2
+2025-05-19 11:16:53,652 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=LLM+Engineer&page=2
+2025-05-19 11:16:53,652 [INFO] Total pages scanned for query 'LLM Engineer': 1
+2025-05-19 11:16:53,652 [INFO] Total new jobs found for query 'LLM Engineer': 0
+2025-05-19 11:16:53,652 [INFO] Query: AI Software Engineer | Page: 1
+2025-05-19 11:17:00,249 [INFO] Query: AI Software Engineer | Page: 2
+2025-05-19 11:17:05,685 [INFO] Query: AI Software Engineer | Page: 3
+2025-05-19 11:17:12,757 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Software+Engineer&page=3
+2025-05-19 11:17:12,757 [INFO] Total pages scanned for query 'AI Software Engineer': 2
+2025-05-19 11:17:12,757 [INFO] Total new jobs found for query 'AI Software Engineer': 0
+2025-05-19 11:17:12,757 [INFO] Query: ML Software Engineer | Page: 1
+2025-05-19 11:17:16,891 [INFO] Query: ML Software Engineer | Page: 2
+2025-05-19 11:17:23,860 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML+Software+Engineer&page=2
+2025-05-19 11:17:23,860 [INFO] Total pages scanned for query 'ML Software Engineer': 1
+2025-05-19 11:17:23,860 [INFO] Total new jobs found for query 'ML Software Engineer': 0
+2025-05-19 11:17:23,860 [INFO] Query: Prompt Engineer | Page: 1
+2025-05-19 11:17:29,698 [INFO] Query: Prompt Engineer | Page: 2
+2025-05-19 11:17:36,644 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Prompt+Engineer&page=2
+2025-05-19 11:17:36,644 [INFO] Total pages scanned for query 'Prompt Engineer': 1
+2025-05-19 11:17:36,645 [INFO] Total new jobs found for query 'Prompt Engineer': 0
+2025-05-19 11:17:36,645 [INFO] Query: GenAI Solutions Engineer | Page: 1
+2025-05-19 11:17:40,961 [INFO] Query: GenAI Solutions Engineer | Page: 2
+2025-05-19 11:17:48,044 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=GenAI+Solutions+Engineer&page=2
+2025-05-19 11:17:48,044 [INFO] Total pages scanned for query 'GenAI Solutions Engineer': 1
+2025-05-19 11:17:48,044 [INFO] Total new jobs found for query 'GenAI Solutions Engineer': 0
+2025-05-19 11:17:48,044 [INFO] Query: Gen AI Architect | Page: 1
+2025-05-19 11:17:53,359 [INFO] Query: Gen AI Architect | Page: 2
+2025-05-19 11:18:00,315 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Gen+AI+Architect&page=2
+2025-05-19 11:18:00,315 [INFO] Total pages scanned for query 'Gen AI Architect': 1
+2025-05-19 11:18:00,315 [INFO] Total new jobs found for query 'Gen AI Architect': 0
+2025-05-19 11:18:00,315 [INFO] Query: AI | Page: 1
+2025-05-19 11:18:06,635 [INFO] Query: AI | Page: 2
+2025-05-19 11:18:10,461 [INFO] Query: AI | Page: 3
+2025-05-19 11:18:17,389 [INFO] Query: AI | Page: 4
+2025-05-19 11:18:24,373 [INFO] Query: AI | Page: 5
+2025-05-19 11:18:31,437 [INFO] Query: AI | Page: 6
+2025-05-19 11:18:37,580 [INFO] Query: AI | Page: 7
+2025-05-19 11:18:42,821 [INFO] Query: AI | Page: 8
+2025-05-19 11:18:47,931 [INFO] Query: AI | Page: 9
+2025-05-19 11:18:53,608 [INFO] Query: AI | Page: 10
+2025-05-19 11:18:59,504 [INFO] Query: AI | Page: 11
+2025-05-19 11:19:05,144 [INFO] Query: AI | Page: 12
+2025-05-19 11:19:11,292 [INFO] Query: AI | Page: 13
+2025-05-19 11:19:16,497 [INFO] Query: AI | Page: 14
+2025-05-19 11:19:23,452 [WARNING] Timeout on: https://www.dice.com/jobs?filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI&page=14
+2025-05-19 11:19:23,452 [INFO] Total pages scanned for query 'AI': 13
+2025-05-19 11:19:23,452 [INFO] Total new jobs found for query 'AI': 0
+2025-05-19 11:19:23,481 [INFO] ✅ Scrape done. New: 0 | Total rows: 2245
