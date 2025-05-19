@@ -165,13 +165,28 @@ def easy_apply(driver, job_link, job_title):
             logger.error(f"Cannot click apply-button-wc for {job_title}: {e}")
             return "Failed"
 
-        next_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-        next_btn.click()
-        time.sleep(DELAY - 2)
+        # Click NEXT button
+        try:
+            next_btn = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'btn-next')]"))
+            )
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", next_btn)
+            time.sleep(1.5)
+            next_btn.click()
+        except Exception as e:
+            logger.error(f"[ERROR] Cannot click first NEXT button for {job_title}: {e}")
+            return "Failed"
 
-        final_btn = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-next')]")
-        final_btn.click()
-        time.sleep(DELAY - 2)
+        try:
+            final_btn = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'btn-next')]"))
+            )
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", final_btn)
+            time.sleep(1.5)
+            final_btn.click()
+        except Exception as e:
+            logger.error(f"[ERROR] Cannot click final NEXT button for {job_title}: {e}")
+            return "Failed"
 
         logger.info(f"APPLIED: {job_title} - {job_link}")
         print(f"APPLIED: {job_title} - {job_link}")
