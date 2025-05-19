@@ -92,6 +92,7 @@ def scrape_query(driver,query: str,seen_links: Set[Tuple[str, str]]) -> list:
     
     """Scrape all pages for a single search query and return job dicts."""
     new_jobs = []
+    total_pages_scraped = 0
     for page in range(1, MAX_PAGES + 1):
         url = BASE_URL.format(query=query.replace(" ", "+"), page=page)
         logger.info(f"Query: {query} | Page: {page}")
