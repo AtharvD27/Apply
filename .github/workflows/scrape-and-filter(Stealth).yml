@@ -1,15 +1,15 @@
 name: Scrape & Filter Dice Jobs Stealth
 
-on:   
+on:  
   schedule:
-    - cron: '0 11 * * *'  # 7 AM EST
-    - cron: '0 13 * * *'  # 9 AM EST
-    - cron: '0 15 * * *'  # 11 AM EST
-    - cron: '0 17 * * *'  # 1 PM EST
-    - cron: '0 19 * * *'  # 3 PM EST
-    - cron: '0 21 * * *'  # 5 PM EST
-    - cron: '0 23 * * *'  # 7 PM EST
-    - cron: '0 1 * * *'  # 9 PM EST 
+    - cron: '30 10 * * *'  # 6:30 AM EST
+    - cron: '30 12 * * *'  # 8:30 AM EST
+    - cron: '30 14 * * *'  # 10:30 AM EST
+    - cron: '30 16 * * *'  # 12:30 PM EST
+    - cron: '30 18 * * *'  # 2:30 PM EST
+    - cron: '30 20 * * *'  # 4:30 PM EST
+    - cron: '30 22 * * *'  # 6:30 PM EST
+    - cron: '30 0 * * *'   # 8:30 PM EST
   workflow_dispatch:
     
 permissions:
