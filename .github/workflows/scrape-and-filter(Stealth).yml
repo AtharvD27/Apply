@@ -70,6 +70,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Print Base URL
+      run: echo "BASE URL VALUE: ${{ secrets.BASE_URL }}
+    
     - name: Run main.py to scrape and filter
       env:
         BASE_URL: ${{ secrets.BASE_URL }}
