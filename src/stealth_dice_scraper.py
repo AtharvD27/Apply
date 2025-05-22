@@ -30,6 +30,8 @@ QUERY_FILE: str = config["query_file"]
 MAX_PAGES: int = config.get("max_pages", 20)
 DELAY_WAIT: int = config.get("delay", 6)
 
+print(f"Base URL: {BASE_URL}")
+
 # Human‑style pacing
 MIN_PAGE_DELAY = float(config.get("min_page_delay", 2))
 MAX_PAGE_DELAY = float(config.get("max_page_delay", 4))
