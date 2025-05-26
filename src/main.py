@@ -1,5 +1,5 @@
 # main.py
-from stealth_dice_scraper import main as run_dice_scraper
+from stealth_scraper import main as run_scraper
 import json
 import pandas as pd
 import os
@@ -45,5 +45,5 @@ def filter_relevant_jobs(config):
 
 if __name__ == "__main__":
     config = load_config()
-    run_dice_scraper()
+    run_scraper()
     filter_relevant_jobs(config)

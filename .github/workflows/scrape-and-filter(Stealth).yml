@@ -1,4 +1,4 @@
-name: Scrape & Filter Dice Jobs Stealth
+name: Scrape & Filter Stealth
 
 on:  
   schedule:
@@ -17,7 +17,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: dice-scrape-cancel-stealth          # <-- Scrape duplicates
+  group: cancel-stealth          # <-- Scrape duplicates
   cancel-in-progress: true           #      are cancelled
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
 
     concurrency:
-      group: dice-job-lock-stealth           # <-- same string as Apply job
+      group: lock-stealth           # <-- same string as Apply job
       cancel-in-progress: false      #     so Scrape simply queues
 
     steps:

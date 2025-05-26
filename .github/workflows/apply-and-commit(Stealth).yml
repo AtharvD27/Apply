@@ -1,4 +1,4 @@
-name: Auto Apply Jobs Stealth
+name: Auto Stealth
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dice-job-lock-stealth          # <-- shared with Scrape (see below)
+  group: lock-stealth          # <-- shared with Scrape (see below)
   cancel-in-progress: false
 
 jobs:
@@ -48,12 +48,12 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run stealth_auto_apply.py
+    - name: Run stealth_apply.py
       env:
         APPLY_EMAIL: ${{ secrets.APPLY_EMAIL }}
         APPLY_PASSWORD: ${{ secrets.APPLY_PASSWORD }}
         APPLY_PROCESS_FAILED:  ${{ secrets.APPLY_PROCESS_FAILED }}
-      run: python src/stealth_apply_jobs.py
+      run: python src/stealth_apply.py
 
     - name: Commit and push updated final_ml_jobs.csv
       run: |
