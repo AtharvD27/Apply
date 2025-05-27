@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   scrape_and_filter:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, dice-runner]
 
     concurrency:
       group: lock-stealth           # <-- same string as Apply job
@@ -34,36 +34,6 @@ jobs:
       with:
         persist-credentials: false
         fetch-depth: 0
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install Chrome 136 and matching Chromedriver from Testing Bucket
-      run: |
-        set -e
-        sudo apt-get update
-        sudo apt-get install -y wget unzip curl
-
-        # Download and install Chrome 136.0.7103.94
-        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
-        unzip -q chrome-linux64.zip
-        sudo mv chrome-linux64 /opt/chrome
-
-        # 🔥 Replace system's default google-chrome
-        sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
-
-        # Download and install Chromedriver 136.0.7103.94
-        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
-        unzip -q chromedriver-linux64.zip
-        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
-        sudo chmod +x /usr/local/bin/chromedriver
-
-        # Final check
-        google-chrome --version
-        chromedriver --version
-
 
     - name: Install Python dependencies
       run: |

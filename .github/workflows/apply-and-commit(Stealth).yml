@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   auto_apply:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, dice-runner]
 
     steps:
     - name: Checkout repo
@@ -22,27 +22,6 @@ jobs:
         fetch-depth: 0
 
     - run: echo "🟢 Triggered by ${{ github.event_name }} on ${{ github.ref }}"
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install Chrome 136 and Chromedriver
-      run: |
-        set -e
-        sudo apt-get update
-        sudo apt-get install -y wget unzip curl
-        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
-        unzip -q chrome-linux64.zip
-        sudo mv chrome-linux64 /opt/chrome
-        sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
-        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
-        unzip -q chromedriver-linux64.zip
-        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
-        sudo chmod +x /usr/local/bin/chromedriver
-        google-chrome --version
-        chromedriver --version
 
     - name: Install Python dependencies
       run: |
