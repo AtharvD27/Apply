@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   scrape_and_filter:
-    runs-on: [self-hosted, dice-runner]
+    runs-on: ubuntu-latest
 
     concurrency:
       group: lock-stealth           # <-- same string as Apply job
@@ -35,10 +35,34 @@ jobs:
         persist-credentials: false
         fetch-depth: 0
 
-    - name: Activate Python venv
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Chrome 136 and matching Chromedriver from Testing Bucket
       run: |
-        source /home/ghactions/auto-applier/bin/activate
-        echo "👉 Using Python at $(which python) ($(python --version))"
+        set -e
+        sudo apt-get update
+        sudo apt-get install -y wget unzip curl
+        # Download and install Chrome 136.0.7103.94
+        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
+        unzip -q chrome-linux64.zip
+        sudo mv chrome-linux64 /opt/chrome
+        # 🔥 Replace system's default google-chrome
+        sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
+        # Download and install Chromedriver 136.0.7103.94
+        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+        unzip -q chromedriver-linux64.zip
+        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+        # Final check
+        google-chrome --version
+        chromedriver --version
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
     
     - name: Run main.py to scrape and filter
       env:
@@ -50,14 +74,12 @@ jobs:
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
         git add output/jobs.csv output/final_ml_jobs.csv output/logs/*.log
-
         if git diff --cached --quiet; then
           echo "✅ No changes to commit."
         else
           git commit -m "🔄 Auto-update jobs.csv and final_ml_jobs.csv"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
         fi
-
     - name: Trigger Stealth Apply workflow
       uses: benc-uk/workflow-dispatch@v1
       with:

@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   auto_apply:
-    runs-on: [self-hosted, dice-runner]
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repo
@@ -23,11 +23,29 @@ jobs:
 
     - run: echo "🟢 Triggered by ${{ github.event_name }} on ${{ github.ref }}"
 
-    - name: Activate Python venv
-      run: |
-        source /home/ghactions/auto-applier/bin/activate
-        echo "👉 Using Python at $(which python) ($(python --version))"
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
 
+    - name: Install Chrome 136 and Chromedriver
+      run: |
+        set -e
+        sudo apt-get update
+        sudo apt-get install -y wget unzip curl
+        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chrome-linux64.zip
+        unzip -q chrome-linux64.zip
+        sudo mv chrome-linux64 /opt/chrome
+        sudo ln -sf /opt/chrome/chrome /usr/bin/google-chrome
+        wget https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+        unzip -q chromedriver-linux64.zip
+        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+        google-chrome --version
+        chromedriver --version
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
     - name: Run stealth_apply.py
       env:
         APPLY_EMAIL: ${{ secrets.APPLY_EMAIL }}
@@ -40,7 +58,6 @@ jobs:
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
         git add output/final_ml_jobs.csv output/logs/*
-
         if git diff --cached --quiet; then
           echo "✅ No changes to commit."
         else
