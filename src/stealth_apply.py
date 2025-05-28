@@ -16,6 +16,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
+from selenium.webdriver.remote.remote_connection import RemoteConnection
 
 # --- CONFIG ------------------------------------------------------
 def load_config(path="config/apply_job_config.yaml"):
@@ -59,12 +60,14 @@ def human_delay(base: float = 2.0, jitter: float = 0.6):
 
 
 def wiggle_mouse(driver):
-    """Tiny mouse move to generate real DOM events."""
-    body = driver.find_element(By.TAG_NAME, "body")
-    actions = ActionChains(driver)
-    dx, dy = random.randint(10, 400), random.randint(10, 400)
-    actions.move_to_element_with_offset(body, dx, dy).pause(random.random() / 2).perform()
-
+    try:
+        body = driver.find_element(By.TAG_NAME, "body")
+        actions = ActionChains(driver)
+        x, y = random.randrange(0, 300), random.randrange(0, 300)
+        actions.move_to_element_with_offset(body, x, y).pause(random.random()/2).perform()
+    except Exception as e:
+        logger.warning(f"[WARN] wiggle_mouse failed, skipping: {e}")
+        # don’t re-raise
 
 def get_stealth_driver(headless: bool = True):
     opts = ChromeOptions()
@@ -203,6 +206,7 @@ def easy_apply(driver, job_link, job_title):
 
 def main(process_failed: bool = False):
     # --- Get driver ------------------------------------------------
+    RemoteConnection.set_timeout(300) 
     driver = get_stealth_driver(headless=True)
 
     df = pd.read_csv(CSV_FILE)

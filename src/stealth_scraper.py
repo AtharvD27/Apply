@@ -16,6 +16,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.webdriver.remote.remote_connection import RemoteConnection
 
 # ── CONFIG & CONSTANTS ───────────────────────────────────────────
 
@@ -61,16 +62,15 @@ def human_delay(base: float = 2.0, jitter: float = 0.7):
     """Sleep like a human: N(base, jitter²) seconds (never < 0.1)."""
     time.sleep(max(0.1, random.normalvariate(base, jitter)))
 
-
 def wiggle_mouse(driver):
-    """Small random cursor move to generate genuine mouse events."""
-    body = driver.find_element(By.TAG_NAME, "body")
-    ActionChains(driver).move_to_element_with_offset(
-        body,
-        random.randint(5, 400),
-        random.randint(5, 400),
-    ).pause(random.random() / 2).perform()
-
+    try:
+        body = driver.find_element(By.TAG_NAME, "body")
+        actions = ActionChains(driver)
+        x, y = random.randrange(0, 300), random.randrange(0, 300)
+        actions.move_to_element_with_offset(body, x, y).pause(random.random()/2).perform()
+    except Exception as e:
+        logger.warning(f"[WARN] wiggle_mouse failed, skipping: {e}")
+        # don’t re-raise
 
 def get_stealth_driver(headless: bool = True):
     opts = ChromeOptions()
@@ -191,6 +191,7 @@ def scrape_query(driver,query: str,seen_links: Set[Tuple[str, str]]) -> list:
 # ── Main entrypoint ─────────────────────────────────────────────
 
 def main():
+    RemoteConnection.set_timeout(300) 
     driver = get_stealth_driver(headless=True)
     try:
         # load existing
