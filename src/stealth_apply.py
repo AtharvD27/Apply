@@ -16,7 +16,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementNotInteractableException
-from selenium.webdriver.remote.remote_connection import RemoteConnection
+from selenium.webdriver.remote.remote_connection import RemoteConnection, ClientConfig
 
 # --- CONFIG ------------------------------------------------------
 def load_config(path="config/apply_job_config.yaml"):
@@ -206,7 +206,7 @@ def easy_apply(driver, job_link, job_title):
 
 def main(process_failed: bool = False):
     # --- Get driver ------------------------------------------------
-    RemoteConnection.set_timeout(300) 
+    RemoteConnection._client_config = ClientConfig(read_timeout=300, connection_timeout=300) 
     driver = get_stealth_driver(headless=True)
 
     df = pd.read_csv(CSV_FILE)
