@@ -257,7 +257,7 @@ def main(process_failed: bool = False):
         # 6. Re‑merge & sort
         df_remaining = df.drop(easy_apply_df.index)
         df_combined = pd.concat([df_remaining, easy_apply_df], ignore_index=True)
-        df_combined = df_combined.sort_values("Date_added", ascending=True)
+        df_combined = df_combined.sort_values("date_added", ascending=True)
         df_combined = df_combined.drop_duplicates(subset=["link", "apply_text"], keep="first")
         df_combined["status"] = pd.Categorical(df_combined["status"], categories=["Pending", "Applied", "Failed"], ordered=True)
         df_combined = df_combined.sort_values(by="status").reset_index(drop=True)
