@@ -31,6 +31,7 @@ PASSWORD = os.getenv("APPLY_PASSWORD") or config["password"]
 DRIVER_PATH = config.get("driver_path", "/usr/local/bin/chromedriver")
 LOG_DIR = Path(config.get("log_dir", "output/logs"))
 PROCESS_FAILED = os.getenv("APPLY_PROCESS_FAILED") or config.get("process_failed", False)
+SKIPPED = 0
 
 # ====== Logging ======
 LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -140,6 +141,7 @@ def easy_apply(driver, job_link, job_title):
             if submitted_tag:
                 logger.info(f"SKIPPED (already applied): {job_title} - {job_link}")
                 print(f"SKIPPED (already applied): {job_title} - {job_link}")
+                SKIPPED += 1
                 return "Applied"
         except Exception as e:
             logger.warning(f"Could not check application status for {job_title} — {e}")
@@ -214,6 +216,7 @@ def main(process_failed: bool = False):
         status_to_process.append("failed")
 
     pending_df = easy_apply_df[easy_apply_df["status"].str.lower().isin(status_to_process)].copy()
+    pending = len(pending_df)
 
     if pending_df.empty:
         logger.info("✅ No new jobs to apply. Exiting early.")
@@ -252,14 +255,24 @@ def main(process_failed: bool = False):
         # 6. Re‑merge & sort
         df_remaining = df.drop(easy_apply_df.index)
         df_combined = pd.concat([df_remaining, easy_apply_df], ignore_index=True)
+        df_combined["Date added"] = pd.to_datetime(df_combined["Date added"])
+        df_combined = df_combined.sort_values("Date added", ascending=True)
+        df_combined = df_combined.drop_duplicates(subset=["link", "apply_text"], keep="first")
         df_combined["status"] = pd.Categorical(df_combined["status"], categories=["Pending", "Applied", "Failed"], ordered=True)
         df_combined = df_combined.sort_values(by="status").reset_index(drop=True)
 
         # 7. Atomic CSV write
         df_combined.to_csv(CSV_FILE, index=False)
 
-        logger.info(f"[DONE] Newly applied: {applied} out of {len(pending_df)} chosen (Total CSV rows: {len(df)})")
-        print(f"[DONE] Newly applied: {applied} out of {len(pending_df)} chosen (Total CSV rows: {len(df)})")
+        logger.info(f"[SUMMARY] Skipped already applied: {SKIPPED}")
+        logger.info(f"[SUMMARY] Newly applied: {max(0, applied - SKIPPED)}")
+        logger.info(f"[SUMMARY] Total processed this run: {len(pending_df)}")
+        logger.info(f"[SUMMARY] Total to Apply: {pending}")
+        print(f"[SUMMARY] Skipped already applied:  {SKIPPED}")
+        print(f"[SUMMARY] Newly applied:            {max(0, applied - SKIPPED)}")
+        print(f"[SUMMARY] Total processed this run: {len(pending_df)}")
+        print(f"[SUMMARY] Total to Apply:           {pending}")
+
     finally:
         driver.quit()
 
