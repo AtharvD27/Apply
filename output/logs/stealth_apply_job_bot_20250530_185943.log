@@ -1,0 +1,2408 @@
+2025-05-30 18:59:44,081 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-30 18:59:54,723 - INFO - Logging into Dice...
+2025-05-30 18:59:58,586 - INFO - Login successful.
+2025-05-30 19:00:01,367 - INFO - [INFO] Will attempt 70 job(s) this run (target 70, available 70)
+2025-05-30 19:00:22,817 - INFO - SKIPPED (already applied): Senior Data Science Analyst - https://www.dice.com/job-detail/b4661088-dc89-4197-a141-afd29c9454ac
+2025-05-30 19:00:22,817 - WARNING - Could not check application status for Senior Data Science Analyst — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:00:35,208 - ERROR - [ERROR] Cannot click first NEXT button for Senior Data Science Analyst: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:00:48,353 - INFO - SKIPPED (already applied): Data Scientist AI/ML - https://www.dice.com/job-detail/600271a9-fccd-49d0-931f-39421b49569e
+2025-05-30 19:00:48,354 - WARNING - Could not check application status for Data Scientist AI/ML — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:01:00,798 - ERROR - [ERROR] Cannot click first NEXT button for Data Scientist AI/ML: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:01:19,242 - WARNING - Could not check application status for Machine Learning Engineer III (Speech-to-text) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:01:24,410 - ERROR - Cannot click apply-button-wc for Machine Learning Engineer III (Speech-to-text): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:01:44,133 - WARNING - Could not check application status for Lead Data Analyst — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:01:49,302 - ERROR - Cannot click apply-button-wc for Lead Data Analyst: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:02:06,023 - INFO - SKIPPED (already applied): Data Scientist (Computer Vision) - https://www.dice.com/job-detail/0608171c-3eef-4a97-839e-5870701b6f04
+2025-05-30 19:02:06,023 - WARNING - Could not check application status for Data Scientist (Computer Vision) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:02:18,411 - ERROR - [ERROR] Cannot click first NEXT button for Data Scientist (Computer Vision): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:02:35,836 - INFO - SKIPPED (already applied): Lead Data Scientist (PhD) - https://www.dice.com/job-detail/fa8fda3e-e0bd-425b-8945-f3343dba69a7
+2025-05-30 19:02:35,836 - WARNING - Could not check application status for Lead Data Scientist (PhD) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:02:48,263 - ERROR - [ERROR] Cannot click first NEXT button for Lead Data Scientist (PhD): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:03:03,347 - WARNING - Could not check application status for GenAI Developer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:03:08,516 - ERROR - Cannot click apply-button-wc for GenAI Developer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:03:23,772 - INFO - SKIPPED (already applied): AI/ML Engineering Senior Consultant at Deerfield, IL (Hybrid) - https://www.dice.com/job-detail/a28b90f3-7495-4197-b5ae-2d4f20193150
+2025-05-30 19:03:23,772 - WARNING - Could not check application status for AI/ML Engineering Senior Consultant at Deerfield, IL (Hybrid) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:03:36,162 - ERROR - [ERROR] Cannot click first NEXT button for AI/ML Engineering Senior Consultant at Deerfield, IL (Hybrid): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:03:52,696 - WARNING - Could not check application status for Power Apps AI architect — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:03:57,867 - ERROR - Cannot click apply-button-wc for Power Apps AI architect: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:04:13,591 - WARNING - Could not check application status for Devops/MLops/Python/Kubernetes — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:04:18,761 - ERROR - Cannot click apply-button-wc for Devops/MLops/Python/Kubernetes: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:04:35,002 - INFO - SKIPPED (already applied): Senior Developer (LLM Implementation Focus) - https://www.dice.com/job-detail/8c18b0c2-d6fd-4f7b-bf72-bb0d40bcfd50
+2025-05-30 19:04:35,002 - WARNING - Could not check application status for Senior Developer (LLM Implementation Focus) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:04:47,415 - ERROR - [ERROR] Cannot click first NEXT button for Senior Developer (LLM Implementation Focus): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:05:05,004 - WARNING - Could not check application status for Sr. Data Engineer (W2 Role) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:05:10,172 - ERROR - Cannot click apply-button-wc for Sr. Data Engineer (W2 Role): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:05:23,125 - INFO - SKIPPED (already applied): Data Engineer - https://www.dice.com/job-detail/34475990-e475-428a-b850-30318733f502
+2025-05-30 19:05:23,125 - WARNING - Could not check application status for Data Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:05:35,519 - ERROR - [ERROR] Cannot click first NEXT button for Data Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:05:49,559 - INFO - SKIPPED (already applied): Machine Learning Performance Engineer - CUDA - https://www.dice.com/job-detail/fd494538-b899-4634-9789-fe782510ebd3
+2025-05-30 19:05:49,559 - WARNING - Could not check application status for Machine Learning Performance Engineer - CUDA — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:06:02,040 - ERROR - [ERROR] Cannot click first NEXT button for Machine Learning Performance Engineer - CUDA: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:06:16,241 - INFO - SKIPPED (already applied): Senior Data Analyst - https://www.dice.com/job-detail/50012c2b-34df-4e25-b455-de7538e7e849
+2025-05-30 19:06:16,241 - WARNING - Could not check application status for Senior Data Analyst — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:06:28,633 - ERROR - [ERROR] Cannot click first NEXT button for Senior Data Analyst: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:06:43,547 - WARNING - Could not check application status for Data Scientist with AI and Lifesciences knowledge — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:06:48,771 - ERROR - Cannot click apply-button-wc for Data Scientist with AI and Lifesciences knowledge: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:07:07,275 - WARNING - Could not check application status for Data Engineer (EHR- HL7- FHIR)- Fully Remote- Contract 2 Perm - ONLY Citizen or Perm Residence in Seattle, WA — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:07:12,443 - ERROR - Cannot click apply-button-wc for Data Engineer (EHR- HL7- FHIR)- Fully Remote- Contract 2 Perm - ONLY Citizen or Perm Residence in Seattle, WA: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:07:29,124 - WARNING - Could not check application status for MLOps Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:07:34,298 - ERROR - Cannot click apply-button-wc for MLOps Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:07:50,633 - WARNING - Could not check application status for Technical Lead, Palantir Foundry with Date Science/ Machine Learning — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:07:55,805 - ERROR - Cannot click apply-button-wc for Technical Lead, Palantir Foundry with Date Science/ Machine Learning: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:08:09,279 - WARNING - Could not check application status for ServiceNow Developer with Machine Learning — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:08:14,449 - ERROR - Cannot click apply-button-wc for ServiceNow Developer with Machine Learning: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:08:31,311 - INFO - SKIPPED (already applied): AWS Databricks Data Engineer (Hybrid onsite - W2 contract) - https://www.dice.com/job-detail/e0fdb4ee-ff08-41e2-b720-7d22d1ce1da9
+2025-05-30 19:08:31,311 - WARNING - Could not check application status for AWS Databricks Data Engineer (Hybrid onsite - W2 contract) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:08:43,718 - ERROR - [ERROR] Cannot click first NEXT button for AWS Databricks Data Engineer (Hybrid onsite - W2 contract): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:08:57,729 - INFO - SKIPPED (already applied): Python Data Engineer - https://www.dice.com/job-detail/cddee246-82a4-4289-bf93-d2c1bfc5feb1
+2025-05-30 19:08:57,729 - WARNING - Could not check application status for Python Data Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:09:10,152 - ERROR - [ERROR] Cannot click first NEXT button for Python Data Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:09:25,104 - INFO - SKIPPED (already applied): AI Engineer/ Developer / Michigan (Hybrid) - https://www.dice.com/job-detail/81c1e1fb-0737-4d76-97e2-30bf08428bbe
+2025-05-30 19:09:25,104 - WARNING - Could not check application status for AI Engineer/ Developer / Michigan (Hybrid) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:09:37,503 - ERROR - [ERROR] Cannot click first NEXT button for AI Engineer/ Developer / Michigan (Hybrid): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:09:52,214 - WARNING - Could not check application status for Senior GenAI Developer with Prompt Engg and LLM exp — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:09:57,431 - ERROR - Cannot click apply-button-wc for Senior GenAI Developer with Prompt Engg and LLM exp: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:10:16,352 - INFO - SKIPPED (already applied): AI/ML Engineering Senior Advisor - https://www.dice.com/job-detail/5ccc489c-d00d-4656-95f0-fb2701f1970e
+2025-05-30 19:10:16,353 - WARNING - Could not check application status for AI/ML Engineering Senior Advisor — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:10:28,739 - ERROR - [ERROR] Cannot click first NEXT button for AI/ML Engineering Senior Advisor: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:10:51,558 - INFO - APPLIED: Data Analyst @ Indianapolis, IN_Need only locals - https://www.dice.com/job-detail/f4db22ca-0a36-4f0b-b1f6-3978d0726d1b
+2025-05-30 19:11:05,460 - INFO - SKIPPED (already applied): Senior Developer (LLM Implementation Focus) - https://www.dice.com/job-detail/8c18b0c2-d6fd-4f7b-bf72-bb0d40bcfd50
+2025-05-30 19:11:05,460 - WARNING - Could not check application status for Senior Developer (LLM Implementation Focus) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:11:17,881 - ERROR - [ERROR] Cannot click first NEXT button for Senior Developer (LLM Implementation Focus): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:11:29,607 - WARNING - Could not check application status for Computer Vision Engineer - Newark, CA (Onsite) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:11:34,780 - ERROR - Cannot click apply-button-wc for Computer Vision Engineer - Newark, CA (Onsite): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:11:50,247 - WARNING - Could not check application status for Data Scientist/ AI/ML — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:11:55,421 - ERROR - Cannot click apply-button-wc for Data Scientist/ AI/ML: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:12:13,038 - WARNING - Could not check application status for Azure AL/ML Engineer (Onsite) — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:12:18,212 - ERROR - Cannot click apply-button-wc for Azure AL/ML Engineer (Onsite): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:12:32,632 - WARNING - Could not check application status for In Person Interview - Local Candidates Only | Sr. Developer AI & ML (GenAI + AWS) | Atlanta, GA or Minneapolis, MN (Onsite) | Contract — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:12:37,833 - ERROR - Cannot click apply-button-wc for In Person Interview - Local Candidates Only | Sr. Developer AI & ML (GenAI + AWS) | Atlanta, GA or Minneapolis, MN (Onsite) | Contract: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:12:53,481 - INFO - SKIPPED (already applied): MLOps Engineer Distributed Systems (Ray) - https://www.dice.com/job-detail/944dc1f9-6c7f-43e5-bdea-3f25bd10d754
+2025-05-30 19:12:53,481 - WARNING - Could not check application status for MLOps Engineer Distributed Systems (Ray) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:13:05,885 - ERROR - [ERROR] Cannot click first NEXT button for MLOps Engineer Distributed Systems (Ray): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:13:22,819 - WARNING - Could not check application status for Senior GenAI Developer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:13:28,000 - ERROR - Cannot click apply-button-wc for Senior GenAI Developer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:13:43,827 - INFO - SKIPPED (already applied): AI Specialist- Generative AI (GenAI) - https://www.dice.com/job-detail/3b30026f-3bb6-430c-b864-6b7a22912c0e
+2025-05-30 19:13:43,827 - WARNING - Could not check application status for AI Specialist- Generative AI (GenAI) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:13:56,233 - ERROR - [ERROR] Cannot click first NEXT button for AI Specialist- Generative AI (GenAI): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:14:10,072 - WARNING - Could not check application status for Lead Data Scientist — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:14:15,337 - ERROR - Cannot click apply-button-wc for Lead Data Scientist: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:14:29,358 - INFO - SKIPPED (already applied): AI/ML & Gen AI Senior Engineer - https://www.dice.com/job-detail/7a557360-01cc-4893-8e72-435524252c25
+2025-05-30 19:14:29,358 - WARNING - Could not check application status for AI/ML & Gen AI Senior Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:14:41,761 - ERROR - [ERROR] Cannot click first NEXT button for AI/ML & Gen AI Senior Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:14:57,324 - WARNING - Could not check application status for AI/Machine Learning Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:15:02,501 - ERROR - Cannot click apply-button-wc for AI/Machine Learning Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:15:19,091 - WARNING - Could not check application status for Lead Data Analyst — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:15:24,265 - ERROR - Cannot click apply-button-wc for Lead Data Analyst: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:15:39,407 - INFO - SKIPPED (already applied): Sr. GenAI Developer - https://www.dice.com/job-detail/0862a994-6638-4e9e-bb89-0b199fb0cbf6
+2025-05-30 19:15:39,407 - WARNING - Could not check application status for Sr. GenAI Developer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:15:51,816 - ERROR - [ERROR] Cannot click first NEXT button for Sr. GenAI Developer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:16:08,647 - INFO - SKIPPED (already applied): Snowflake Data Architect with Cortex and Machine Learning - https://www.dice.com/job-detail/0cff5889-5759-4a7c-9fe4-33d06e34c516
+2025-05-30 19:16:08,647 - WARNING - Could not check application status for Snowflake Data Architect with Cortex and Machine Learning — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:16:21,047 - ERROR - [ERROR] Cannot click first NEXT button for Snowflake Data Architect with Cortex and Machine Learning: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:16:36,208 - INFO - SKIPPED (already applied): Research Scientist II - https://www.dice.com/job-detail/04480adc-85e9-44c3-ab4e-171170bcade2
+2025-05-30 19:16:36,208 - WARNING - Could not check application status for Research Scientist II — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:16:48,603 - ERROR - [ERROR] Cannot click first NEXT button for Research Scientist II: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:17:07,391 - INFO - SKIPPED (already applied): AI/ML Engineer - https://www.dice.com/job-detail/5a3b95e5-df2e-45b3-9c86-d9d61cdec052
+2025-05-30 19:17:07,391 - WARNING - Could not check application status for AI/ML Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:17:19,793 - ERROR - [ERROR] Cannot click first NEXT button for AI/ML Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:17:44,798 - INFO - APPLIED: AI/MLOps Architect (Azure) - https://www.dice.com/job-detail/8f61ec9a-833a-4cc5-b7a5-614ee28b1343
+2025-05-30 19:18:01,189 - INFO - SKIPPED (already applied): Salesforce Developer (Agent Force/AI) - https://www.dice.com/job-detail/2d48aced-a3ed-44e0-af76-ad42fd7b51c6
+2025-05-30 19:18:01,190 - WARNING - Could not check application status for Salesforce Developer (Agent Force/AI) — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:18:13,589 - ERROR - [ERROR] Cannot click first NEXT button for Salesforce Developer (Agent Force/AI): Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:18:35,708 - INFO - APPLIED: AI/ML Consultant- W2- Hybrid - 322160 - FORD Motors - https://www.dice.com/job-detail/2e1b670a-c76e-4372-a99e-4b7550c733b4
+2025-05-30 19:18:58,003 - INFO - APPLIED: AI Engineer - https://www.dice.com/job-detail/33c60ee4-c9c0-4843-adfe-7cffb2b6539e
+2025-05-30 19:19:08,947 - INFO - SKIPPED (already applied): Machine Learning Performance Engineer - CUDA - https://www.dice.com/job-detail/fd494538-b899-4634-9789-fe782510ebd3
+2025-05-30 19:19:08,947 - WARNING - Could not check application status for Machine Learning Performance Engineer - CUDA — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:19:21,352 - ERROR - [ERROR] Cannot click first NEXT button for Machine Learning Performance Engineer - CUDA: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:19:35,964 - WARNING - Could not check application status for Data Platform Architect — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:19:41,136 - ERROR - Cannot click apply-button-wc for Data Platform Architect: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:19:58,380 - WARNING - Could not check application status for Machine Learning Engineer with Generative AI — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:20:03,582 - ERROR - Cannot click apply-button-wc for Machine Learning Engineer with Generative AI: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:20:20,106 - WARNING - Could not check application status for Senior AI/Machine Learning Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:20:25,283 - ERROR - Cannot click apply-button-wc for Senior AI/Machine Learning Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:20:42,201 - WARNING - Could not check application status for Machine Learning Data Scientist - REMOTE (est hours) w/ Travel required — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:20:47,374 - ERROR - Cannot click apply-button-wc for Machine Learning Data Scientist - REMOTE (est hours) w/ Travel required: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:21:03,474 - WARNING - Could not check application status for Generative AI Specialist — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:21:08,649 - ERROR - Cannot click apply-button-wc for Generative AI Specialist: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:21:26,791 - WARNING - Could not check application status for Gen AI Architect — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:21:32,003 - ERROR - Cannot click apply-button-wc for Gen AI Architect: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:21:50,444 - WARNING - Could not check application status for GenAI Solutions Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:21:55,617 - ERROR - Cannot click apply-button-wc for GenAI Solutions Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:22:11,770 - INFO - SKIPPED (already applied): AI/ML & Gen AI Senior Engineer - https://www.dice.com/job-detail/7a557360-01cc-4893-8e72-435524252c25
+2025-05-30 19:22:11,770 - WARNING - Could not check application status for AI/ML & Gen AI Senior Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:22:24,185 - ERROR - [ERROR] Cannot click first NEXT button for AI/ML & Gen AI Senior Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:22:41,848 - WARNING - Could not check application status for Sr. LLM Engineer - Gen AI — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:22:47,017 - ERROR - Cannot click apply-button-wc for Sr. LLM Engineer - Gen AI: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:23:03,405 - WARNING - Could not check application status for Gen Ai Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:23:08,614 - ERROR - Cannot click apply-button-wc for Gen Ai Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:23:26,695 - WARNING - Could not check application status for Senior Data Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:23:31,867 - ERROR - Cannot click apply-button-wc for Senior Data Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:23:46,401 - INFO - SKIPPED (already applied): Senior AI/ML Data Scientist - Woodlawn, MD - - https://www.dice.com/job-detail/b449f23f-827e-4816-8692-665e91a6b784
+2025-05-30 19:23:46,402 - WARNING - Could not check application status for Senior AI/ML Data Scientist - Woodlawn, MD - — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:23:58,817 - ERROR - [ERROR] Cannot click first NEXT button for Senior AI/ML Data Scientist - Woodlawn, MD -: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:24:15,248 - WARNING - Could not check application status for AI/ML Solutions Architect — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:24:20,419 - ERROR - Cannot click apply-button-wc for AI/ML Solutions Architect: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:24:33,156 - INFO - SKIPPED (already applied): Data Engineer with SQL TSQL Azure SQL Azure Data Factory - https://www.dice.com/job-detail/44b0688c-291b-4155-834d-2c6ba6b2c9ba
+2025-05-30 19:24:33,156 - WARNING - Could not check application status for Data Engineer with SQL TSQL Azure SQL Azure Data Factory — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:24:45,602 - ERROR - [ERROR] Cannot click first NEXT button for Data Engineer with SQL TSQL Azure SQL Azure Data Factory: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:25:02,000 - WARNING - Could not check application status for Senior GenAI Developer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:25:07,172 - ERROR - Cannot click apply-button-wc for Senior GenAI Developer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:25:31,547 - INFO - APPLIED: AI/ML & Gen AI Senior Engineer - https://www.dice.com/job-detail/677af58d-5717-4a7d-85a7-cfc2abbcb84a
+2025-05-30 19:25:45,073 - WARNING - Could not check application status for AI/ML & Gen AI Senior Engineer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:25:50,260 - ERROR - Cannot click apply-button-wc for AI/ML & Gen AI Senior Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:26:08,109 - INFO - SKIPPED (already applied): AWS Gen AI / ML Engineer - https://www.dice.com/job-detail/b9bde6e6-300c-48d5-a773-864d3436c0a3
+2025-05-30 19:26:08,109 - WARNING - Could not check application status for AWS Gen AI / ML Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:26:20,514 - ERROR - [ERROR] Cannot click first NEXT button for AWS Gen AI / ML Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:26:34,545 - INFO - SKIPPED (already applied): Azure Data Engineer - https://www.dice.com/job-detail/9b10b977-f7b9-4e5a-98c1-65c66829c863
+2025-05-30 19:26:34,545 - WARNING - Could not check application status for Azure Data Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:26:46,982 - ERROR - [ERROR] Cannot click first NEXT button for Azure Data Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:27:04,438 - WARNING - Could not check application status for Python Developer — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:27:09,608 - ERROR - Cannot click apply-button-wc for Python Developer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:27:23,891 - WARNING - Could not check application status for RPA Developer- UIpath, Automation, Agentic AI, Document understanding- Must be on our w2 — Message: no such element: Unable to locate element: {"method":"tag name","selector":"apply-button-wc"}
+  (Session info: chrome=136.0.7103.0); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:27:29,064 - ERROR - Cannot click apply-button-wc for RPA Developer- UIpath, Automation, Agentic AI, Document understanding- Must be on our w2: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:27:45,524 - INFO - SKIPPED (already applied): AI/ML Engineer - https://www.dice.com/job-detail/2056fcd3-b6d0-4cd8-b343-baa6e025104b
+2025-05-30 19:27:45,524 - WARNING - Could not check application status for AI/ML Engineer — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:27:57,915 - ERROR - [ERROR] Cannot click first NEXT button for AI/ML Engineer: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:28:16,471 - INFO - SKIPPED (already applied): Senior AI Architect - https://www.dice.com/job-detail/994a6a3f-cb20-46bb-8efe-c212e20c4845
+2025-05-30 19:28:16,471 - WARNING - Could not check application status for Senior AI Architect — local variable 'SKIPPED' referenced before assignment
+2025-05-30 19:28:28,878 - ERROR - [ERROR] Cannot click first NEXT button for Senior AI Architect: Message: 
+Stacktrace:
+#0 0x555a107e371a <unknown>
+#1 0x555a102860a0 <unknown>
+#2 0x555a102d79b0 <unknown>
+#3 0x555a102d7ba1 <unknown>
+#4 0x555a10325ea4 <unknown>
+#5 0x555a102fd3cd <unknown>
+#6 0x555a103232a0 <unknown>
+#7 0x555a102fd173 <unknown>
+#8 0x555a102c9d4b <unknown>
+#9 0x555a102ca9b1 <unknown>
+#10 0x555a107a88cb <unknown>
+#11 0x555a107ac7ca <unknown>
+#12 0x555a10790622 <unknown>
+#13 0x555a107ad354 <unknown>
+#14 0x555a1077545f <unknown>
+#15 0x555a107d14f8 <unknown>
+#16 0x555a107d16d6 <unknown>
+#17 0x555a107e2586 <unknown>
+#18 0x7ff6f489caa4 <unknown>
+#19 0x7ff6f4929c3c <unknown>
+
+2025-05-30 19:28:32,940 - INFO - [SUMMARY] Skipped already applied: 0
+2025-05-30 19:28:32,940 - INFO - [SUMMARY] Newly applied: 5
+2025-05-30 19:28:32,940 - INFO - [SUMMARY] Total processed this run: 70
+2025-05-30 19:28:32,940 - INFO - [SUMMARY] Total to Apply: 1391
