@@ -1,0 +1,223 @@
+2025-05-30 02:19:18,897 [INFO] patching driver executable /usr/local/bin/chromedriver
+2025-05-30 02:19:19,269 [INFO] Query: ML | Page: 1
+2025-05-30 02:19:24,181 [INFO] [+] FOUND — Machine Learning Engineer with Generative AI — Easy Apply — https://www.dice.com/job-detail/76a0ecde-cab0-41c5-90d5-26f8af5b8387
+2025-05-30 02:19:27,605 [INFO] Query: ML | Page: 2
+2025-05-30 02:19:33,284 [INFO] Query: ML | Page: 3
+2025-05-30 02:19:34,640 [INFO] [+] FOUND — DevOps Engineer - Azure, Python & Terraform — Easy Apply — https://www.dice.com/job-detail/05d100db-0854-48d1-b02e-0cce48faa05a
+2025-05-30 02:19:34,766 [INFO] [+] FOUND — Senior AI Consultant — Easy Apply — https://www.dice.com/job-detail/9ff67a77-2e09-43ab-b092-b0dc4f0532ad
+2025-05-30 02:19:37,389 [INFO] Query: ML | Page: 4
+2025-05-30 02:19:41,819 [INFO] Query: ML | Page: 5
+2025-05-30 02:19:43,042 [INFO] [+] FOUND — Need Senior Azure Cloud Engineer with Disaster Recovery & Infrastructure exp - Hybrid - NJ — Easy Apply — https://www.dice.com/job-detail/0ca6d8a8-e0aa-403e-85c4-155d70dcbd1c
+2025-05-30 02:19:46,446 [INFO] [+] FOUND — Solution Architect with a Strong Banking Domain — Easy Apply — https://www.dice.com/job-detail/70af6c41-dce9-4c0c-9416-b3ec438a1e23
+2025-05-30 02:19:50,489 [INFO] Query: ML | Page: 6
+2025-05-30 02:19:54,731 [INFO] [+] FOUND — Jr. Data Analyst (32493) — Easy Apply — https://www.dice.com/job-detail/67f9b829-7a7d-491e-ae0a-66030c939944
+2025-05-30 02:19:58,466 [INFO] Query: ML | Page: 7
+2025-05-30 02:20:05,189 [INFO] Query: ML | Page: 8
+2025-05-30 02:20:06,728 [INFO] [+] FOUND — Sr Data Analyst Philadelphia, PA Onsite — Easy Apply — https://www.dice.com/job-detail/134e9b29-05a9-49f2-9949-e0e46f0291dd
+2025-05-30 02:20:06,925 [INFO] [+] FOUND — Senior Data Scientist/ AI Engineer - Contract — Easy Apply — https://www.dice.com/job-detail/b0654f23-8e9b-42cd-8273-ffeedca96665
+2025-05-30 02:20:12,326 [INFO] Query: ML | Page: 9
+2025-05-30 02:20:13,682 [INFO] [+] FOUND — UI Architect — Easy Apply — https://www.dice.com/job-detail/60a80f89-122a-4839-a989-68d59d5c7762
+2025-05-30 02:20:16,137 [INFO] Query: ML | Page: 10
+2025-05-30 02:20:22,729 [INFO] Query: ML | Page: 11
+2025-05-30 02:20:27,023 [INFO] Query: ML | Page: 12
+2025-05-30 02:20:31,095 [INFO] Query: ML | Page: 13
+2025-05-30 02:20:36,929 [INFO] Query: ML | Page: 14
+2025-05-30 02:20:38,444 [INFO] [+] FOUND — Manager, Data Governance & Analytics — Easy Apply — https://www.dice.com/job-detail/0251647a-63eb-4a1a-8ec6-4bef6c8c3742
+2025-05-30 02:20:42,924 [INFO] Query: ML | Page: 15
+2025-05-30 02:20:49,829 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML&page=15
+2025-05-30 02:20:49,829 [INFO] Total pages scanned for query 'ML': 14
+2025-05-30 02:20:49,829 [INFO] Total new jobs found for query 'ML': 10
+2025-05-30 02:20:49,829 [INFO] Query: AI Trainer | Page: 1
+2025-05-30 02:20:56,053 [INFO] Query: AI Trainer | Page: 2
+2025-05-30 02:21:00,475 [INFO] Query: AI Trainer | Page: 3
+2025-05-30 02:21:05,597 [INFO] Query: AI Trainer | Page: 4
+2025-05-30 02:21:12,678 [INFO] Query: AI Trainer | Page: 5
+2025-05-30 02:21:18,016 [INFO] Query: AI Trainer | Page: 6
+2025-05-30 02:21:23,485 [INFO] Query: AI Trainer | Page: 7
+2025-05-30 02:21:30,341 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Trainer&page=7
+2025-05-30 02:21:30,341 [INFO] Total pages scanned for query 'AI Trainer': 6
+2025-05-30 02:21:30,341 [INFO] Total new jobs found for query 'AI Trainer': 0
+2025-05-30 02:21:30,341 [INFO] Query: Generative AI Engineer | Page: 1
+2025-05-30 02:21:34,595 [INFO] Query: Generative AI Engineer | Page: 2
+2025-05-30 02:21:41,523 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Generative+AI+Engineer&page=2
+2025-05-30 02:21:41,523 [INFO] Total pages scanned for query 'Generative AI Engineer': 1
+2025-05-30 02:21:41,524 [INFO] Total new jobs found for query 'Generative AI Engineer': 0
+2025-05-30 02:21:41,524 [INFO] Query: AI/ML DevOps Engineer | Page: 1
+2025-05-30 02:21:46,730 [INFO] Query: AI/ML DevOps Engineer | Page: 2
+2025-05-30 02:21:52,756 [INFO] Query: AI/ML DevOps Engineer | Page: 3
+2025-05-30 02:21:58,081 [INFO] Query: AI/ML DevOps Engineer | Page: 4
+2025-05-30 02:22:04,044 [INFO] Query: AI/ML DevOps Engineer | Page: 5
+2025-05-30 02:22:09,160 [INFO] Query: AI/ML DevOps Engineer | Page: 6
+2025-05-30 02:22:13,660 [INFO] Query: AI/ML DevOps Engineer | Page: 7
+2025-05-30 02:22:17,986 [INFO] Query: AI/ML DevOps Engineer | Page: 8
+2025-05-30 02:22:19,457 [INFO] [+] FOUND — QA Testing Analyst: IV (Lead) — Easy Apply — https://www.dice.com/job-detail/0bcbf913-5b0f-41db-93d5-541eae8d26c4
+2025-05-30 02:22:23,920 [INFO] Query: AI/ML DevOps Engineer | Page: 9
+2025-05-30 02:22:29,189 [INFO] Query: AI/ML DevOps Engineer | Page: 10
+2025-05-30 02:22:34,471 [INFO] Query: AI/ML DevOps Engineer | Page: 11
+2025-05-30 02:22:40,559 [INFO] Query: AI/ML DevOps Engineer | Page: 12
+2025-05-30 02:22:42,151 [INFO] [+] FOUND — Sr QE w TestCafe & Selenium Grid - REMOTE — Easy Apply — https://www.dice.com/job-detail/87ac479f-a071-4670-aa1b-2ea471be6682
+2025-05-30 02:22:45,585 [INFO] Query: AI/ML DevOps Engineer | Page: 13
+2025-05-30 02:22:50,718 [INFO] Query: AI/ML DevOps Engineer | Page: 14
+2025-05-30 02:22:57,670 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI/ML+DevOps+Engineer&page=14
+2025-05-30 02:22:57,670 [INFO] Total pages scanned for query 'AI/ML DevOps Engineer': 13
+2025-05-30 02:22:57,670 [INFO] Total new jobs found for query 'AI/ML DevOps Engineer': 2
+2025-05-30 02:22:57,670 [INFO] Query: AI Business Analyst | Page: 1
+2025-05-30 02:23:01,401 [INFO] Query: AI Business Analyst | Page: 2
+2025-05-30 02:23:06,553 [INFO] Query: AI Business Analyst | Page: 3
+2025-05-30 02:23:10,605 [INFO] Query: AI Business Analyst | Page: 4
+2025-05-30 02:23:16,027 [INFO] Query: AI Business Analyst | Page: 5
+2025-05-30 02:23:20,831 [INFO] Query: AI Business Analyst | Page: 6
+2025-05-30 02:23:25,067 [INFO] Query: AI Business Analyst | Page: 7
+2025-05-30 02:23:31,962 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Business+Analyst&page=7
+2025-05-30 02:23:31,962 [INFO] Total pages scanned for query 'AI Business Analyst': 6
+2025-05-30 02:23:31,962 [INFO] Total new jobs found for query 'AI Business Analyst': 0
+2025-05-30 02:23:31,962 [INFO] Query: Artificial Intelligence Engineer | Page: 1
+2025-05-30 02:23:38,302 [INFO] Query: Artificial Intelligence Engineer | Page: 2
+2025-05-30 02:23:42,200 [INFO] Query: Artificial Intelligence Engineer | Page: 3
+2025-05-30 02:23:47,849 [INFO] Query: Artificial Intelligence Engineer | Page: 4
+2025-05-30 02:23:54,376 [INFO] Query: Artificial Intelligence Engineer | Page: 5
+2025-05-30 02:23:59,742 [INFO] Query: Artificial Intelligence Engineer | Page: 6
+2025-05-30 02:24:04,343 [INFO] Query: Artificial Intelligence Engineer | Page: 7
+2025-05-30 02:24:11,317 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Artificial+Intelligence+Engineer&page=7
+2025-05-30 02:24:11,317 [INFO] Total pages scanned for query 'Artificial Intelligence Engineer': 6
+2025-05-30 02:24:11,317 [INFO] Total new jobs found for query 'Artificial Intelligence Engineer': 0
+2025-05-30 02:24:11,317 [INFO] Query: Machine Learning Engineer | Page: 1
+2025-05-30 02:24:16,691 [INFO] Query: Machine Learning Engineer | Page: 2
+2025-05-30 02:24:20,808 [INFO] Query: Machine Learning Engineer | Page: 3
+2025-05-30 02:24:26,344 [INFO] Query: Machine Learning Engineer | Page: 4
+2025-05-30 02:24:33,289 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning+Engineer&page=4
+2025-05-30 02:24:33,289 [INFO] Total pages scanned for query 'Machine Learning Engineer': 3
+2025-05-30 02:24:33,289 [INFO] Total new jobs found for query 'Machine Learning Engineer': 0
+2025-05-30 02:24:33,289 [INFO] Query: Machine Learning | Page: 1
+2025-05-30 02:24:37,750 [INFO] Query: Machine Learning | Page: 2
+2025-05-30 02:24:43,855 [INFO] Query: Machine Learning | Page: 3
+2025-05-30 02:24:49,387 [INFO] Query: Machine Learning | Page: 4
+2025-05-30 02:24:52,865 [INFO] Query: Machine Learning | Page: 5
+2025-05-30 02:24:59,663 [INFO] Query: Machine Learning | Page: 6
+2025-05-30 02:25:05,633 [INFO] Query: Machine Learning | Page: 7
+2025-05-30 02:25:12,724 [INFO] Query: Machine Learning | Page: 8
+2025-05-30 02:25:18,081 [INFO] Query: Machine Learning | Page: 9
+2025-05-30 02:25:23,205 [INFO] Query: Machine Learning | Page: 10
+2025-05-30 02:25:27,507 [INFO] Query: Machine Learning | Page: 11
+2025-05-30 02:25:32,097 [INFO] Query: Machine Learning | Page: 12
+2025-05-30 02:25:37,432 [INFO] Query: Machine Learning | Page: 13
+2025-05-30 02:25:41,326 [INFO] Query: Machine Learning | Page: 14
+2025-05-30 02:25:45,422 [INFO] Query: Machine Learning | Page: 15
+2025-05-30 02:25:52,310 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Machine+Learning&page=15
+2025-05-30 02:25:52,311 [INFO] Total pages scanned for query 'Machine Learning': 14
+2025-05-30 02:25:52,311 [INFO] Total new jobs found for query 'Machine Learning': 0
+2025-05-30 02:25:52,311 [INFO] Query: Data Scientist | Page: 1
+2025-05-30 02:25:58,012 [INFO] Query: Data Scientist | Page: 2
+2025-05-30 02:26:04,285 [INFO] Query: Data Scientist | Page: 3
+2025-05-30 02:26:11,164 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Data+Scientist&page=3
+2025-05-30 02:26:11,164 [INFO] Total pages scanned for query 'Data Scientist': 2
+2025-05-30 02:26:11,164 [INFO] Total new jobs found for query 'Data Scientist': 0
+2025-05-30 02:26:11,164 [INFO] Query: Computer Vision Engineer | Page: 1
+2025-05-30 02:26:15,359 [INFO] [+] FOUND — Computer Support Associate I - Infrastructure — Easy Apply — https://www.dice.com/job-detail/75194d24-1a6e-469e-8b7d-f7ffdc9fe752
+2025-05-30 02:26:18,469 [INFO] [+] FOUND — Computer Support Associate I - Infrastructure — Easy Apply — https://www.dice.com/job-detail/8c97ad89-64d3-4bae-bf20-58b016132146
+2025-05-30 02:26:22,360 [INFO] Query: Computer Vision Engineer | Page: 2
+2025-05-30 02:26:29,346 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Computer+Vision+Engineer&page=2
+2025-05-30 02:26:29,347 [INFO] Total pages scanned for query 'Computer Vision Engineer': 1
+2025-05-30 02:26:29,347 [INFO] Total new jobs found for query 'Computer Vision Engineer': 2
+2025-05-30 02:26:29,347 [INFO] Query: Natural Language Processing Engineer | Page: 1
+2025-05-30 02:26:34,574 [INFO] Query: Natural Language Processing Engineer | Page: 2
+2025-05-30 02:26:41,443 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Natural+Language+Processing+Engineer&page=2
+2025-05-30 02:26:41,443 [INFO] Total pages scanned for query 'Natural Language Processing Engineer': 1
+2025-05-30 02:26:41,444 [INFO] Total new jobs found for query 'Natural Language Processing Engineer': 0
+2025-05-30 02:26:41,444 [INFO] Query: LLM Engineer | Page: 1
+2025-05-30 02:26:45,614 [INFO] Query: LLM Engineer | Page: 2
+2025-05-30 02:26:52,514 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=LLM+Engineer&page=2
+2025-05-30 02:26:52,514 [INFO] Total pages scanned for query 'LLM Engineer': 1
+2025-05-30 02:26:52,514 [INFO] Total new jobs found for query 'LLM Engineer': 0
+2025-05-30 02:26:52,514 [INFO] Query: AI Software Engineer | Page: 1
+2025-05-30 02:26:57,120 [INFO] Query: AI Software Engineer | Page: 2
+2025-05-30 02:27:02,569 [INFO] Query: AI Software Engineer | Page: 3
+2025-05-30 02:27:09,036 [INFO] Query: AI Software Engineer | Page: 4
+2025-05-30 02:27:13,559 [INFO] Query: AI Software Engineer | Page: 5
+2025-05-30 02:27:18,625 [INFO] Query: AI Software Engineer | Page: 6
+2025-05-30 02:27:25,438 [INFO] Query: AI Software Engineer | Page: 7
+2025-05-30 02:27:32,378 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=AI+Software+Engineer&page=7
+2025-05-30 02:27:32,378 [INFO] Total pages scanned for query 'AI Software Engineer': 6
+2025-05-30 02:27:32,378 [INFO] Total new jobs found for query 'AI Software Engineer': 0
+2025-05-30 02:27:32,378 [INFO] Query: ML Software Engineer | Page: 1
+2025-05-30 02:27:38,277 [INFO] Query: ML Software Engineer | Page: 2
+2025-05-30 02:27:44,400 [INFO] Query: ML Software Engineer | Page: 3
+2025-05-30 02:27:47,516 [INFO] Query: ML Software Engineer | Page: 4
+2025-05-30 02:27:54,483 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=ML+Software+Engineer&page=4
+2025-05-30 02:27:54,484 [INFO] Total pages scanned for query 'ML Software Engineer': 3
+2025-05-30 02:27:54,484 [INFO] Total new jobs found for query 'ML Software Engineer': 0
+2025-05-30 02:27:54,484 [INFO] Query: Prompt Engineer | Page: 1
+2025-05-30 02:28:01,368 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Prompt+Engineer&page=1
+2025-05-30 02:28:01,368 [INFO] Total pages scanned for query 'Prompt Engineer': 0
+2025-05-30 02:28:01,368 [INFO] Total new jobs found for query 'Prompt Engineer': 0
+2025-05-30 02:28:01,368 [INFO] Query: GenAI Solutions Engineer | Page: 1
+2025-05-30 02:28:08,332 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=GenAI+Solutions+Engineer&page=1
+2025-05-30 02:28:08,332 [INFO] Total pages scanned for query 'GenAI Solutions Engineer': 0
+2025-05-30 02:28:08,332 [INFO] Total new jobs found for query 'GenAI Solutions Engineer': 0
+2025-05-30 02:28:08,332 [INFO] Query: Gen AI Architect | Page: 1
+2025-05-30 02:28:13,418 [INFO] Query: Gen AI Architect | Page: 2
+2025-05-30 02:28:20,327 [WARNING] Timeout on: https://www.dice.com/jobs?filters.easyApply=true&filters.postedDate=THREE&filters.employmentType=PARTTIME%7CCONTRACTS%7CTHIRD_PARTY&q=Gen+AI+Architect&page=2
+2025-05-30 02:28:20,327 [INFO] Total pages scanned for query 'Gen AI Architect': 1
+2025-05-30 02:28:20,327 [INFO] Total new jobs found for query 'Gen AI Architect': 0
+2025-05-30 02:28:20,327 [INFO] Query: AI | Page: 1
+2025-05-30 02:28:24,063 [INFO] Query: AI | Page: 2
+2025-05-30 02:28:29,661 [INFO] Query: AI | Page: 3
+2025-05-30 02:28:36,111 [INFO] Query: AI | Page: 4
+2025-05-30 02:28:41,469 [INFO] Query: AI | Page: 5
+2025-05-30 02:28:46,773 [INFO] Query: AI | Page: 6
+2025-05-30 02:28:51,902 [INFO] Query: AI | Page: 7
+2025-05-30 02:28:57,539 [INFO] Query: AI | Page: 8
+2025-05-30 02:29:02,486 [INFO] Query: AI | Page: 9
+2025-05-30 02:29:08,042 [INFO] Query: AI | Page: 10
+2025-05-30 02:29:12,372 [INFO] [+] FOUND — Business Systems Analyst (IVR) — Easy Apply — https://www.dice.com/job-detail/3a53e86f-35c8-46aa-9ce1-d4765b92570b
+2025-05-30 02:29:15,490 [INFO] [+] FOUND — Systems Engineer — Easy Apply — https://www.dice.com/job-detail/89e69df3-bc6c-4946-a4ab-80fee95f0321
+2025-05-30 02:29:15,912 [INFO] [+] FOUND — Help Desk Analyst — Easy Apply — https://www.dice.com/job-detail/2350f97c-8b2f-483c-a4f6-f74bf8336463
+2025-05-30 02:29:18,613 [INFO] Query: AI | Page: 11
+2025-05-30 02:29:23,167 [INFO] [+] FOUND — IT Project Manager | Derivatives Trading — Easy Apply — https://www.dice.com/job-detail/1e1df56e-0222-4eef-9280-527969e956dd
+2025-05-30 02:29:26,398 [INFO] [+] FOUND — Business Analyst — Easy Apply — https://www.dice.com/job-detail/09ed0e46-b714-4e95-ad82-835275822bca
+2025-05-30 02:29:29,580 [INFO] [+] FOUND — Desktop Support Analyst — Easy Apply — https://www.dice.com/job-detail/a794c780-6ed8-4ff1-a284-2389958ada25
+2025-05-30 02:29:32,704 [INFO] [+] FOUND — Desktop Support Analyst — Easy Apply — https://www.dice.com/job-detail/3da7c43e-0549-4607-9fee-53411e3cb151
+2025-05-30 02:29:35,831 [INFO] [+] FOUND — Business Analyst — Easy Apply — https://www.dice.com/job-detail/0c23b609-a564-4a5c-9f1c-50cb46633c63
+2025-05-30 02:29:38,328 [INFO] Query: AI | Page: 12
+2025-05-30 02:29:42,341 [INFO] [+] FOUND — Desktop Support Analyst — Easy Apply — https://www.dice.com/job-detail/c98ed058-bf6c-4e57-909e-7af9fed01e0c
+2025-05-30 02:29:42,457 [INFO] [+] FOUND — CMMC Tech Writer — Easy Apply — https://www.dice.com/job-detail/09cc3601-ce38-4ea7-9c06-a54c4e396da4
+2025-05-30 02:29:42,568 [INFO] [+] FOUND — Multimedia Art Director — Easy Apply — https://www.dice.com/job-detail/615a4058-36ed-4b02-a807-a4030e622fc7
+2025-05-30 02:29:45,689 [INFO] [+] FOUND — Desktop Support Analyst — Easy Apply — https://www.dice.com/job-detail/5503fb50-fe3b-45a4-a896-b7b87dca44ae
+2025-05-30 02:29:48,808 [INFO] [+] FOUND — Desktop Support Analyst — Easy Apply — https://www.dice.com/job-detail/60d92767-34c2-4ad1-94ee-8e46a3d3c245
+2025-05-30 02:29:48,974 [INFO] [+] FOUND — Desktop Support Analyst — Easy Apply — https://www.dice.com/job-detail/ca0ceffc-3f83-4372-b640-3ba1a29f5b88
+2025-05-30 02:29:49,124 [INFO] [+] FOUND — Systems Engineer — Easy Apply — https://www.dice.com/job-detail/35db361b-96ce-4b88-8df2-7a0763a39041
+2025-05-30 02:29:49,316 [INFO] [+] FOUND — Social Media Specialist — Easy Apply — https://www.dice.com/job-detail/de52265c-5b11-4941-955f-ab03db52ae00
+2025-05-30 02:29:52,516 [INFO] [+] FOUND — Qaultrics Implementation PM — Easy Apply — https://www.dice.com/job-detail/26ddab2a-229c-45ab-817e-b0d844871bfa
+2025-05-30 02:29:55,665 [INFO] [+] FOUND — SAP Business Analyst — Easy Apply — https://www.dice.com/job-detail/7371164b-a52e-43e4-9f32-70f7984d1452
+2025-05-30 02:29:58,848 [INFO] Query: AI | Page: 13
+2025-05-30 02:30:02,916 [INFO] [+] FOUND — Oracle OWB/ODI Data Warehouse Consultant — Easy Apply — https://www.dice.com/job-detail/307077bc-3a03-4596-96f8-65845046ef63
+2025-05-30 02:30:03,095 [INFO] [+] FOUND — Digital Analyst — Easy Apply — https://www.dice.com/job-detail/25a69b2b-4d0d-444e-8eea-10110d6c5b65
+2025-05-30 02:30:03,198 [INFO] [+] FOUND — ADP Data Extraction Consultant — Easy Apply — https://www.dice.com/job-detail/3c4939fc-2876-40da-86f4-1b0da455450a
+2025-05-30 02:30:03,349 [INFO] [+] FOUND — Systems Administrator IV — Easy Apply — https://www.dice.com/job-detail/b53185a2-2868-453a-a46e-6c487ecb17fa
+2025-05-30 02:30:03,448 [INFO] [+] FOUND — ADP Data Extraction Consultant — Easy Apply — https://www.dice.com/job-detail/bab331ea-26f0-4aef-9ab8-8e18a8362e65
+2025-05-30 02:30:03,708 [INFO] [+] FOUND — Cloud System Administrator — Easy Apply — https://www.dice.com/job-detail/7bcb296a-b24f-454e-87f0-73091b433194
+2025-05-30 02:30:07,055 [INFO] Query: AI | Page: 14
+2025-05-30 02:30:08,344 [INFO] [+] FOUND — Business Analyst II - Salesforce — Easy Apply — https://www.dice.com/job-detail/d6d90cb8-a0af-4e83-bd5a-d076a894e26a
+2025-05-30 02:30:12,402 [INFO] Query: AI | Page: 15
+2025-05-30 02:30:13,720 [INFO] [+] FOUND — Infrastructure Administrator — Easy Apply — https://www.dice.com/job-detail/bc7c11ea-a698-475a-b337-f33f4924c3a7
+2025-05-30 02:30:13,910 [INFO] [+] FOUND — Job Information US - QA Engineer II — Easy Apply — https://www.dice.com/job-detail/a796df54-57d9-4dc6-ab22-83a22ff91046
+2025-05-30 02:30:14,015 [INFO] [+] FOUND — Business Analyst IV - Salesforce — Easy Apply — https://www.dice.com/job-detail/e62a2237-d2a1-4e96-8895-ddc36629c4e6
+2025-05-30 02:30:14,226 [INFO] [+] FOUND — Systems Engineer — Easy Apply — https://www.dice.com/job-detail/694908b8-7266-4bb8-8c3d-38b066123caf
+2025-05-30 02:30:19,111 [INFO] Query: AI | Page: 16
+2025-05-30 02:30:25,589 [INFO] Query: AI | Page: 17
+2025-05-30 02:30:26,820 [INFO] [+] FOUND — SAP ABAP Developer — Easy Apply — https://www.dice.com/job-detail/0025cf98-58f6-4364-9614-603893fa839c
+2025-05-30 02:30:32,239 [INFO] Query: AI | Page: 18
+2025-05-30 02:30:33,366 [INFO] [+] FOUND — HTS Analyst — Easy Apply — https://www.dice.com/job-detail/ad119216-b76e-4300-881b-55d39fce8980
+2025-05-30 02:30:34,063 [INFO] [+] FOUND — Full Stack Developer IV — Easy Apply — https://www.dice.com/job-detail/6f428315-45d3-4086-a1a6-20a3a71b9933
+2025-05-30 02:30:37,638 [INFO] Query: AI | Page: 19
+2025-05-30 02:30:43,531 [INFO] Query: AI | Page: 20
+2025-05-30 02:30:48,290 [INFO] Query: AI | Page: 21
+2025-05-30 02:30:53,542 [INFO] Query: AI | Page: 22
+2025-05-30 02:30:54,720 [INFO] [+] FOUND — Application Developer - IVR Call reporting — Easy Apply — https://www.dice.com/job-detail/54180478-dff1-4d79-8b9e-2b573b05a0ef
+2025-05-30 02:30:58,623 [INFO] Query: AI | Page: 23
+2025-05-30 02:31:03,389 [INFO] Query: AI | Page: 24
+2025-05-30 02:31:07,830 [INFO] Query: AI | Page: 25
+2025-05-30 02:31:09,500 [INFO] [+] FOUND — Front End Developer — Easy Apply — https://www.dice.com/job-detail/528f9d81-2561-445c-817d-9aa4741f4c76
+2025-05-30 02:31:14,624 [INFO] Total pages scanned for query 'AI': 25
+2025-05-30 02:31:14,624 [INFO] Total new jobs found for query 'AI': 34
+2025-05-30 02:31:14,712 [INFO] ✅ Scrape done. New: 48 | Total rows: 6974
